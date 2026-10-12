@@ -11,7 +11,7 @@ Part of [Year 2 · Core Computer Science](../../README.md). This course is **def
 Every engineer now ships security decisions, whether they know it or not. The OWASP Top 10:2025 added **Software Supply Chain Failures** (A03) and **Mishandling of Exceptional Conditions** (A10). In March 2025 a compromised GitHub Action (`tj-actions/changed-files`, CVE-2025-30066) leaked CI secrets, including access keys, into the build logs of workflows that ran it. Memory safety is shifting the field too: Google reported that memory-safety bugs fell from 76% of Android vulnerabilities in 2019 to 24% in 2024 as new code moved to memory-safe languages. AI cuts both ways:
 
 - **AI as a source of flaws:** in Veracode's July 2025 study, LLMs given 80 coding tasks chose the insecure implementation in 45% of cases. Code-generating models also recommend packages that do not exist (a USENIX Security 2025 study).
-- **AI as a defender:** in DARPA's AI Cyber Challenge final (August 2025), finalist systems found 77% of planted vulnerabilities and patched 61%.
+- **AI as a defender:** in DARPA's AI Cyber Challenge final (August 2025), finalist systems found 86% of the 63 planted vulnerabilities and patched 68% (DARPA's corrected count).
 
 In India, CERT-In requires many incidents to be reported within 6 hours. The DPDP Rules notified in November 2025 make breach notification a legal duty, with penalties up to ₹250 crore for failing to keep reasonable security safeguards. Someone has to understand all of this well enough to make the right call.
 
@@ -247,7 +247,7 @@ All checked 12 Oct 2026.
 - [Google Security Blog: Eliminating memory safety vulnerabilities at the source](https://security.googleblog.com/2024/09/eliminating-memory-safety-vulnerabilities-Android.html) (25 Sep 2024): 76% (2019) to 24% (2024).
 - [Veracode 2025 GenAI Code Security Report press release](https://www.veracode.com/press-release/ai-generated-code-poses-major-security-risks-in-nearly-half-of-all-development-tasks-veracode-research-reveals/) (30 Jul 2025).
 - [We Have a Package for You! (USENIX Security 2025)](https://arxiv.org/abs/2406.10279): package hallucination rates.
-- [DARPA AIxCC results](https://www.darpa.mil/news/2025/aixcc-results) (Aug 2025): 77% found, 61% patched.
+- [DARPA AIxCC results](https://www.darpa.mil/news/2025/aixcc-results) (Aug 2025; corrected count checked Oct 2026): 54 of 63 synthetic vulnerabilities found (86%), 43 patched (68%).
 - [Google Project Zero: From Naptime to Big Sleep](https://googleprojectzero.blogspot.com/2024/10/from-naptime-to-big-sleep.html) (2024).
 - [NIST SP 800-63B-4 final](https://csrc.nist.gov/pubs/sp/800/63/b/4/final) (31 Jul 2025).
 - [CERT-In Directions under section 70B(6)](https://www.cert-in.org.in/PDF/CERT-In_Directions_70B_28.04.2022.pdf) (28 Apr 2022): 6-hour reporting, 180-day logs within India, NIC/NPL time sync.
