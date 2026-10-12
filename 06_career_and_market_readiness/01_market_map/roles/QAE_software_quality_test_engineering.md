@@ -56,7 +56,7 @@ Newer variants: AI evaluation engineer (testing LLM features and agents) and qua
 | Market | Role in source | Figure | Type | Source |
 |---|---|---|---|---|
 | US | Software quality assurance analysts and testers | Median $104,300; 10th $61,440; 90th $167,010 (May 2025) | Official survey | [BLS](https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm) |
-| India | Quality Assurance (QA) Engineer | Average base ₹5.6 lakh; base range ₹2.7–10 lakh; under 1 year ≈₹2.9 lakh total (604 profiles, Jun 2026) | Self-reported, whole market | [Payscale](https://www.payscale.com/research/IN/Job=Quality_Assurance_%28QA%29_Engineer/Salary) |
+| India | Quality Assurance (QA) Engineer | Average base ₹5.6 lakh; base range ₹2.7–10 lakh; under 1 year ≈₹2.9 lakh total (604 profiles, Jun 2026) | Self-reported, whole market | [Payscale](https://www.payscale.com/research/IN/Job=Quality_Assurance_(QA)_Engineer/Salary) |
 
 SDET roles at product companies are often levelled and paid like software engineering roles; no reliable public source separates them.
 
@@ -98,6 +98,6 @@ All checked October 2026.
 - Capgemini, World Quality Report 2025–26. https://www.capgemini.com/insights/research-library/world-quality-report-2025-26/
 - DORA 2025 (24 Sep 2025). https://cloud.google.com/blog/products/ai-machine-learning/announcing-the-2025-dora-report
 - NASSCOM, Strategic Review 2026. https://nasscom.in/knowledge-center/publications/technology-sector-india-strategic-review-2026
-- Payscale India: Quality Assurance (QA) Engineer (self-reported; 12 Oct 2026). https://www.payscale.com/research/IN/Job=Quality_Assurance_%28QA%29_Engineer/Salary
+- Payscale India: Quality Assurance (QA) Engineer (self-reported; 12 Oct 2026). https://www.payscale.com/research/IN/Job=Quality_Assurance_(QA)_Engineer/Salary
 
 _Last reviewed: 2026-10_

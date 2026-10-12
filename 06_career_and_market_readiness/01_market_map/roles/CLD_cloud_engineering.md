@@ -59,7 +59,7 @@ Specialised variants: FinOps engineer (cloud cost), cloud network engineer, migr
 | Market | Role in source | Figure | Type | Source |
 |---|---|---|---|---|
 | US | Computer network architects (closest official occupation) | Median $134,050; 10th $79,900; 90th $202,680 (May 2025) | Official survey | [BLS](https://www.bls.gov/ooh/computer-and-information-technology/computer-network-architects.htm) |
-| India | Development Operations (DevOps) Engineer (common entry title) | Average base ₹10.0 lakh; base range ₹4.0–30 lakh (896 profiles, Jul 2026) | Self-reported, whole market | [Payscale](https://www.payscale.com/research/IN/Job=Development_Operations_%28DevOps%29_Engineer/Salary) |
+| India | Development Operations (DevOps) Engineer (common entry title) | Average base ₹10.0 lakh; base range ₹4.0–30 lakh (896 profiles, Jul 2026) | Self-reported, whole market | [Payscale](https://www.payscale.com/research/IN/Job=Development_Operations_(DevOps)_Engineer/Salary) |
 | India | Cloud Solutions Architect (senior) | Average base ₹23.4 lakh (203 profiles, Jul 2026) | Self-reported, whole market | [Payscale](https://www.payscale.com/research/IN/Job=Cloud_Solutions_Architect/Salary) |
 | India | Solution Architect | Median total pay ₹46.0 lakh; 25th ₹33.6 lakh; 90th ₹81.9 lakh (373 submissions) | Self-reported, mostly product companies | [Levels.fyi](https://www.levels.fyi/t/solution-architect/locations/india) |
 
@@ -105,6 +105,6 @@ All checked October 2026.
 - DORA 2025 (24 Sep 2025). https://cloud.google.com/blog/products/ai-machine-learning/announcing-the-2025-dora-report
 - Indeed Hiring Lab, job postings tracker (to 2 Oct 2026). https://github.com/hiring-lab/job_postings_tracker
 - NASSCOM, Strategic Review 2026. https://nasscom.in/knowledge-center/publications/technology-sector-india-strategic-review-2026
-- Payscale India: DevOps Engineer; Cloud Solutions Architect. Levels.fyi India: Solution Architect (self-reported; 12 Oct 2026). https://www.payscale.com/research/IN/Job=Development_Operations_%28DevOps%29_Engineer/Salary ; https://www.payscale.com/research/IN/Job=Cloud_Solutions_Architect/Salary ; https://www.levels.fyi/t/solution-architect/locations/india
+- Payscale India: DevOps Engineer; Cloud Solutions Architect. Levels.fyi India: Solution Architect (self-reported; 12 Oct 2026). https://www.payscale.com/research/IN/Job=Development_Operations_(DevOps)_Engineer/Salary ; https://www.payscale.com/research/IN/Job=Cloud_Solutions_Architect/Salary ; https://www.levels.fyi/t/solution-architect/locations/india
 
 _Last reviewed: 2026-10_

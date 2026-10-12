@@ -60,8 +60,8 @@ Three related jobs share this family:
 |---|---|---|---|---|
 | US | Network and computer systems administrators (closest official occupation for operations work) | Median $99,130; 10th $62,640; 90th $155,050 (May 2025) | Official survey | [BLS](https://www.bls.gov/ooh/computer-and-information-technology/network-and-computer-systems-administrators.htm) |
 | US | Software developers (many SRE and platform engineers are counted here) | Median $135,980 (May 2025) | Official survey | [BLS](https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm) |
-| India | DevOps Engineer | Average base ₹10.0 lakh; base range ₹4.0–30 lakh; under 1 year ≈₹4.5 lakh total (896 profiles, Jul 2026) | Self-reported, whole market | [Payscale](https://www.payscale.com/research/IN/Job=Development_Operations_%28DevOps%29_Engineer/Salary) |
-| India | Site Reliability Engineer | Average base ₹17.5 lakh; base range ₹4.05–30 lakh (272 profiles, Jun 2026) | Self-reported, whole market | [Payscale](https://www.payscale.com/research/IN/Job=Site_Reliability_Engineer_%28SRE%29/Salary) |
+| India | DevOps Engineer | Average base ₹10.0 lakh; base range ₹4.0–30 lakh; under 1 year ≈₹4.5 lakh total (896 profiles, Jul 2026) | Self-reported, whole market | [Payscale](https://www.payscale.com/research/IN/Job=Development_Operations_(DevOps)_Engineer/Salary) |
+| India | Site Reliability Engineer | Average base ₹17.5 lakh; base range ₹4.05–30 lakh (272 profiles, Jun 2026) | Self-reported, whole market | [Payscale](https://www.payscale.com/research/IN/Job=Site_Reliability_Engineer_(SRE)/Salary) |
 
 The official US data has no DevOps or SRE category, so US figures here are proxies.
 
@@ -104,6 +104,6 @@ All checked October 2026.
 - BLS, Occupational Outlook Handbook: Network and Computer Systems Administrators; Software Developers (2025–35; May 2025 pay; modified 27 Aug 2026). https://www.bls.gov/ooh/computer-and-information-technology/network-and-computer-systems-administrators.htm ; https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm
 - Indeed Hiring Lab, job postings tracker (to 2 Oct 2026). https://github.com/hiring-lab/job_postings_tracker
 - Stack Overflow, 2026 survey results blog (6 Oct 2026). https://stackoverflow.blog/2026/10/06/the-results-of-the-2026-developer-survey-are-here/
-- Payscale India: DevOps Engineer; Site Reliability Engineer (self-reported; 12 Oct 2026). https://www.payscale.com/research/IN/Job=Development_Operations_%28DevOps%29_Engineer/Salary ; https://www.payscale.com/research/IN/Job=Site_Reliability_Engineer_%28SRE%29/Salary
+- Payscale India: DevOps Engineer; Site Reliability Engineer (self-reported; 12 Oct 2026). https://www.payscale.com/research/IN/Job=Development_Operations_(DevOps)_Engineer/Salary ; https://www.payscale.com/research/IN/Job=Site_Reliability_Engineer_(SRE)/Salary
 
 _Last reviewed: 2026-10_

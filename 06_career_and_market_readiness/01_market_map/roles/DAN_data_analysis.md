@@ -60,7 +60,7 @@ All figures were checked in October 2026. Paragraphs marked **Analysis** are int
 |---|---|---|---|---|
 | US | Operations research analysts (closest official occupation) | Median $88,940; 10th $57,060; 90th $159,910 (May 2025) | Official survey | [BLS](https://www.bls.gov/ooh/math/operations-research-analysts.htm) |
 | India | Data Analyst | Average base ₹5.8 lakh; base range ₹2.9–10 lakh; under 1 year ≈₹4.1 lakh total (2,389 profiles, Jul 2026) | Self-reported, whole market | [Payscale](https://www.payscale.com/research/IN/Job=Data_Analyst/Salary) |
-| India | Business Intelligence (BI) Analyst | Average base ₹6.8 lakh (177 profiles, Jun 2026) | Self-reported, whole market | [Payscale](https://www.payscale.com/research/IN/Job=Business_Intelligence_%28BI%29_Analyst/Salary) |
+| India | Business Intelligence (BI) Analyst | Average base ₹6.8 lakh (177 profiles, Jun 2026) | Self-reported, whole market | [Payscale](https://www.payscale.com/research/IN/Job=Business_Intelligence_(BI)_Analyst/Salary) |
 
 ## The hiring loop
 
@@ -99,6 +99,6 @@ All checked October 2026.
 - BLS, Occupational Outlook Handbook: Operations Research Analysts; Data Scientists (2025–35; May 2025 pay; modified 27 Aug 2026). https://www.bls.gov/ooh/math/operations-research-analysts.htm ; https://www.bls.gov/ooh/math/data-scientists.htm
 - Indeed Hiring Lab, job postings tracker (to 2 Oct 2026). https://github.com/hiring-lab/job_postings_tracker
 - Anthropic, AI's impact on software development (28 Apr 2025). https://www.anthropic.com/research/impact-software-development
-- Payscale India: Data Analyst; Business Intelligence (BI) Analyst (self-reported; 12 Oct 2026). https://www.payscale.com/research/IN/Job=Data_Analyst/Salary ; https://www.payscale.com/research/IN/Job=Business_Intelligence_%28BI%29_Analyst/Salary
+- Payscale India: Data Analyst; Business Intelligence (BI) Analyst (self-reported; 12 Oct 2026). https://www.payscale.com/research/IN/Job=Data_Analyst/Salary ; https://www.payscale.com/research/IN/Job=Business_Intelligence_(BI)_Analyst/Salary
 
 _Last reviewed: 2026-10_
