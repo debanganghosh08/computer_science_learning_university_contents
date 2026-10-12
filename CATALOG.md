@@ -9,15 +9,15 @@
 | [FND101](01_year_1_foundations/semester_1/FND101_programming_i_computational_thinking_with_python/README.md) | Programming I: Computational Thinking with Python | 1 · 1 | 4 | none |
 | [FND102](01_year_1_foundations/semester_1/FND102_how_computers_work_bits_hardware/README.md) | How Computers Work: Bits, Hardware and the Operating System | 1 · 1 | 4 | none |
 | [FND103](01_year_1_foundations/semester_1/FND103_discrete_mathematics_for_computing/README.md) | Discrete Mathematics for Computing | 1 · 1 | 4 | none |
-| FND104 | The Developer's Toolkit: Linux, Shell, Git and GitHub | 1 · 1 | 4 | none |
-| FND105 | AI-Native Learning and Building | 1 · 1 | 4 | none |
-| FND106 | Technical Communication and Professional Skills | 1 · 1 | 4 | none |
+| [FND104](01_year_1_foundations/semester_1/FND104_the_developers_toolkit_linux_shell_git/README.md) | The Developer's Toolkit: Linux, Shell, Git and GitHub | 1 · 1 | 4 | none |
+| [FND105](01_year_1_foundations/semester_1/FND105_ai_native_learning_and_building/README.md) | AI-Native Learning and Building | 1 · 1 | 4 | none |
+| [FND106](01_year_1_foundations/semester_1/FND106_technical_communication_and_professional_skills/README.md) | Technical Communication and Professional Skills | 1 · 1 | 4 | none |
 | [FND111](01_year_1_foundations/semester_2/FND111_programming_ii_object_oriented_and_typed/README.md) | Programming II: Object-Oriented and Typed Programming (Java and TypeScript) | 1 · 2 | 4 | FND101 |
 | [FND112](01_year_1_foundations/semester_2/FND112_data_structures_and_algorithms_i/README.md) | Data Structures and Algorithms I | 1 · 2 | 4 | FND101, FND103 |
 | [FND113](01_year_1_foundations/semester_2/FND113_linear_algebra_and_calculus_for_computing/README.md) | Linear Algebra and Calculus for Computing | 1 · 2 | 4 | FND103 |
 | [FND114](01_year_1_foundations/semester_2/FND114_web_foundations_http_html_css_and_javascript/README.md) | Web Foundations: HTTP, HTML, CSS and JavaScript | 1 · 2 | 4 | FND101, FND104 |
 | [FND115](01_year_1_foundations/semester_2/FND115_databases_i_data_modeling_and_sql/README.md) | Databases I: Data Modeling and SQL | 1 · 2 | 4 | FND101 |
-| FND116 | Probability and Statistics I | 1 · 2 | 4 | FND103 |
+| [FND116](01_year_1_foundations/semester_2/FND116_probability_and_statistics_i/README.md) | Probability and Statistics I | 1 · 2 | 4 | FND103 |
 
 ## Year 2 · Core computer science (every major)
 
@@ -33,8 +33,8 @@
 | [CS212](02_year_2_core_computer_science/semester_4/CS212_distributed_systems_i/README.md) | Distributed Systems I | 2 · 4 | 4 | CS203, CS204 |
 | [CS213](02_year_2_core_computer_science/semester_4/CS213_security_foundations/README.md) | Security Foundations | 2 · 4 | 4 | CS203, CS204 |
 | [CS214](02_year_2_core_computer_science/semester_4/CS214_machine_learning_foundations/README.md) | Machine Learning Foundations | 2 · 4 | 4 | CS206, FND101 |
-| CS215 | Cloud and DevOps Foundations | 2 · 4 | 4 | CS203, CS204, FND104 |
-| CS216 | Programming Languages, Compilers and Interpreters | 2 · 4 | 4 | CS201, FND111 |
+| [CS215](02_year_2_core_computer_science/semester_4/CS215_cloud_and_devops_foundations/README.md) | Cloud and DevOps Foundations | 2 · 4 | 4 | CS203, CS204, FND104 |
+| [CS216](02_year_2_core_computer_science/semester_4/CS216_programming_languages_compilers_and_interpreters/README.md) | Programming Languages, Compilers and Interpreters | 2 · 4 | 4 | CS201, FND111 |
 
 ## Shared courses in Years 3–5 (every major)
 
@@ -92,9 +92,9 @@ Entry requirements: CS211, CS212
 
 | Code | Course | Year · Semester | Credits | Prerequisites |
 |---|---|---|---|---|
-| BE301 | API Design: REST, gRPC and GraphQL | 3 · 5 | 4 | CS211, CS212 |
-| BE302 | Backend Frameworks and Service Internals | 3 · 5 | 4 | CS211, CS212 |
-| BE303 | Data Modeling and Storage for Backends: Postgres, Redis and NoSQL | 3 · 5 | 4 | CS211, CS212 |
+| [BE301](03_majors/backend_engineering/year_3/BE301_api_design_rest_grpc_and_graphql/README.md) | API Design: REST, gRPC and GraphQL | 3 · 5 | 4 | CS211, CS212 |
+| [BE302](03_majors/backend_engineering/year_3/BE302_backend_frameworks_and_service_internals/README.md) | Backend Frameworks and Service Internals | 3 · 5 | 4 | CS211, CS212 |
+| [BE303](03_majors/backend_engineering/year_3/BE303_data_modeling_and_storage_for_backends_postgres/README.md) | Data Modeling and Storage for Backends: Postgres, Redis and NoSQL | 3 · 5 | 4 | CS211, CS212 |
 | BE304 | Asynchronous Systems: Queues, Streams and Event-Driven Architecture | 3 · 6 | 4 | CS211, CS212 |
 | BE305 | Authentication, Authorization and Backend Security | 3 · 6 | 4 | CS211, CS212 |
 | BE401 | Payments-Grade Systems: Transactions, Idempotency and Reconciliation | 4 · 7 | 4 | BE301 |
@@ -143,8 +143,8 @@ Entry requirements: CS215, CS212
 
 | Code | Course | Year · Semester | Credits | Prerequisites |
 |---|---|---|---|---|
-| CLD301 | Cloud Architecture on AWS, Azure and Google Cloud | 3 · 5 | 4 | CS215, CS212 |
-| CLD302 | Infrastructure as Code: Terraform, OpenTofu and Pulumi | 3 · 5 | 4 | CS215, CS212 |
+| [CLD301](03_majors/cloud_engineering/year_3/CLD301_cloud_architecture_on_aws_azure_and_google_cloud/README.md) | Cloud Architecture on AWS, Azure and Google Cloud | 3 · 5 | 4 | CS215, CS212 |
+| [CLD302](03_majors/cloud_engineering/year_3/CLD302_infrastructure_as_code_terraform_opentofu/README.md) | Infrastructure as Code: Terraform, OpenTofu and Pulumi | 3 · 5 | 4 | CS215, CS212 |
 | CLD303 | Containers and Kubernetes | 3 · 5 | 4 | CS215, CS212 |
 | CLD304 | Cloud Networking: VPCs, DNS, Load Balancing and CDNs | 3 · 6 | 4 | CS215, CS212 |
 | CLD305 | Cloud Storage and Managed Databases | 3 · 6 | 4 | CS215, CS212 |
@@ -280,10 +280,10 @@ Entry requirements: CS214, CS205
 | Code | Course | Year · Semester | Credits | Prerequisites |
 |---|---|---|---|---|
 | [MLE301](03_majors/machine_learning_engineering/year_3/MLE301_machine_learning_algorithms_from_scratch/README.md) | Machine Learning Algorithms from Scratch | 3 · 5 | 4 | CS214, CS205 |
-| MLE302 | Machine Learning System Design | 3 · 5 | 4 | CS214, CS205 |
+| [MLE302](03_majors/machine_learning_engineering/year_3/MLE302_machine_learning_system_design/README.md) | Machine Learning System Design | 3 · 5 | 4 | CS214, CS205 |
 | MLE303 | Training Pipelines, Feature Stores and Experiment Tracking | 3 · 5 | 4 | CS214, CS205 |
-| MLE304 | Model Evaluation, Fairness and Robustness | 3 · 6 | 4 | CS214, CS205 |
-| MLE305 | Applied ML: Tabular, Vision and Text | 3 · 6 | 4 | CS214, CS205 |
+| [MLE304](03_majors/machine_learning_engineering/year_3/MLE304_model_evaluation_fairness_and_robustness/README.md) | Model Evaluation, Fairness and Robustness | 3 · 6 | 4 | CS214, CS205 |
+| [MLE305](03_majors/machine_learning_engineering/year_3/MLE305_applied_ml_tabular_vision_and_text/README.md) | Applied ML: Tabular, Vision and Text | 3 · 6 | 4 | CS214, CS205 |
 | MLE401 | MLOps: Deployment, Monitoring and Retraining | 4 · 7 | 4 | MLE301 |
 | MLE402 | Distributed Training and Large-Scale ML | 4 · 7 | 4 | MLE302 |
 | MLE403 | Ranking and Recommendation Systems at Scale | 4 · 8 | 4 | MLE303 |
@@ -315,11 +315,11 @@ Entry requirements: CS214, CS205
 |---|---|---|---|---|
 | [AIE301](03_majors/ai_engineering/year_3/AIE301_llm_fundamentals_for_engineers/README.md) | LLM Fundamentals for Engineers | 3 · 5 | 4 | CS214, CS205 |
 | [AIE302](03_majors/ai_engineering/year_3/AIE302_prompt_and_context_engineering/README.md) | Prompt and Context Engineering | 3 · 5 | 4 | CS214, CS205 |
-| AIE303 | Retrieval-Augmented Generation and Search | 3 · 5 | 4 | CS214, CS205 |
-| AIE304 | Tool Use and AI Agents: Loops, Harnesses, Memory and Persistence | 3 · 6 | 4 | CS214, CS205 |
-| AIE305 | Evaluating LLM Systems | 3 · 6 | 4 | CS214, CS205 |
-| AIE401 | Multi-Agent Systems, MCP and Orchestration | 4 · 7 | 4 | AIE301 |
-| AIE402 | Fine-Tuning and Small Models for Products | 4 · 7 | 4 | AIE302 |
+| [AIE303](03_majors/ai_engineering/year_3/AIE303_retrieval_augmented_generation_and_search/README.md) | Retrieval-Augmented Generation and Search | 3 · 5 | 4 | CS214, CS205 |
+| [AIE304](03_majors/ai_engineering/year_3/AIE304_tool_use_and_ai_agents_loops_harnesses_memory/README.md) | Tool Use and AI Agents: Loops, Harnesses, Memory and Persistence | 3 · 6 | 4 | CS214, CS205 |
+| [AIE305](03_majors/ai_engineering/year_3/AIE305_evaluating_llm_systems/README.md) | Evaluating LLM Systems | 3 · 6 | 4 | CS214, CS205 |
+| [AIE401](03_majors/ai_engineering/year_4/AIE401_multi_agent_systems_mcp_and_orchestration/README.md) | Multi-Agent Systems, MCP and Orchestration | 4 · 7 | 4 | AIE301 |
+| [AIE402](03_majors/ai_engineering/year_4/AIE402_fine_tuning_and_small_models_for_products/README.md) | Fine-Tuning and Small Models for Products | 4 · 7 | 4 | AIE302 |
 | AIE403 | LLMOps: Observability, Guardrails, Cost and Latency | 4 · 8 | 4 | AIE303 |
 | AIE404 | AI Product Engineering and UX | 4 · 8 | 4 | AIE304 |
 | AIE501 | Frontier Seminar: Long-Horizon Autonomous Agents and Agent Safety | 5 · 9 | 4 | AIE401, AIE403 |

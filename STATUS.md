@@ -2,8 +2,8 @@
 
 What is written so far. Syllabus = the course README; Projects = labs and projects; Chapters = full lesson notes.
 
-- Syllabi: **21 / 257**
-- Labs and projects: **18 / 257**
+- Syllabi: **40 / 257**
+- Labs and projects: **32 / 257**
 - Courses with full chapter notes: **0 / 257**
 
 | Code | Course | Syllabus | Projects | Chapters |
@@ -11,15 +11,15 @@ What is written so far. Syllabus = the course README; Projects = labs and projec
 | [FND101](01_year_1_foundations/semester_1/FND101_programming_i_computational_thinking_with_python/README.md) | Programming I: Computational Thinking with Python | ✓ | ✓ | · |
 | [FND102](01_year_1_foundations/semester_1/FND102_how_computers_work_bits_hardware/README.md) | How Computers Work: Bits, Hardware and the Operating System | ✓ | ✓ | · |
 | [FND103](01_year_1_foundations/semester_1/FND103_discrete_mathematics_for_computing/README.md) | Discrete Mathematics for Computing | ✓ | ✓ | · |
-| FND104 | The Developer's Toolkit: Linux, Shell, Git and GitHub | · | · | · |
-| FND105 | AI-Native Learning and Building | · | · | · |
-| FND106 | Technical Communication and Professional Skills | · | · | · |
+| [FND104](01_year_1_foundations/semester_1/FND104_the_developers_toolkit_linux_shell_git/README.md) | The Developer's Toolkit: Linux, Shell, Git and GitHub | ✓ | ✓ | · |
+| [FND105](01_year_1_foundations/semester_1/FND105_ai_native_learning_and_building/README.md) | AI-Native Learning and Building | ✓ | ✓ | · |
+| [FND106](01_year_1_foundations/semester_1/FND106_technical_communication_and_professional_skills/README.md) | Technical Communication and Professional Skills | ✓ | ✓ | · |
 | [FND111](01_year_1_foundations/semester_2/FND111_programming_ii_object_oriented_and_typed/README.md) | Programming II: Object-Oriented and Typed Programming (Java and TypeScript) | ✓ | ✓ | · |
 | [FND112](01_year_1_foundations/semester_2/FND112_data_structures_and_algorithms_i/README.md) | Data Structures and Algorithms I | ✓ | ✓ | · |
 | [FND113](01_year_1_foundations/semester_2/FND113_linear_algebra_and_calculus_for_computing/README.md) | Linear Algebra and Calculus for Computing | ✓ | ✓ | · |
 | [FND114](01_year_1_foundations/semester_2/FND114_web_foundations_http_html_css_and_javascript/README.md) | Web Foundations: HTTP, HTML, CSS and JavaScript | ✓ | ✓ | · |
 | [FND115](01_year_1_foundations/semester_2/FND115_databases_i_data_modeling_and_sql/README.md) | Databases I: Data Modeling and SQL | ✓ | ✓ | · |
-| FND116 | Probability and Statistics I | · | · | · |
+| [FND116](01_year_1_foundations/semester_2/FND116_probability_and_statistics_i/README.md) | Probability and Statistics I | ✓ | ✓ | · |
 | [CS201](02_year_2_core_computer_science/semester_3/CS201_algorithms_and_complexity/README.md) | Algorithms and Complexity | ✓ | ✓ | · |
 | [CS202](02_year_2_core_computer_science/semester_3/CS202_computer_architecture_and_systems_programming/README.md) | Computer Architecture and Systems Programming in C | ✓ | ✓ | · |
 | [CS203](02_year_2_core_computer_science/semester_3/CS203_operating_systems/README.md) | Operating Systems | ✓ | ✓ | · |
@@ -29,9 +29,9 @@ What is written so far. Syllabus = the course README; Projects = labs and projec
 | [CS211](02_year_2_core_computer_science/semester_4/CS211_database_systems_internals/README.md) | Database Systems Internals | ✓ | ✓ | · |
 | [CS212](02_year_2_core_computer_science/semester_4/CS212_distributed_systems_i/README.md) | Distributed Systems I | ✓ | ✓ | · |
 | [CS213](02_year_2_core_computer_science/semester_4/CS213_security_foundations/README.md) | Security Foundations | ✓ | ✓ | · |
-| [CS214](02_year_2_core_computer_science/semester_4/CS214_machine_learning_foundations/README.md) | Machine Learning Foundations | ✓ | · | · |
-| CS215 | Cloud and DevOps Foundations | · | · | · |
-| CS216 | Programming Languages, Compilers and Interpreters | · | · | · |
+| [CS214](02_year_2_core_computer_science/semester_4/CS214_machine_learning_foundations/README.md) | Machine Learning Foundations | ✓ | ✓ | · |
+| [CS215](02_year_2_core_computer_science/semester_4/CS215_cloud_and_devops_foundations/README.md) | Cloud and DevOps Foundations | ✓ | ✓ | · |
+| [CS216](02_year_2_core_computer_science/semester_4/CS216_programming_languages_compilers_and_interpreters/README.md) | Programming Languages, Compilers and Interpreters | ✓ | ✓ | · |
 | PRO301 | Professional Practice: Ethics, Law and Responsible AI | · | · | · |
 | CAR301 | Career Lab I: DSA Mastery, Portfolio and Open Source | · | · | · |
 | IND401 | Industry Co-op Studio | · | · | · |
@@ -61,9 +61,9 @@ What is written so far. Syllabus = the course README; Projects = labs and projec
 | SWE403 | Reliability, Observability and Incident Engineering for Developers | · | · | · |
 | SWE404 | Engineering Leadership and Technical Strategy | · | · | · |
 | SWE501 | Frontier Seminar: Agentic Software Engineering and Program Synthesis | · | · | · |
-| BE301 | API Design: REST, gRPC and GraphQL | · | · | · |
-| BE302 | Backend Frameworks and Service Internals | · | · | · |
-| BE303 | Data Modeling and Storage for Backends: Postgres, Redis and NoSQL | · | · | · |
+| [BE301](03_majors/backend_engineering/year_3/BE301_api_design_rest_grpc_and_graphql/README.md) | API Design: REST, gRPC and GraphQL | ✓ | ✓ | · |
+| [BE302](03_majors/backend_engineering/year_3/BE302_backend_frameworks_and_service_internals/README.md) | Backend Frameworks and Service Internals | ✓ | ✓ | · |
+| [BE303](03_majors/backend_engineering/year_3/BE303_data_modeling_and_storage_for_backends_postgres/README.md) | Data Modeling and Storage for Backends: Postgres, Redis and NoSQL | ✓ | ✓ | · |
 | BE304 | Asynchronous Systems: Queues, Streams and Event-Driven Architecture | · | · | · |
 | BE305 | Authentication, Authorization and Backend Security | · | · | · |
 | BE401 | Payments-Grade Systems: Transactions, Idempotency and Reconciliation | · | · | · |
@@ -91,8 +91,8 @@ What is written so far. Syllabus = the course README; Projects = labs and projec
 | MOB403 | Mobile System Design | · | · | · |
 | MOB404 | Mobile Analytics, Experimentation and Growth Engineering | · | · | · |
 | MOB501 | Frontier Seminar: Wearables, AR and Ambient Computing | · | · | · |
-| CLD301 | Cloud Architecture on AWS, Azure and Google Cloud | · | · | · |
-| CLD302 | Infrastructure as Code: Terraform, OpenTofu and Pulumi | · | · | · |
+| [CLD301](03_majors/cloud_engineering/year_3/CLD301_cloud_architecture_on_aws_azure_and_google_cloud/README.md) | Cloud Architecture on AWS, Azure and Google Cloud | ✓ | ✓ | · |
+| [CLD302](03_majors/cloud_engineering/year_3/CLD302_infrastructure_as_code_terraform_opentofu/README.md) | Infrastructure as Code: Terraform, OpenTofu and Pulumi | ✓ | ✓ | · |
 | CLD303 | Containers and Kubernetes | · | · | · |
 | CLD304 | Cloud Networking: VPCs, DNS, Load Balancing and CDNs | · | · | · |
 | CLD305 | Cloud Storage and Managed Databases | · | · | · |
@@ -172,10 +172,10 @@ What is written so far. Syllabus = the course README; Projects = labs and projec
 | DEN404 | Data Governance, Lineage and Privacy Engineering | · | · | · |
 | DEN501 | Frontier Seminar: Real-Time AI Data Systems and Query Engine Internals | · | · | · |
 | [MLE301](03_majors/machine_learning_engineering/year_3/MLE301_machine_learning_algorithms_from_scratch/README.md) | Machine Learning Algorithms from Scratch | ✓ | ✓ | · |
-| MLE302 | Machine Learning System Design | · | · | · |
+| [MLE302](03_majors/machine_learning_engineering/year_3/MLE302_machine_learning_system_design/README.md) | Machine Learning System Design | ✓ | · | · |
 | MLE303 | Training Pipelines, Feature Stores and Experiment Tracking | · | · | · |
-| MLE304 | Model Evaluation, Fairness and Robustness | · | · | · |
-| MLE305 | Applied ML: Tabular, Vision and Text | · | · | · |
+| [MLE304](03_majors/machine_learning_engineering/year_3/MLE304_model_evaluation_fairness_and_robustness/README.md) | Model Evaluation, Fairness and Robustness | ✓ | ✓ | · |
+| [MLE305](03_majors/machine_learning_engineering/year_3/MLE305_applied_ml_tabular_vision_and_text/README.md) | Applied ML: Tabular, Vision and Text | ✓ | ✓ | · |
 | MLE401 | MLOps: Deployment, Monitoring and Retraining | · | · | · |
 | MLE402 | Distributed Training and Large-Scale ML | · | · | · |
 | MLE403 | Ranking and Recommendation Systems at Scale | · | · | · |
@@ -193,11 +193,11 @@ What is written so far. Syllabus = the course README; Projects = labs and projec
 | DLR501 | Frontier Seminar: Interpretability, Reasoning Models and Scaling | · | · | · |
 | [AIE301](03_majors/ai_engineering/year_3/AIE301_llm_fundamentals_for_engineers/README.md) | LLM Fundamentals for Engineers | ✓ | · | · |
 | [AIE302](03_majors/ai_engineering/year_3/AIE302_prompt_and_context_engineering/README.md) | Prompt and Context Engineering | ✓ | · | · |
-| AIE303 | Retrieval-Augmented Generation and Search | · | · | · |
-| AIE304 | Tool Use and AI Agents: Loops, Harnesses, Memory and Persistence | · | · | · |
-| AIE305 | Evaluating LLM Systems | · | · | · |
-| AIE401 | Multi-Agent Systems, MCP and Orchestration | · | · | · |
-| AIE402 | Fine-Tuning and Small Models for Products | · | · | · |
+| [AIE303](03_majors/ai_engineering/year_3/AIE303_retrieval_augmented_generation_and_search/README.md) | Retrieval-Augmented Generation and Search | ✓ | · | · |
+| [AIE304](03_majors/ai_engineering/year_3/AIE304_tool_use_and_ai_agents_loops_harnesses_memory/README.md) | Tool Use and AI Agents: Loops, Harnesses, Memory and Persistence | ✓ | · | · |
+| [AIE305](03_majors/ai_engineering/year_3/AIE305_evaluating_llm_systems/README.md) | Evaluating LLM Systems | ✓ | · | · |
+| [AIE401](03_majors/ai_engineering/year_4/AIE401_multi_agent_systems_mcp_and_orchestration/README.md) | Multi-Agent Systems, MCP and Orchestration | ✓ | · | · |
+| [AIE402](03_majors/ai_engineering/year_4/AIE402_fine_tuning_and_small_models_for_products/README.md) | Fine-Tuning and Small Models for Products | ✓ | · | · |
 | AIE403 | LLMOps: Observability, Guardrails, Cost and Latency | · | · | · |
 | AIE404 | AI Product Engineering and UX | · | · | · |
 | AIE501 | Frontier Seminar: Long-Horizon Autonomous Agents and Agent Safety | · | · | · |

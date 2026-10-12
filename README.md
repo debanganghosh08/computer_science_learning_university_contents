@@ -71,7 +71,7 @@ Each major lives in [`03_majors/`](03_majors/), and its README is the full learn
 
 ## How to use it
 
-- **Self-learners:** start at [`00_start_here/`](00_start_here/). Take the placement check to skip what you already know, then follow one major's path. Budget 15–25 hours a week; the full path assumes about 40.
+- **Self-learners:** start at [`00_start_here/`](00_start_here/). Take the placement check to skip what you already know, then follow one major's path. A full-time pace is about 40–48 hours a week (six 4-credit courses of ~120 hours each per 15-week semester); at 15–25 hours a week, take three courses per semester and the path stretches over more years.
 - **College students:** use it alongside your degree. Map your college subjects onto Years 1–2, use the labs and projects to go deeper than your syllabus, and start the career-readiness section in your third year.
 - **Working professionals:** every major has a fast track. Jump to the courses you lack and to the career-readiness section for the interview loop of your target role.
 - **Teachers and clubs:** every syllabus is a ready course outline with weekly plans, labs, projects and assessments. Use it freely under the license.
