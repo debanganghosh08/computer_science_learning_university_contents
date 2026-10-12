@@ -52,13 +52,13 @@
 
 ## Majors
 
-### Computer Science (Theory, Systems and Research) (CSG)
+### [Computer Science (Theory, Systems and Research)](03_majors/computer_science_general/README.md) (CSG)
 
 Entry requirements: CS201, CS212, CS216
 
 | Code | Course | Year · Semester | Credits | Prerequisites |
 |---|---|---|---|---|
-| CSG301 | Advanced Algorithms | 3 · 5 | 4 | CS201, CS212, CS216 |
+| [CSG301](03_majors/computer_science_general/year_3/CSG301_advanced_algorithms/README.md) | Advanced Algorithms | 3 · 5 | 4 | CS201, CS212, CS216 |
 | CSG302 | Compiler Construction | 3 · 5 | 4 | CS201, CS212, CS216 |
 | CSG303 | Distributed Systems II: Consensus, Replication and Scale | 3 · 5 | 4 | CS201, CS212, CS216 |
 | CSG304 | Computer Graphics | 3 · 6 | 4 | CS201, CS212, CS216 |
@@ -84,7 +84,7 @@ Entry requirements: CS205, CS201
 | [SWE402](03_majors/software_engineering/year_4/SWE402_legacy_modernization_and_refactoring_with_ai/README.md) | Legacy Modernization and Refactoring with AI | 4 · 7 | 4 | SWE302 |
 | [SWE403](03_majors/software_engineering/year_4/SWE403_reliability_observability_and_incident/README.md) | Reliability, Observability and Incident Engineering for Developers | 4 · 8 | 4 | SWE303 |
 | [SWE404](03_majors/software_engineering/year_4/SWE404_engineering_leadership_and_technical_strategy/README.md) | Engineering Leadership and Technical Strategy | 4 · 8 | 4 | SWE304 |
-| SWE501 | Frontier Seminar: Agentic Software Engineering and Program Synthesis | 5 · 9 | 4 | SWE401, SWE403 |
+| [SWE501](03_majors/software_engineering/year_5/SWE501_frontier_seminar_agentic_software_engineering/README.md) | Frontier Seminar: Agentic Software Engineering and Program Synthesis | 5 · 9 | 4 | SWE401, SWE403 |
 
 ### [Backend Engineering](03_majors/backend_engineering/README.md) (BE)
 
@@ -111,14 +111,14 @@ Entry requirements: FND114, CS205
 |---|---|---|---|---|
 | [FE301](03_majors/frontend_engineering/year_3/FE301_modern_javascript_and_typescript_in_depth/README.md) | Modern JavaScript and TypeScript in Depth | 3 · 5 | 4 | FND114, CS205 |
 | [FE302](03_majors/frontend_engineering/year_3/FE302_react_and_component_architecture/README.md) | React and Component Architecture | 3 · 5 | 4 | FND114, CS205 |
-| FE303 | CSS, Design Systems and Accessibility | 3 · 5 | 4 | FND114, CS205 |
-| FE304 | Browser Internals and Web Performance | 3 · 6 | 4 | FND114, CS205 |
-| FE305 | Frontend Testing and Tooling | 3 · 6 | 4 | FND114, CS205 |
-| FE401 | Full-Stack Frameworks: Rendering, Data Fetching and State | 4 · 7 | 4 | FE301 |
-| FE402 | Advanced UI: Animation, Graphics, WebGL and WebGPU | 4 · 7 | 4 | FE302 |
-| FE403 | AI-Native Interfaces: Streaming, Generative UI and Agent UX | 4 · 8 | 4 | FE303 |
-| FE404 | Frontend System Design at Scale | 4 · 8 | 4 | FE304 |
-| FE501 | Frontier Seminar: Multimodal, Spatial and On-Device AI Interfaces | 5 · 9 | 4 | FE401, FE403 |
+| [FE303](03_majors/frontend_engineering/year_3/FE303_css_design_systems_and_accessibility/README.md) | CSS, Design Systems and Accessibility | 3 · 5 | 4 | FND114, CS205 |
+| [FE304](03_majors/frontend_engineering/year_3/FE304_browser_internals_and_web_performance/README.md) | Browser Internals and Web Performance | 3 · 6 | 4 | FND114, CS205 |
+| [FE305](03_majors/frontend_engineering/year_3/FE305_frontend_testing_and_tooling/README.md) | Frontend Testing and Tooling | 3 · 6 | 4 | FND114, CS205 |
+| [FE401](03_majors/frontend_engineering/year_4/FE401_full_stack_frameworks_rendering_data_fetching/README.md) | Full-Stack Frameworks: Rendering, Data Fetching and State | 4 · 7 | 4 | FE301 |
+| [FE402](03_majors/frontend_engineering/year_4/FE402_advanced_ui_animation_graphics_webgl_and_webgpu/README.md) | Advanced UI: Animation, Graphics, WebGL and WebGPU | 4 · 7 | 4 | FE302 |
+| [FE403](03_majors/frontend_engineering/year_4/FE403_ai_native_interfaces_streaming_generative_ui/README.md) | AI-Native Interfaces: Streaming, Generative UI and Agent UX | 4 · 8 | 4 | FE303 |
+| [FE404](03_majors/frontend_engineering/year_4/FE404_frontend_system_design_at_scale/README.md) | Frontend System Design at Scale | 4 · 8 | 4 | FE304 |
+| [FE501](03_majors/frontend_engineering/year_5/FE501_frontier_seminar_multimodal_spatial_and_on/README.md) | Frontier Seminar: Multimodal, Spatial and On-Device AI Interfaces | 5 · 9 | 4 | FE401, FE403 |
 
 ### Mobile Engineering (MOB)
 
@@ -154,7 +154,7 @@ Entry requirements: CS215, CS212
 | [CLD404](03_majors/cloud_engineering/year_4/CLD404_ai_infrastructure_in_the_cloud_gpus_inference/README.md) | AI Infrastructure in the Cloud: GPUs, Inference and Managed AI | 4 · 8 | 4 | CLD304 |
 | [CLD501](03_majors/cloud_engineering/year_5/CLD501_frontier_seminar_sovereign_cloud_confidential/README.md) | Frontier Seminar: Sovereign Cloud, Confidential Computing and Planet-Scale Infrastructure | 5 · 9 | 4 | CLD401, CLD403 |
 
-### DevOps, SRE and Platform Engineering (OPS)
+### [DevOps, SRE and Platform Engineering](03_majors/devops_sre_platform_engineering/README.md) (OPS)
 
 Entry requirements: CS215, CS203
 
@@ -162,16 +162,16 @@ Entry requirements: CS215, CS203
 |---|---|---|---|---|
 | [OPS301](03_majors/devops_sre_platform_engineering/year_3/OPS301_ci_cd_engineering/README.md) | CI/CD Engineering | 3 · 5 | 4 | CS215, CS203 |
 | [OPS302](03_majors/devops_sre_platform_engineering/year_3/OPS302_linux_systems_administration_in_depth/README.md) | Linux Systems Administration in Depth | 3 · 5 | 4 | CS215, CS203 |
-| OPS303 | Observability: Metrics, Logs, Traces and OpenTelemetry | 3 · 5 | 4 | CS215, CS203 |
-| OPS304 | Site Reliability Engineering: SLOs, Error Budgets and Incident Response | 3 · 6 | 4 | CS215, CS203 |
-| OPS305 | Configuration Management and GitOps | 3 · 6 | 4 | CS215, CS203 |
-| OPS401 | Platform Engineering and Internal Developer Platforms | 4 · 7 | 4 | OPS301 |
-| OPS402 | Chaos Engineering and Resilience | 4 · 7 | 4 | OPS302 |
-| OPS403 | AIOps and Agentic Operations | 4 · 8 | 4 | OPS303 |
-| OPS404 | Performance and Capacity Engineering | 4 · 8 | 4 | OPS304 |
-| OPS501 | Frontier Seminar: Autonomous Infrastructure and Self-Healing Systems | 5 · 9 | 4 | OPS401, OPS403 |
+| [OPS303](03_majors/devops_sre_platform_engineering/year_3/OPS303_observability_metrics_logs_traces/README.md) | Observability: Metrics, Logs, Traces and OpenTelemetry | 3 · 5 | 4 | CS215, CS203 |
+| [OPS304](03_majors/devops_sre_platform_engineering/year_3/OPS304_site_reliability_engineering_slos_error_budgets/README.md) | Site Reliability Engineering: SLOs, Error Budgets and Incident Response | 3 · 6 | 4 | CS215, CS203 |
+| [OPS305](03_majors/devops_sre_platform_engineering/year_3/OPS305_configuration_management_and_gitops/README.md) | Configuration Management and GitOps | 3 · 6 | 4 | CS215, CS203 |
+| [OPS401](03_majors/devops_sre_platform_engineering/year_4/OPS401_platform_engineering_and_internal_developer/README.md) | Platform Engineering and Internal Developer Platforms | 4 · 7 | 4 | OPS301 |
+| [OPS402](03_majors/devops_sre_platform_engineering/year_4/OPS402_chaos_engineering_and_resilience/README.md) | Chaos Engineering and Resilience | 4 · 7 | 4 | OPS302 |
+| [OPS403](03_majors/devops_sre_platform_engineering/year_4/OPS403_aiops_and_agentic_operations/README.md) | AIOps and Agentic Operations | 4 · 8 | 4 | OPS303 |
+| [OPS404](03_majors/devops_sre_platform_engineering/year_4/OPS404_performance_and_capacity_engineering/README.md) | Performance and Capacity Engineering | 4 · 8 | 4 | OPS304 |
+| [OPS501](03_majors/devops_sre_platform_engineering/year_5/OPS501_frontier_seminar_autonomous_infrastructure/README.md) | Frontier Seminar: Autonomous Infrastructure and Self-Healing Systems | 5 · 9 | 4 | OPS401, OPS403 |
 
-### Cybersecurity: Defense, Operations and Governance (SEC)
+### [Cybersecurity: Defense, Operations and Governance](03_majors/cybersecurity_defense/README.md) (SEC)
 
 Entry requirements: CS213
 
@@ -184,9 +184,9 @@ Entry requirements: CS213
 | [SEC305](03_majors/cybersecurity_defense/year_3/SEC305_governance_risk_and_compliance/README.md) | Governance, Risk and Compliance | 3 · 6 | 4 | CS213 |
 | [SEC401](03_majors/cybersecurity_defense/year_4/SEC401_detection_engineering_and_threat_hunting/README.md) | Detection Engineering and Threat Hunting | 4 · 7 | 4 | SEC301 |
 | [SEC402](03_majors/cybersecurity_defense/year_4/SEC402_digital_forensics_and_incident_response/README.md) | Digital Forensics and Incident Response | 4 · 7 | 4 | SEC302 |
-| SEC403 | Malware Analysis for Defenders | 4 · 8 | 4 | SEC303 |
-| SEC404 | AI in Security Operations | 4 · 8 | 4 | SEC304 |
-| SEC501 | Frontier Seminar: Threat Intelligence and Security Research | 5 · 9 | 4 | SEC401, SEC403 |
+| [SEC403](03_majors/cybersecurity_defense/year_4/SEC403_malware_analysis_for_defenders/README.md) | Malware Analysis for Defenders | 4 · 8 | 4 | SEC303 |
+| [SEC404](03_majors/cybersecurity_defense/year_4/SEC404_ai_in_security_operations/README.md) | AI in Security Operations | 4 · 8 | 4 | SEC304 |
+| [SEC501](03_majors/cybersecurity_defense/year_5/SEC501_frontier_seminar_threat_intelligence/README.md) | Frontier Seminar: Threat Intelligence and Security Research | 5 · 9 | 4 | SEC401, SEC403 |
 
 ### Ethical Hacking and Offensive Security (Authorized Testing) (OFF)
 
@@ -211,10 +211,10 @@ Entry requirements: CS213, CS212
 
 | Code | Course | Year · Semester | Credits | Prerequisites |
 |---|---|---|---|---|
-| SAR301 | Security Architecture Principles and Frameworks | 3 · 5 | 4 | CS213, CS212 |
-| SAR302 | Threat Modeling | 3 · 5 | 4 | CS213, CS212 |
-| SAR303 | Zero Trust Architecture | 3 · 5 | 4 | CS213, CS212 |
-| SAR304 | Applied Cryptography and PKI for Architects | 3 · 6 | 4 | CS213, CS212 |
+| [SAR301](03_majors/security_architecture/year_3/SAR301_security_architecture_principles_and_frameworks/README.md) | Security Architecture Principles and Frameworks | 3 · 5 | 4 | CS213, CS212 |
+| [SAR302](03_majors/security_architecture/year_3/SAR302_threat_modeling/README.md) | Threat Modeling | 3 · 5 | 4 | CS213, CS212 |
+| [SAR303](03_majors/security_architecture/year_3/SAR303_zero_trust_architecture/README.md) | Zero Trust Architecture | 3 · 5 | 4 | CS213, CS212 |
+| [SAR304](03_majors/security_architecture/year_3/SAR304_applied_cryptography_and_pki_for_architects/README.md) | Applied Cryptography and PKI for Architects | 3 · 6 | 4 | CS213, CS212 |
 | SAR305 | Secure SDLC and DevSecOps Architecture | 3 · 6 | 4 | CS213, CS212 |
 | SAR401 | Cloud Security Architecture | 4 · 7 | 4 | SAR301 |
 | SAR402 | Identity Architecture at Scale | 4 · 7 | 4 | SAR302 |
@@ -222,7 +222,7 @@ Entry requirements: CS213, CS212
 | SAR404 | Resilience, Business Continuity and Security Strategy | 4 · 8 | 4 | SAR304 |
 | SAR501 | Frontier Seminar: Post-Quantum Migration and Securing Autonomous Systems | 5 · 9 | 4 | SAR401, SAR403 |
 
-### Data Analysis and Analytics (DAN)
+### [Data Analysis and Analytics](03_majors/data_analysis/README.md) (DAN)
 
 Entry requirements: FND115, FND116
 
@@ -234,10 +234,10 @@ Entry requirements: FND115, FND116
 | [DAN304](03_majors/data_analysis/year_3/DAN304_analytics_engineering_dbt_modeling_and_semantic/README.md) | Analytics Engineering: dbt, Modeling and Semantic Layers | 3 · 6 | 4 | FND115, FND116 |
 | [DAN305](03_majors/data_analysis/year_3/DAN305_product_and_business_analytics_metrics_funnels/README.md) | Product and Business Analytics: Metrics, Funnels and Cohorts | 3 · 6 | 4 | FND115, FND116 |
 | [DAN401](03_majors/data_analysis/year_4/DAN401_ai_augmented_analytics_text_to_sql_copilots/README.md) | AI-Augmented Analytics: Text-to-SQL, Copilots and Their Failure Modes | 4 · 7 | 4 | DAN301 |
-| DAN402 | Forecasting for Business Decisions | 4 · 7 | 4 | DAN302 |
-| DAN403 | Domain Analytics: Finance, Marketing, Operations and Healthcare | 4 · 8 | 4 | DAN303 |
-| DAN404 | Data Governance, Quality and Privacy for Analysts | 4 · 8 | 4 | DAN304 |
-| DAN501 | Frontier Seminar: Decision Intelligence and Causal Analytics | 5 · 9 | 4 | DAN401, DAN403 |
+| [DAN402](03_majors/data_analysis/year_4/DAN402_forecasting_for_business_decisions/README.md) | Forecasting for Business Decisions | 4 · 7 | 4 | DAN302 |
+| [DAN403](03_majors/data_analysis/year_4/DAN403_domain_analytics_finance_marketing_operations/README.md) | Domain Analytics: Finance, Marketing, Operations and Healthcare | 4 · 8 | 4 | DAN303 |
+| [DAN404](03_majors/data_analysis/year_4/DAN404_data_governance_quality_and_privacy_for_analysts/README.md) | Data Governance, Quality and Privacy for Analysts | 4 · 8 | 4 | DAN304 |
+| [DAN501](03_majors/data_analysis/year_5/DAN501_frontier_seminar_decision_intelligence/README.md) | Frontier Seminar: Decision Intelligence and Causal Analytics | 5 · 9 | 4 | DAN401, DAN403 |
 
 ### [Data Science](03_majors/data_science/README.md) (DSC)
 
@@ -252,9 +252,9 @@ Entry requirements: CS214, FND116
 | [DSC305](03_majors/data_science/year_3/DSC305_feature_engineering_and_model_evaluation/README.md) | Feature Engineering and Model Evaluation | 3 · 6 | 4 | CS214, FND116 |
 | [DSC401](03_majors/data_science/year_4/DSC401_time_series_analysis_and_forecasting/README.md) | Time Series Analysis and Forecasting | 4 · 7 | 4 | DSC301 |
 | [DSC402](03_majors/data_science/year_4/DSC402_nlp_and_text_analytics_with_llms/README.md) | NLP and Text Analytics with LLMs | 4 · 7 | 4 | DSC302 |
-| DSC403 | Recommender Systems and Personalization | 4 · 8 | 4 | DSC303 |
-| DSC404 | Data Science in Production: Deployment, Monitoring and Communication | 4 · 8 | 4 | DSC304 |
-| DSC501 | Frontier Seminar: Bayesian Methods, Causal ML and AI-Assisted Science | 5 · 9 | 4 | DSC401, DSC403 |
+| [DSC403](03_majors/data_science/year_4/DSC403_recommender_systems_and_personalization/README.md) | Recommender Systems and Personalization | 4 · 8 | 4 | DSC303 |
+| [DSC404](03_majors/data_science/year_4/DSC404_data_science_in_production_deployment_monitoring/README.md) | Data Science in Production: Deployment, Monitoring and Communication | 4 · 8 | 4 | DSC304 |
+| [DSC501](03_majors/data_science/year_5/DSC501_frontier_seminar_bayesian_methods_causal_ml/README.md) | Frontier Seminar: Bayesian Methods, Causal ML and AI-Assisted Science | 5 · 9 | 4 | DSC401, DSC403 |
 
 ### Data Engineering (DEN)
 
@@ -266,11 +266,11 @@ Entry requirements: CS211, CS212
 | [DEN302](03_majors/data_engineering/year_3/DEN302_batch_processing_with_spark/README.md) | Batch Processing with Spark | 3 · 5 | 4 | CS211, CS212 |
 | [DEN303](03_majors/data_engineering/year_3/DEN303_streaming_systems_kafka_and_flink/README.md) | Streaming Systems: Kafka and Flink | 3 · 5 | 4 | CS211, CS212 |
 | [DEN304](03_majors/data_engineering/year_3/DEN304_orchestration_and_pipelines_airflow_and_dagster/README.md) | Orchestration and Pipelines: Airflow and Dagster | 3 · 6 | 4 | CS211, CS212 |
-| DEN305 | Lakehouse Architecture: Parquet, Iceberg and Delta | 3 · 6 | 4 | CS211, CS212 |
-| DEN401 | Data Quality, Observability and Data Contracts | 4 · 7 | 4 | DEN301 |
-| DEN402 | Cloud Data Platforms: Snowflake, BigQuery and Databricks | 4 · 7 | 4 | DEN302 |
-| DEN403 | Data Engineering for AI: Unstructured Data, Embeddings and RAG Pipelines | 4 · 8 | 4 | DEN303 |
-| DEN404 | Data Governance, Lineage and Privacy Engineering | 4 · 8 | 4 | DEN304 |
+| [DEN305](03_majors/data_engineering/year_3/DEN305_lakehouse_architecture_parquet_iceberg_and_delta/README.md) | Lakehouse Architecture: Parquet, Iceberg and Delta | 3 · 6 | 4 | CS211, CS212 |
+| [DEN401](03_majors/data_engineering/year_4/DEN401_data_quality_observability_and_data_contracts/README.md) | Data Quality, Observability and Data Contracts | 4 · 7 | 4 | DEN301 |
+| [DEN402](03_majors/data_engineering/year_4/DEN402_cloud_data_platforms_snowflake_bigquery/README.md) | Cloud Data Platforms: Snowflake, BigQuery and Databricks | 4 · 7 | 4 | DEN302 |
+| [DEN403](03_majors/data_engineering/year_4/DEN403_data_engineering_for_ai_unstructured_data/README.md) | Data Engineering for AI: Unstructured Data, Embeddings and RAG Pipelines | 4 · 8 | 4 | DEN303 |
+| [DEN404](03_majors/data_engineering/year_4/DEN404_data_governance_lineage_and_privacy_engineering/README.md) | Data Governance, Lineage and Privacy Engineering | 4 · 8 | 4 | DEN304 |
 | DEN501 | Frontier Seminar: Real-Time AI Data Systems and Query Engine Internals | 5 · 9 | 4 | DEN401, DEN403 |
 
 ### [Machine Learning Engineering](03_majors/machine_learning_engineering/README.md) (MLE)
@@ -290,7 +290,7 @@ Entry requirements: CS214, CS205
 | [MLE404](03_majors/machine_learning_engineering/year_4/MLE404_efficient_inference_quantization_distillation/README.md) | Efficient Inference: Quantization, Distillation and Compilers | 4 · 8 | 4 | MLE304 |
 | [MLE501](03_majors/machine_learning_engineering/year_5/MLE501_frontier_seminar_ml_research_engineering/README.md) | Frontier Seminar: ML Research Engineering and Reproducing Papers | 5 · 9 | 4 | MLE401, MLE403 |
 
-### Deep Learning (DLR)
+### [Deep Learning](03_majors/deep_learning/README.md) (DLR)
 
 Entry requirements: CS214, CS206
 
@@ -304,8 +304,8 @@ Entry requirements: CS214, CS206
 | [DLR401](03_majors/deep_learning/year_4/DLR401_large_language_models_pretraining_fine_tuning/README.md) | Large Language Models: Pretraining, Fine-Tuning and Alignment | 4 · 7 | 4 | DLR301 |
 | [DLR402](03_majors/deep_learning/year_4/DLR402_multimodal_models/README.md) | Multimodal Models | 4 · 7 | 4 | DLR302 |
 | [DLR403](03_majors/deep_learning/year_4/DLR403_reinforcement_learning_including_rl_for_language/README.md) | Reinforcement Learning, Including RL for Language Models | 4 · 8 | 4 | DLR303 |
-| DLR404 | Efficient Deep Learning and GPU Programming | 4 · 8 | 4 | DLR304 |
-| DLR501 | Frontier Seminar: Interpretability, Reasoning Models and Scaling | 5 · 9 | 4 | DLR401, DLR403 |
+| [DLR404](03_majors/deep_learning/year_4/DLR404_efficient_deep_learning_and_gpu_programming/README.md) | Efficient Deep Learning and GPU Programming | 4 · 8 | 4 | DLR304 |
+| [DLR501](03_majors/deep_learning/year_5/DLR501_frontier_seminar_interpretability_reasoning/README.md) | Frontier Seminar: Interpretability, Reasoning Models and Scaling | 5 · 9 | 4 | DLR401, DLR403 |
 
 ### [AI Engineering: LLM Applications and Agents](03_majors/ai_engineering/README.md) (AIE)
 
@@ -324,7 +324,7 @@ Entry requirements: CS214, CS205
 | [AIE404](03_majors/ai_engineering/year_4/AIE404_ai_product_engineering_and_ux/README.md) | AI Product Engineering and UX | 4 · 8 | 4 | AIE304 |
 | [AIE501](03_majors/ai_engineering/year_5/AIE501_frontier_seminar_long_horizon_autonomous_agents/README.md) | Frontier Seminar: Long-Horizon Autonomous Agents and Agent Safety | 5 · 9 | 4 | AIE401, AIE403 |
 
-### Forward Deployed Engineering (FDE)
+### [Forward Deployed Engineering](03_majors/forward_deployed_engineering/README.md) (FDE)
 
 Entry requirements: CS205, CS215
 

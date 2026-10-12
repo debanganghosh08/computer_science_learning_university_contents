@@ -2,8 +2,8 @@
 
 What is written so far. Syllabus = the course README; Projects = labs and projects; Chapters = full lesson notes.
 
-- Syllabi: **109 / 257**
-- Labs and projects: **107 / 257**
+- Syllabi: **148 / 257**
+- Labs and projects: **147 / 257**
 - Courses with full chapter notes: **0 / 257**
 
 | Code | Course | Syllabus | Projects | Chapters |
@@ -41,7 +41,7 @@ What is written so far. Syllabus = the course README; Projects = labs and projec
 | THS501 | Thesis or Capstone I | · | · | · |
 | THS502 | Thesis or Capstone II | · | · | · |
 | LCH502 | Career Launch and Founder Studio | · | · | · |
-| CSG301 | Advanced Algorithms | · | · | · |
+| [CSG301](03_majors/computer_science_general/year_3/CSG301_advanced_algorithms/README.md) | Advanced Algorithms | ✓ | ✓ | · |
 | CSG302 | Compiler Construction | · | · | · |
 | CSG303 | Distributed Systems II: Consensus, Replication and Scale | · | · | · |
 | CSG304 | Computer Graphics | · | · | · |
@@ -60,7 +60,7 @@ What is written so far. Syllabus = the course README; Projects = labs and projec
 | [SWE402](03_majors/software_engineering/year_4/SWE402_legacy_modernization_and_refactoring_with_ai/README.md) | Legacy Modernization and Refactoring with AI | ✓ | ✓ | · |
 | [SWE403](03_majors/software_engineering/year_4/SWE403_reliability_observability_and_incident/README.md) | Reliability, Observability and Incident Engineering for Developers | ✓ | ✓ | · |
 | [SWE404](03_majors/software_engineering/year_4/SWE404_engineering_leadership_and_technical_strategy/README.md) | Engineering Leadership and Technical Strategy | ✓ | ✓ | · |
-| SWE501 | Frontier Seminar: Agentic Software Engineering and Program Synthesis | · | · | · |
+| [SWE501](03_majors/software_engineering/year_5/SWE501_frontier_seminar_agentic_software_engineering/README.md) | Frontier Seminar: Agentic Software Engineering and Program Synthesis | ✓ | ✓ | · |
 | [BE301](03_majors/backend_engineering/year_3/BE301_api_design_rest_grpc_and_graphql/README.md) | API Design: REST, gRPC and GraphQL | ✓ | ✓ | · |
 | [BE302](03_majors/backend_engineering/year_3/BE302_backend_frameworks_and_service_internals/README.md) | Backend Frameworks and Service Internals | ✓ | ✓ | · |
 | [BE303](03_majors/backend_engineering/year_3/BE303_data_modeling_and_storage_for_backends_postgres/README.md) | Data Modeling and Storage for Backends: Postgres, Redis and NoSQL | ✓ | ✓ | · |
@@ -72,15 +72,15 @@ What is written so far. Syllabus = the course README; Projects = labs and projec
 | [BE404](03_majors/backend_engineering/year_4/BE404_microservices_service_mesh_and_platform_apis/README.md) | Microservices, Service Mesh and Platform APIs | ✓ | ✓ | · |
 | [BE501](03_majors/backend_engineering/year_5/BE501_frontier_seminar_durable_execution_serverless/README.md) | Frontier Seminar: Durable Execution, Serverless and Edge Backends | ✓ | ✓ | · |
 | [FE301](03_majors/frontend_engineering/year_3/FE301_modern_javascript_and_typescript_in_depth/README.md) | Modern JavaScript and TypeScript in Depth | ✓ | ✓ | · |
-| [FE302](03_majors/frontend_engineering/year_3/FE302_react_and_component_architecture/README.md) | React and Component Architecture | ✓ | · | · |
-| FE303 | CSS, Design Systems and Accessibility | · | · | · |
-| FE304 | Browser Internals and Web Performance | · | · | · |
-| FE305 | Frontend Testing and Tooling | · | · | · |
-| FE401 | Full-Stack Frameworks: Rendering, Data Fetching and State | · | · | · |
-| FE402 | Advanced UI: Animation, Graphics, WebGL and WebGPU | · | · | · |
-| FE403 | AI-Native Interfaces: Streaming, Generative UI and Agent UX | · | · | · |
-| FE404 | Frontend System Design at Scale | · | · | · |
-| FE501 | Frontier Seminar: Multimodal, Spatial and On-Device AI Interfaces | · | · | · |
+| [FE302](03_majors/frontend_engineering/year_3/FE302_react_and_component_architecture/README.md) | React and Component Architecture | ✓ | ✓ | · |
+| [FE303](03_majors/frontend_engineering/year_3/FE303_css_design_systems_and_accessibility/README.md) | CSS, Design Systems and Accessibility | ✓ | ✓ | · |
+| [FE304](03_majors/frontend_engineering/year_3/FE304_browser_internals_and_web_performance/README.md) | Browser Internals and Web Performance | ✓ | ✓ | · |
+| [FE305](03_majors/frontend_engineering/year_3/FE305_frontend_testing_and_tooling/README.md) | Frontend Testing and Tooling | ✓ | ✓ | · |
+| [FE401](03_majors/frontend_engineering/year_4/FE401_full_stack_frameworks_rendering_data_fetching/README.md) | Full-Stack Frameworks: Rendering, Data Fetching and State | ✓ | ✓ | · |
+| [FE402](03_majors/frontend_engineering/year_4/FE402_advanced_ui_animation_graphics_webgl_and_webgpu/README.md) | Advanced UI: Animation, Graphics, WebGL and WebGPU | ✓ | ✓ | · |
+| [FE403](03_majors/frontend_engineering/year_4/FE403_ai_native_interfaces_streaming_generative_ui/README.md) | AI-Native Interfaces: Streaming, Generative UI and Agent UX | ✓ | ✓ | · |
+| [FE404](03_majors/frontend_engineering/year_4/FE404_frontend_system_design_at_scale/README.md) | Frontend System Design at Scale | ✓ | ✓ | · |
+| [FE501](03_majors/frontend_engineering/year_5/FE501_frontier_seminar_multimodal_spatial_and_on/README.md) | Frontier Seminar: Multimodal, Spatial and On-Device AI Interfaces | ✓ | ✓ | · |
 | MOB301 | Android with Kotlin and Jetpack Compose | · | · | · |
 | MOB302 | iOS with Swift and SwiftUI | · | · | · |
 | MOB303 | Cross-Platform Apps: Flutter and React Native | · | · | · |
@@ -103,14 +103,14 @@ What is written so far. Syllabus = the course README; Projects = labs and projec
 | [CLD501](03_majors/cloud_engineering/year_5/CLD501_frontier_seminar_sovereign_cloud_confidential/README.md) | Frontier Seminar: Sovereign Cloud, Confidential Computing and Planet-Scale Infrastructure | ✓ | ✓ | · |
 | [OPS301](03_majors/devops_sre_platform_engineering/year_3/OPS301_ci_cd_engineering/README.md) | CI/CD Engineering | ✓ | ✓ | · |
 | [OPS302](03_majors/devops_sre_platform_engineering/year_3/OPS302_linux_systems_administration_in_depth/README.md) | Linux Systems Administration in Depth | ✓ | ✓ | · |
-| OPS303 | Observability: Metrics, Logs, Traces and OpenTelemetry | · | · | · |
-| OPS304 | Site Reliability Engineering: SLOs, Error Budgets and Incident Response | · | · | · |
-| OPS305 | Configuration Management and GitOps | · | · | · |
-| OPS401 | Platform Engineering and Internal Developer Platforms | · | · | · |
-| OPS402 | Chaos Engineering and Resilience | · | · | · |
-| OPS403 | AIOps and Agentic Operations | · | · | · |
-| OPS404 | Performance and Capacity Engineering | · | · | · |
-| OPS501 | Frontier Seminar: Autonomous Infrastructure and Self-Healing Systems | · | · | · |
+| [OPS303](03_majors/devops_sre_platform_engineering/year_3/OPS303_observability_metrics_logs_traces/README.md) | Observability: Metrics, Logs, Traces and OpenTelemetry | ✓ | ✓ | · |
+| [OPS304](03_majors/devops_sre_platform_engineering/year_3/OPS304_site_reliability_engineering_slos_error_budgets/README.md) | Site Reliability Engineering: SLOs, Error Budgets and Incident Response | ✓ | ✓ | · |
+| [OPS305](03_majors/devops_sre_platform_engineering/year_3/OPS305_configuration_management_and_gitops/README.md) | Configuration Management and GitOps | ✓ | ✓ | · |
+| [OPS401](03_majors/devops_sre_platform_engineering/year_4/OPS401_platform_engineering_and_internal_developer/README.md) | Platform Engineering and Internal Developer Platforms | ✓ | ✓ | · |
+| [OPS402](03_majors/devops_sre_platform_engineering/year_4/OPS402_chaos_engineering_and_resilience/README.md) | Chaos Engineering and Resilience | ✓ | ✓ | · |
+| [OPS403](03_majors/devops_sre_platform_engineering/year_4/OPS403_aiops_and_agentic_operations/README.md) | AIOps and Agentic Operations | ✓ | ✓ | · |
+| [OPS404](03_majors/devops_sre_platform_engineering/year_4/OPS404_performance_and_capacity_engineering/README.md) | Performance and Capacity Engineering | ✓ | ✓ | · |
+| [OPS501](03_majors/devops_sre_platform_engineering/year_5/OPS501_frontier_seminar_autonomous_infrastructure/README.md) | Frontier Seminar: Autonomous Infrastructure and Self-Healing Systems | ✓ | ✓ | · |
 | [SEC301](03_majors/cybersecurity_defense/year_3/SEC301_network_security_and_defense/README.md) | Network Security and Defense | ✓ | ✓ | · |
 | [SEC302](03_majors/cybersecurity_defense/year_3/SEC302_security_operations_soc_siem_and_monitoring/README.md) | Security Operations: SOC, SIEM and Monitoring | ✓ | ✓ | · |
 | [SEC303](03_majors/cybersecurity_defense/year_3/SEC303_identity_and_access_management/README.md) | Identity and Access Management | ✓ | ✓ | · |
@@ -118,9 +118,9 @@ What is written so far. Syllabus = the course README; Projects = labs and projec
 | [SEC305](03_majors/cybersecurity_defense/year_3/SEC305_governance_risk_and_compliance/README.md) | Governance, Risk and Compliance | ✓ | ✓ | · |
 | [SEC401](03_majors/cybersecurity_defense/year_4/SEC401_detection_engineering_and_threat_hunting/README.md) | Detection Engineering and Threat Hunting | ✓ | ✓ | · |
 | [SEC402](03_majors/cybersecurity_defense/year_4/SEC402_digital_forensics_and_incident_response/README.md) | Digital Forensics and Incident Response | ✓ | ✓ | · |
-| SEC403 | Malware Analysis for Defenders | · | · | · |
-| SEC404 | AI in Security Operations | · | · | · |
-| SEC501 | Frontier Seminar: Threat Intelligence and Security Research | · | · | · |
+| [SEC403](03_majors/cybersecurity_defense/year_4/SEC403_malware_analysis_for_defenders/README.md) | Malware Analysis for Defenders | ✓ | ✓ | · |
+| [SEC404](03_majors/cybersecurity_defense/year_4/SEC404_ai_in_security_operations/README.md) | AI in Security Operations | ✓ | ✓ | · |
+| [SEC501](03_majors/cybersecurity_defense/year_5/SEC501_frontier_seminar_threat_intelligence/README.md) | Frontier Seminar: Threat Intelligence and Security Research | ✓ | ✓ | · |
 | OFF301 | Ethics, Law, Rules of Engagement and Methodology | · | · | · |
 | OFF302 | Web Application Security Testing | · | · | · |
 | OFF303 | Network and Infrastructure Security Testing | · | · | · |
@@ -131,10 +131,10 @@ What is written so far. Syllabus = the course README; Projects = labs and projec
 | OFF403 | AI and LLM Red Teaming | · | · | · |
 | OFF404 | Vulnerability Research, Secure Code Review and Responsible Disclosure | · | · | · |
 | OFF501 | Frontier Seminar: AI-Driven Vulnerability Discovery and Defense | · | · | · |
-| SAR301 | Security Architecture Principles and Frameworks | · | · | · |
-| SAR302 | Threat Modeling | · | · | · |
-| SAR303 | Zero Trust Architecture | · | · | · |
-| SAR304 | Applied Cryptography and PKI for Architects | · | · | · |
+| [SAR301](03_majors/security_architecture/year_3/SAR301_security_architecture_principles_and_frameworks/README.md) | Security Architecture Principles and Frameworks | ✓ | ✓ | · |
+| [SAR302](03_majors/security_architecture/year_3/SAR302_threat_modeling/README.md) | Threat Modeling | ✓ | ✓ | · |
+| [SAR303](03_majors/security_architecture/year_3/SAR303_zero_trust_architecture/README.md) | Zero Trust Architecture | ✓ | ✓ | · |
+| [SAR304](03_majors/security_architecture/year_3/SAR304_applied_cryptography_and_pki_for_architects/README.md) | Applied Cryptography and PKI for Architects | ✓ | · | · |
 | SAR305 | Secure SDLC and DevSecOps Architecture | · | · | · |
 | SAR401 | Cloud Security Architecture | · | · | · |
 | SAR402 | Identity Architecture at Scale | · | · | · |
@@ -147,29 +147,29 @@ What is written so far. Syllabus = the course README; Projects = labs and projec
 | [DAN304](03_majors/data_analysis/year_3/DAN304_analytics_engineering_dbt_modeling_and_semantic/README.md) | Analytics Engineering: dbt, Modeling and Semantic Layers | ✓ | ✓ | · |
 | [DAN305](03_majors/data_analysis/year_3/DAN305_product_and_business_analytics_metrics_funnels/README.md) | Product and Business Analytics: Metrics, Funnels and Cohorts | ✓ | ✓ | · |
 | [DAN401](03_majors/data_analysis/year_4/DAN401_ai_augmented_analytics_text_to_sql_copilots/README.md) | AI-Augmented Analytics: Text-to-SQL, Copilots and Their Failure Modes | ✓ | ✓ | · |
-| DAN402 | Forecasting for Business Decisions | · | · | · |
-| DAN403 | Domain Analytics: Finance, Marketing, Operations and Healthcare | · | · | · |
-| DAN404 | Data Governance, Quality and Privacy for Analysts | · | · | · |
-| DAN501 | Frontier Seminar: Decision Intelligence and Causal Analytics | · | · | · |
+| [DAN402](03_majors/data_analysis/year_4/DAN402_forecasting_for_business_decisions/README.md) | Forecasting for Business Decisions | ✓ | ✓ | · |
+| [DAN403](03_majors/data_analysis/year_4/DAN403_domain_analytics_finance_marketing_operations/README.md) | Domain Analytics: Finance, Marketing, Operations and Healthcare | ✓ | ✓ | · |
+| [DAN404](03_majors/data_analysis/year_4/DAN404_data_governance_quality_and_privacy_for_analysts/README.md) | Data Governance, Quality and Privacy for Analysts | ✓ | ✓ | · |
+| [DAN501](03_majors/data_analysis/year_5/DAN501_frontier_seminar_decision_intelligence/README.md) | Frontier Seminar: Decision Intelligence and Causal Analytics | ✓ | ✓ | · |
 | [DSC301](03_majors/data_science/year_3/DSC301_statistical_inference_and_modeling/README.md) | Statistical Inference and Modeling | ✓ | ✓ | · |
 | [DSC302](03_majors/data_science/year_3/DSC302_applied_machine_learning_for_data_scientists/README.md) | Applied Machine Learning for Data Scientists | ✓ | ✓ | · |
 | [DSC303](03_majors/data_science/year_3/DSC303_data_wrangling_at_scale_pandas_polars_and_spark/README.md) | Data Wrangling at Scale: pandas, Polars and Spark | ✓ | ✓ | · |
 | [DSC304](03_majors/data_science/year_3/DSC304_experimental_design_and_causal_inference/README.md) | Experimental Design and Causal Inference | ✓ | ✓ | · |
 | [DSC305](03_majors/data_science/year_3/DSC305_feature_engineering_and_model_evaluation/README.md) | Feature Engineering and Model Evaluation | ✓ | ✓ | · |
 | [DSC401](03_majors/data_science/year_4/DSC401_time_series_analysis_and_forecasting/README.md) | Time Series Analysis and Forecasting | ✓ | ✓ | · |
-| [DSC402](03_majors/data_science/year_4/DSC402_nlp_and_text_analytics_with_llms/README.md) | NLP and Text Analytics with LLMs | ✓ | · | · |
-| DSC403 | Recommender Systems and Personalization | · | · | · |
-| DSC404 | Data Science in Production: Deployment, Monitoring and Communication | · | · | · |
-| DSC501 | Frontier Seminar: Bayesian Methods, Causal ML and AI-Assisted Science | · | · | · |
+| [DSC402](03_majors/data_science/year_4/DSC402_nlp_and_text_analytics_with_llms/README.md) | NLP and Text Analytics with LLMs | ✓ | ✓ | · |
+| [DSC403](03_majors/data_science/year_4/DSC403_recommender_systems_and_personalization/README.md) | Recommender Systems and Personalization | ✓ | ✓ | · |
+| [DSC404](03_majors/data_science/year_4/DSC404_data_science_in_production_deployment_monitoring/README.md) | Data Science in Production: Deployment, Monitoring and Communication | ✓ | ✓ | · |
+| [DSC501](03_majors/data_science/year_5/DSC501_frontier_seminar_bayesian_methods_causal_ml/README.md) | Frontier Seminar: Bayesian Methods, Causal ML and AI-Assisted Science | ✓ | ✓ | · |
 | [DEN301](03_majors/data_engineering/year_3/DEN301_data_modeling_and_warehousing/README.md) | Data Modeling and Warehousing | ✓ | ✓ | · |
 | [DEN302](03_majors/data_engineering/year_3/DEN302_batch_processing_with_spark/README.md) | Batch Processing with Spark | ✓ | ✓ | · |
 | [DEN303](03_majors/data_engineering/year_3/DEN303_streaming_systems_kafka_and_flink/README.md) | Streaming Systems: Kafka and Flink | ✓ | ✓ | · |
 | [DEN304](03_majors/data_engineering/year_3/DEN304_orchestration_and_pipelines_airflow_and_dagster/README.md) | Orchestration and Pipelines: Airflow and Dagster | ✓ | ✓ | · |
-| DEN305 | Lakehouse Architecture: Parquet, Iceberg and Delta | · | · | · |
-| DEN401 | Data Quality, Observability and Data Contracts | · | · | · |
-| DEN402 | Cloud Data Platforms: Snowflake, BigQuery and Databricks | · | · | · |
-| DEN403 | Data Engineering for AI: Unstructured Data, Embeddings and RAG Pipelines | · | · | · |
-| DEN404 | Data Governance, Lineage and Privacy Engineering | · | · | · |
+| [DEN305](03_majors/data_engineering/year_3/DEN305_lakehouse_architecture_parquet_iceberg_and_delta/README.md) | Lakehouse Architecture: Parquet, Iceberg and Delta | ✓ | ✓ | · |
+| [DEN401](03_majors/data_engineering/year_4/DEN401_data_quality_observability_and_data_contracts/README.md) | Data Quality, Observability and Data Contracts | ✓ | ✓ | · |
+| [DEN402](03_majors/data_engineering/year_4/DEN402_cloud_data_platforms_snowflake_bigquery/README.md) | Cloud Data Platforms: Snowflake, BigQuery and Databricks | ✓ | ✓ | · |
+| [DEN403](03_majors/data_engineering/year_4/DEN403_data_engineering_for_ai_unstructured_data/README.md) | Data Engineering for AI: Unstructured Data, Embeddings and RAG Pipelines | ✓ | ✓ | · |
+| [DEN404](03_majors/data_engineering/year_4/DEN404_data_governance_lineage_and_privacy_engineering/README.md) | Data Governance, Lineage and Privacy Engineering | ✓ | ✓ | · |
 | DEN501 | Frontier Seminar: Real-Time AI Data Systems and Query Engine Internals | · | · | · |
 | [MLE301](03_majors/machine_learning_engineering/year_3/MLE301_machine_learning_algorithms_from_scratch/README.md) | Machine Learning Algorithms from Scratch | ✓ | ✓ | · |
 | [MLE302](03_majors/machine_learning_engineering/year_3/MLE302_machine_learning_system_design/README.md) | Machine Learning System Design | ✓ | ✓ | · |
@@ -189,8 +189,8 @@ What is written so far. Syllabus = the course README; Projects = labs and projec
 | [DLR401](03_majors/deep_learning/year_4/DLR401_large_language_models_pretraining_fine_tuning/README.md) | Large Language Models: Pretraining, Fine-Tuning and Alignment | ✓ | ✓ | · |
 | [DLR402](03_majors/deep_learning/year_4/DLR402_multimodal_models/README.md) | Multimodal Models | ✓ | ✓ | · |
 | [DLR403](03_majors/deep_learning/year_4/DLR403_reinforcement_learning_including_rl_for_language/README.md) | Reinforcement Learning, Including RL for Language Models | ✓ | ✓ | · |
-| DLR404 | Efficient Deep Learning and GPU Programming | · | · | · |
-| DLR501 | Frontier Seminar: Interpretability, Reasoning Models and Scaling | · | · | · |
+| [DLR404](03_majors/deep_learning/year_4/DLR404_efficient_deep_learning_and_gpu_programming/README.md) | Efficient Deep Learning and GPU Programming | ✓ | ✓ | · |
+| [DLR501](03_majors/deep_learning/year_5/DLR501_frontier_seminar_interpretability_reasoning/README.md) | Frontier Seminar: Interpretability, Reasoning Models and Scaling | ✓ | ✓ | · |
 | [AIE301](03_majors/ai_engineering/year_3/AIE301_llm_fundamentals_for_engineers/README.md) | LLM Fundamentals for Engineers | ✓ | ✓ | · |
 | [AIE302](03_majors/ai_engineering/year_3/AIE302_prompt_and_context_engineering/README.md) | Prompt and Context Engineering | ✓ | ✓ | · |
 | [AIE303](03_majors/ai_engineering/year_3/AIE303_retrieval_augmented_generation_and_search/README.md) | Retrieval-Augmented Generation and Search | ✓ | ✓ | · |
