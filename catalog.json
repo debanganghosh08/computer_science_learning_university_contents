@@ -1,0 +1,4068 @@
+{
+ "name": "Computer Science and IT University: a 5-year, AI-era curriculum",
+ "version": "2026.10",
+ "levels": {
+  "L0": "Absolute beginner",
+  "L1": "Foundations",
+  "L2": "Practitioner (intern-ready)",
+  "L3": "Professional (job-ready)",
+  "L4": "Expert (senior, hard to replace)",
+  "L5": "Research and frontier"
+ },
+ "majors": [
+  {
+   "code": "CSG",
+   "name": "Computer Science (Theory, Systems and Research)",
+   "path": "03_majors/computer_science_general",
+   "entry_requirements": [
+    "CS201",
+    "CS212",
+    "CS216"
+   ]
+  },
+  {
+   "code": "SWE",
+   "name": "Software Engineering",
+   "path": "03_majors/software_engineering",
+   "entry_requirements": [
+    "CS205",
+    "CS201"
+   ]
+  },
+  {
+   "code": "BE",
+   "name": "Backend Engineering",
+   "path": "03_majors/backend_engineering",
+   "entry_requirements": [
+    "CS211",
+    "CS212"
+   ]
+  },
+  {
+   "code": "FE",
+   "name": "Frontend Engineering",
+   "path": "03_majors/frontend_engineering",
+   "entry_requirements": [
+    "FND114",
+    "CS205"
+   ]
+  },
+  {
+   "code": "MOB",
+   "name": "Mobile Engineering",
+   "path": "03_majors/mobile_engineering",
+   "entry_requirements": [
+    "FND111",
+    "CS205"
+   ]
+  },
+  {
+   "code": "CLD",
+   "name": "Cloud Engineering",
+   "path": "03_majors/cloud_engineering",
+   "entry_requirements": [
+    "CS215",
+    "CS212"
+   ]
+  },
+  {
+   "code": "OPS",
+   "name": "DevOps, SRE and Platform Engineering",
+   "path": "03_majors/devops_sre_platform_engineering",
+   "entry_requirements": [
+    "CS215",
+    "CS203"
+   ]
+  },
+  {
+   "code": "SEC",
+   "name": "Cybersecurity: Defense, Operations and Governance",
+   "path": "03_majors/cybersecurity_defense",
+   "entry_requirements": [
+    "CS213"
+   ]
+  },
+  {
+   "code": "OFF",
+   "name": "Ethical Hacking and Offensive Security (Authorized Testing)",
+   "path": "03_majors/ethical_hacking_offensive_security",
+   "entry_requirements": [
+    "CS213"
+   ]
+  },
+  {
+   "code": "SAR",
+   "name": "Security Architecture",
+   "path": "03_majors/security_architecture",
+   "entry_requirements": [
+    "CS213",
+    "CS212"
+   ]
+  },
+  {
+   "code": "DAN",
+   "name": "Data Analysis and Analytics",
+   "path": "03_majors/data_analysis",
+   "entry_requirements": [
+    "FND115",
+    "FND116"
+   ]
+  },
+  {
+   "code": "DSC",
+   "name": "Data Science",
+   "path": "03_majors/data_science",
+   "entry_requirements": [
+    "CS214",
+    "FND116"
+   ]
+  },
+  {
+   "code": "DEN",
+   "name": "Data Engineering",
+   "path": "03_majors/data_engineering",
+   "entry_requirements": [
+    "CS211",
+    "CS212"
+   ]
+  },
+  {
+   "code": "MLE",
+   "name": "Machine Learning Engineering",
+   "path": "03_majors/machine_learning_engineering",
+   "entry_requirements": [
+    "CS214",
+    "CS205"
+   ]
+  },
+  {
+   "code": "DLR",
+   "name": "Deep Learning",
+   "path": "03_majors/deep_learning",
+   "entry_requirements": [
+    "CS214",
+    "CS206"
+   ]
+  },
+  {
+   "code": "AIE",
+   "name": "AI Engineering: LLM Applications and Agents",
+   "path": "03_majors/ai_engineering",
+   "entry_requirements": [
+    "CS214",
+    "CS205"
+   ]
+  },
+  {
+   "code": "FDE",
+   "name": "Forward Deployed Engineering",
+   "path": "03_majors/forward_deployed_engineering",
+   "entry_requirements": [
+    "CS205",
+    "CS215"
+   ]
+  },
+  {
+   "code": "EMB",
+   "name": "Embedded Systems and IoT",
+   "path": "03_majors/embedded_systems_iot",
+   "entry_requirements": [
+    "CS202"
+   ]
+  },
+  {
+   "code": "QAE",
+   "name": "Software Quality and Test Engineering",
+   "path": "03_majors/software_quality_test_engineering",
+   "entry_requirements": [
+    "CS205"
+   ]
+  },
+  {
+   "code": "NET",
+   "name": "IT Infrastructure and Network Engineering",
+   "path": "03_majors/it_infrastructure_networking",
+   "entry_requirements": [
+    "CS204",
+    "CS203"
+   ]
+  }
+ ],
+ "overlaps": [
+  {
+   "code": "OV01",
+   "name": "Cloud Security",
+   "path": "04_overlaps/OV01_cloud_security",
+   "composed_of": [
+    "CLD301",
+    "SAR401",
+    "SEC303"
+   ]
+  },
+  {
+   "code": "OV02",
+   "name": "Cloud-Native Backend",
+   "path": "04_overlaps/OV02_cloud_native_backend",
+   "composed_of": [
+    "BE301",
+    "BE304",
+    "CLD303"
+   ]
+  },
+  {
+   "code": "OV03",
+   "name": "DevSecOps",
+   "path": "04_overlaps/OV03_devsecops",
+   "composed_of": [
+    "OPS301",
+    "SAR305",
+    "SEC302"
+   ]
+  },
+  {
+   "code": "OV04",
+   "name": "MLOps and ML Platform Engineering",
+   "path": "04_overlaps/OV04_mlops_ml_platform",
+   "composed_of": [
+    "MLE401",
+    "OPS401",
+    "CLD404"
+   ]
+  },
+  {
+   "code": "OV05",
+   "name": "AI Security and Safety Engineering",
+   "path": "04_overlaps/OV05_ai_security_safety",
+   "composed_of": [
+    "AIE305",
+    "OFF403",
+    "SAR403"
+   ]
+  },
+  {
+   "code": "OV06",
+   "name": "Data Platform and Analytics Engineering",
+   "path": "04_overlaps/OV06_data_platform_analytics_engineering",
+   "composed_of": [
+    "DEN305",
+    "DAN304",
+    "CLD305"
+   ]
+  },
+  {
+   "code": "OV07",
+   "name": "Privacy Engineering",
+   "path": "04_overlaps/OV07_privacy_engineering",
+   "composed_of": [
+    "DEN404",
+    "SEC305",
+    "PRO301"
+   ]
+  },
+  {
+   "code": "OV08",
+   "name": "Full-Stack AI Product Engineering",
+   "path": "04_overlaps/OV08_full_stack_ai_product_engineering",
+   "composed_of": [
+    "FE403",
+    "BE403",
+    "AIE404"
+   ]
+  },
+  {
+   "code": "OV09",
+   "name": "Edge AI and Secure IoT",
+   "path": "04_overlaps/OV09_edge_ai_secure_iot",
+   "composed_of": [
+    "EMB401",
+    "EMB402",
+    "MLE404"
+   ]
+  },
+  {
+   "code": "OV10",
+   "name": "FinTech Systems Engineering",
+   "path": "04_overlaps/OV10_fintech_systems_engineering",
+   "composed_of": [
+    "BE401",
+    "SEC305",
+    "DEN303"
+   ]
+  },
+  {
+   "code": "OV11",
+   "name": "AI for Science and Research Engineering",
+   "path": "04_overlaps/OV11_ai_for_science_research_engineering",
+   "composed_of": [
+    "DLR304",
+    "DSC301",
+    "MLE501"
+   ]
+  },
+  {
+   "code": "OV12",
+   "name": "Agent Infrastructure and Platform Engineering",
+   "path": "04_overlaps/OV12_agent_infrastructure_platform",
+   "composed_of": [
+    "AIE401",
+    "OPS403",
+    "BE501"
+   ]
+  }
+ ],
+ "courses": [
+  {
+   "code": "FND101",
+   "title": "Programming I: Computational Thinking with Python",
+   "year": 1,
+   "semester": 1,
+   "credits": 4,
+   "prerequisites": [],
+   "major": null,
+   "kind": "course",
+   "path": "01_year_1_foundations/semester_1/FND101_programming_i_computational_thinking_with_python",
+   "corequisites": []
+  },
+  {
+   "code": "FND102",
+   "title": "How Computers Work: Bits, Hardware and the Operating System",
+   "year": 1,
+   "semester": 1,
+   "credits": 4,
+   "prerequisites": [],
+   "major": null,
+   "kind": "course",
+   "path": "01_year_1_foundations/semester_1/FND102_how_computers_work_bits_hardware",
+   "corequisites": []
+  },
+  {
+   "code": "FND103",
+   "title": "Discrete Mathematics for Computing",
+   "year": 1,
+   "semester": 1,
+   "credits": 4,
+   "prerequisites": [],
+   "major": null,
+   "kind": "course",
+   "path": "01_year_1_foundations/semester_1/FND103_discrete_mathematics_for_computing",
+   "corequisites": []
+  },
+  {
+   "code": "FND104",
+   "title": "The Developer's Toolkit: Linux, Shell, Git and GitHub",
+   "year": 1,
+   "semester": 1,
+   "credits": 4,
+   "prerequisites": [],
+   "major": null,
+   "kind": "course",
+   "path": "01_year_1_foundations/semester_1/FND104_the_developers_toolkit_linux_shell_git",
+   "corequisites": []
+  },
+  {
+   "code": "FND105",
+   "title": "AI-Native Learning and Building",
+   "year": 1,
+   "semester": 1,
+   "credits": 4,
+   "prerequisites": [],
+   "major": null,
+   "kind": "course",
+   "path": "01_year_1_foundations/semester_1/FND105_ai_native_learning_and_building",
+   "corequisites": []
+  },
+  {
+   "code": "FND106",
+   "title": "Technical Communication and Professional Skills",
+   "year": 1,
+   "semester": 1,
+   "credits": 4,
+   "prerequisites": [],
+   "major": null,
+   "kind": "course",
+   "path": "01_year_1_foundations/semester_1/FND106_technical_communication_and_professional_skills",
+   "corequisites": []
+  },
+  {
+   "code": "FND111",
+   "title": "Programming II: Object-Oriented and Typed Programming (Java and TypeScript)",
+   "year": 1,
+   "semester": 2,
+   "credits": 4,
+   "prerequisites": [
+    "FND101"
+   ],
+   "major": null,
+   "kind": "course",
+   "path": "01_year_1_foundations/semester_2/FND111_programming_ii_object_oriented_and_typed",
+   "corequisites": []
+  },
+  {
+   "code": "FND112",
+   "title": "Data Structures and Algorithms I",
+   "year": 1,
+   "semester": 2,
+   "credits": 4,
+   "prerequisites": [
+    "FND101",
+    "FND103"
+   ],
+   "major": null,
+   "kind": "course",
+   "path": "01_year_1_foundations/semester_2/FND112_data_structures_and_algorithms_i",
+   "corequisites": []
+  },
+  {
+   "code": "FND113",
+   "title": "Linear Algebra and Calculus for Computing",
+   "year": 1,
+   "semester": 2,
+   "credits": 4,
+   "prerequisites": [
+    "FND103"
+   ],
+   "major": null,
+   "kind": "course",
+   "path": "01_year_1_foundations/semester_2/FND113_linear_algebra_and_calculus_for_computing",
+   "corequisites": []
+  },
+  {
+   "code": "FND114",
+   "title": "Web Foundations: HTTP, HTML, CSS and JavaScript",
+   "year": 1,
+   "semester": 2,
+   "credits": 4,
+   "prerequisites": [
+    "FND101",
+    "FND104"
+   ],
+   "major": null,
+   "kind": "course",
+   "path": "01_year_1_foundations/semester_2/FND114_web_foundations_http_html_css_and_javascript",
+   "corequisites": []
+  },
+  {
+   "code": "FND115",
+   "title": "Databases I: Data Modeling and SQL",
+   "year": 1,
+   "semester": 2,
+   "credits": 4,
+   "prerequisites": [
+    "FND101"
+   ],
+   "major": null,
+   "kind": "course",
+   "path": "01_year_1_foundations/semester_2/FND115_databases_i_data_modeling_and_sql",
+   "corequisites": []
+  },
+  {
+   "code": "FND116",
+   "title": "Probability and Statistics I",
+   "year": 1,
+   "semester": 2,
+   "credits": 4,
+   "prerequisites": [
+    "FND103"
+   ],
+   "major": null,
+   "kind": "course",
+   "path": "01_year_1_foundations/semester_2/FND116_probability_and_statistics_i",
+   "corequisites": []
+  },
+  {
+   "code": "CS201",
+   "title": "Algorithms and Complexity",
+   "year": 2,
+   "semester": 3,
+   "credits": 4,
+   "prerequisites": [
+    "FND112"
+   ],
+   "major": null,
+   "kind": "course",
+   "path": "02_year_2_core_computer_science/semester_3/CS201_algorithms_and_complexity",
+   "corequisites": []
+  },
+  {
+   "code": "CS202",
+   "title": "Computer Architecture and Systems Programming in C",
+   "year": 2,
+   "semester": 3,
+   "credits": 4,
+   "prerequisites": [
+    "FND102",
+    "FND111"
+   ],
+   "major": null,
+   "kind": "course",
+   "path": "02_year_2_core_computer_science/semester_3/CS202_computer_architecture_and_systems_programming",
+   "corequisites": []
+  },
+  {
+   "code": "CS203",
+   "title": "Operating Systems",
+   "year": 2,
+   "semester": 3,
+   "credits": 4,
+   "prerequisites": [
+    "FND102",
+    "FND111"
+   ],
+   "major": null,
+   "kind": "course",
+   "path": "02_year_2_core_computer_science/semester_3/CS203_operating_systems",
+   "corequisites": [
+    "CS202"
+   ]
+  },
+  {
+   "code": "CS204",
+   "title": "Computer Networks",
+   "year": 2,
+   "semester": 3,
+   "credits": 4,
+   "prerequisites": [
+    "FND102",
+    "FND104"
+   ],
+   "major": null,
+   "kind": "course",
+   "path": "02_year_2_core_computer_science/semester_3/CS204_computer_networks",
+   "corequisites": []
+  },
+  {
+   "code": "CS205",
+   "title": "Software Engineering I: Design, Testing and Collaboration",
+   "year": 2,
+   "semester": 3,
+   "credits": 4,
+   "prerequisites": [
+    "FND111",
+    "FND104"
+   ],
+   "major": null,
+   "kind": "course",
+   "path": "02_year_2_core_computer_science/semester_3/CS205_software_engineering_i_design_testing",
+   "corequisites": []
+  },
+  {
+   "code": "CS206",
+   "title": "Mathematics for Machine Learning",
+   "year": 2,
+   "semester": 3,
+   "credits": 4,
+   "prerequisites": [
+    "FND113",
+    "FND116"
+   ],
+   "major": null,
+   "kind": "course",
+   "path": "02_year_2_core_computer_science/semester_3/CS206_mathematics_for_machine_learning",
+   "corequisites": []
+  },
+  {
+   "code": "CS211",
+   "title": "Database Systems Internals",
+   "year": 2,
+   "semester": 4,
+   "credits": 4,
+   "prerequisites": [
+    "FND115",
+    "CS201"
+   ],
+   "major": null,
+   "kind": "course",
+   "path": "02_year_2_core_computer_science/semester_4/CS211_database_systems_internals",
+   "corequisites": []
+  },
+  {
+   "code": "CS212",
+   "title": "Distributed Systems I",
+   "year": 2,
+   "semester": 4,
+   "credits": 4,
+   "prerequisites": [
+    "CS203",
+    "CS204"
+   ],
+   "major": null,
+   "kind": "course",
+   "path": "02_year_2_core_computer_science/semester_4/CS212_distributed_systems_i",
+   "corequisites": []
+  },
+  {
+   "code": "CS213",
+   "title": "Security Foundations",
+   "year": 2,
+   "semester": 4,
+   "credits": 4,
+   "prerequisites": [
+    "CS203",
+    "CS204"
+   ],
+   "major": null,
+   "kind": "course",
+   "path": "02_year_2_core_computer_science/semester_4/CS213_security_foundations",
+   "corequisites": []
+  },
+  {
+   "code": "CS214",
+   "title": "Machine Learning Foundations",
+   "year": 2,
+   "semester": 4,
+   "credits": 4,
+   "prerequisites": [
+    "CS206",
+    "FND101"
+   ],
+   "major": null,
+   "kind": "course",
+   "path": "02_year_2_core_computer_science/semester_4/CS214_machine_learning_foundations",
+   "corequisites": []
+  },
+  {
+   "code": "CS215",
+   "title": "Cloud and DevOps Foundations",
+   "year": 2,
+   "semester": 4,
+   "credits": 4,
+   "prerequisites": [
+    "CS203",
+    "CS204",
+    "FND104"
+   ],
+   "major": null,
+   "kind": "course",
+   "path": "02_year_2_core_computer_science/semester_4/CS215_cloud_and_devops_foundations",
+   "corequisites": []
+  },
+  {
+   "code": "CS216",
+   "title": "Programming Languages, Compilers and Interpreters",
+   "year": 2,
+   "semester": 4,
+   "credits": 4,
+   "prerequisites": [
+    "CS201",
+    "FND111"
+   ],
+   "major": null,
+   "kind": "course",
+   "path": "02_year_2_core_computer_science/semester_4/CS216_programming_languages_compilers_and_interpreters",
+   "corequisites": []
+  },
+  {
+   "code": "PRO301",
+   "title": "Professional Practice: Ethics, Law and Responsible AI",
+   "year": 3,
+   "semester": 5,
+   "credits": 4,
+   "prerequisites": [
+    "CS213"
+   ],
+   "major": null,
+   "kind": "course",
+   "path": "05_shared_years_3_to_5/PRO301_professional_practice_ethics_law_and_responsible",
+   "corequisites": []
+  },
+  {
+   "code": "CAR301",
+   "title": "Career Lab I: DSA Mastery, Portfolio and Open Source",
+   "year": 3,
+   "semester": 6,
+   "credits": 4,
+   "prerequisites": [
+    "CS201"
+   ],
+   "major": null,
+   "kind": "course",
+   "path": "05_shared_years_3_to_5/CAR301_career_lab_i_dsa_mastery_portfolio_and_open",
+   "corequisites": []
+  },
+  {
+   "code": "IND401",
+   "title": "Industry Co-op Studio",
+   "year": 4,
+   "semester": 7,
+   "credits": 4,
+   "prerequisites": [
+    "CS205"
+   ],
+   "major": null,
+   "kind": "course",
+   "path": "05_shared_years_3_to_5/IND401_industry_co_op_studio",
+   "corequisites": []
+  },
+  {
+   "code": "CAR401",
+   "title": "Career Lab II: Interviews, System Design and AI-Driven Assessments",
+   "year": 4,
+   "semester": 8,
+   "credits": 4,
+   "prerequisites": [
+    "CAR301"
+   ],
+   "major": null,
+   "kind": "course",
+   "path": "05_shared_years_3_to_5/CAR401_career_lab_ii_interviews_system_design_and_ai",
+   "corequisites": []
+  },
+  {
+   "code": "RES501",
+   "title": "Research Methods and Scientific Writing",
+   "year": 5,
+   "semester": 9,
+   "credits": 4,
+   "prerequisites": [],
+   "major": null,
+   "kind": "course",
+   "path": "05_shared_years_3_to_5/RES501_research_methods_and_scientific_writing",
+   "corequisites": []
+  },
+  {
+   "code": "RES502",
+   "title": "Reading, Reproducing and Extending Papers",
+   "year": 5,
+   "semester": 9,
+   "credits": 4,
+   "prerequisites": [
+    "RES501"
+   ],
+   "major": null,
+   "kind": "course",
+   "path": "05_shared_years_3_to_5/RES502_reading_reproducing_and_extending_papers",
+   "corequisites": []
+  },
+  {
+   "code": "THS501",
+   "title": "Thesis or Capstone I",
+   "year": 5,
+   "semester": 9,
+   "credits": 4,
+   "prerequisites": [
+    "RES501"
+   ],
+   "major": null,
+   "kind": "course",
+   "path": "05_shared_years_3_to_5/THS501_thesis_or_capstone_i",
+   "corequisites": []
+  },
+  {
+   "code": "THS502",
+   "title": "Thesis or Capstone II",
+   "year": 5,
+   "semester": 10,
+   "credits": 4,
+   "prerequisites": [
+    "THS501"
+   ],
+   "major": null,
+   "kind": "course",
+   "path": "05_shared_years_3_to_5/THS502_thesis_or_capstone_ii",
+   "corequisites": []
+  },
+  {
+   "code": "LCH502",
+   "title": "Career Launch and Founder Studio",
+   "year": 5,
+   "semester": 10,
+   "credits": 4,
+   "prerequisites": [
+    "CAR401"
+   ],
+   "major": null,
+   "kind": "course",
+   "path": "05_shared_years_3_to_5/LCH502_career_launch_and_founder_studio",
+   "corequisites": []
+  },
+  {
+   "code": "CSG301",
+   "title": "Advanced Algorithms",
+   "year": 3,
+   "semester": 5,
+   "credits": 4,
+   "prerequisites": [
+    "CS201",
+    "CS212",
+    "CS216"
+   ],
+   "major": "CSG",
+   "kind": "course",
+   "path": "03_majors/computer_science_general/year_3/CSG301_advanced_algorithms",
+   "corequisites": []
+  },
+  {
+   "code": "CSG302",
+   "title": "Compiler Construction",
+   "year": 3,
+   "semester": 5,
+   "credits": 4,
+   "prerequisites": [
+    "CS201",
+    "CS212",
+    "CS216"
+   ],
+   "major": "CSG",
+   "kind": "course",
+   "path": "03_majors/computer_science_general/year_3/CSG302_compiler_construction",
+   "corequisites": []
+  },
+  {
+   "code": "CSG303",
+   "title": "Distributed Systems II: Consensus, Replication and Scale",
+   "year": 3,
+   "semester": 5,
+   "credits": 4,
+   "prerequisites": [
+    "CS201",
+    "CS212",
+    "CS216"
+   ],
+   "major": "CSG",
+   "kind": "course",
+   "path": "03_majors/computer_science_general/year_3/CSG303_distributed_systems_ii_consensus_replication",
+   "corequisites": []
+  },
+  {
+   "code": "CSG304",
+   "title": "Computer Graphics",
+   "year": 3,
+   "semester": 6,
+   "credits": 4,
+   "prerequisites": [
+    "CS201",
+    "CS212",
+    "CS216"
+   ],
+   "major": "CSG",
+   "kind": "course",
+   "path": "03_majors/computer_science_general/year_3/CSG304_computer_graphics",
+   "corequisites": []
+  },
+  {
+   "code": "CSG305",
+   "title": "Human-Computer Interaction",
+   "year": 3,
+   "semester": 6,
+   "credits": 4,
+   "prerequisites": [
+    "CS201",
+    "CS212",
+    "CS216"
+   ],
+   "major": "CSG",
+   "kind": "course",
+   "path": "03_majors/computer_science_general/year_3/CSG305_human_computer_interaction",
+   "corequisites": []
+  },
+  {
+   "code": "CSG401",
+   "title": "Formal Methods and Program Verification",
+   "year": 4,
+   "semester": 7,
+   "credits": 4,
+   "prerequisites": [
+    "CSG301"
+   ],
+   "major": "CSG",
+   "kind": "course",
+   "path": "03_majors/computer_science_general/year_4/CSG401_formal_methods_and_program_verification",
+   "corequisites": []
+  },
+  {
+   "code": "CSG402",
+   "title": "Complexity Theory and Theoretical Cryptography",
+   "year": 4,
+   "semester": 7,
+   "credits": 4,
+   "prerequisites": [
+    "CSG302"
+   ],
+   "major": "CSG",
+   "kind": "course",
+   "path": "03_majors/computer_science_general/year_4/CSG402_complexity_theory_and_theoretical_cryptography",
+   "corequisites": []
+  },
+  {
+   "code": "CSG403",
+   "title": "Quantum Computing for Computer Scientists",
+   "year": 4,
+   "semester": 8,
+   "credits": 4,
+   "prerequisites": [
+    "CSG303"
+   ],
+   "major": "CSG",
+   "kind": "course",
+   "path": "03_majors/computer_science_general/year_4/CSG403_quantum_computing_for_computer_scientists",
+   "corequisites": []
+  },
+  {
+   "code": "CSG404",
+   "title": "Programming Language Theory and Type Systems",
+   "year": 4,
+   "semester": 8,
+   "credits": 4,
+   "prerequisites": [
+    "CSG304"
+   ],
+   "major": "CSG",
+   "kind": "course",
+   "path": "03_majors/computer_science_general/year_4/CSG404_programming_language_theory_and_type_systems",
+   "corequisites": []
+  },
+  {
+   "code": "CSG501",
+   "title": "Frontier Seminar: AI for Mathematics, Science and Theory",
+   "year": 5,
+   "semester": 9,
+   "credits": 4,
+   "prerequisites": [
+    "CSG401",
+    "CSG403"
+   ],
+   "major": "CSG",
+   "kind": "course",
+   "path": "03_majors/computer_science_general/year_5/CSG501_frontier_seminar_ai_for_mathematics_science",
+   "corequisites": []
+  },
+  {
+   "code": "SWE301",
+   "title": "Software Architecture and Design Patterns",
+   "year": 3,
+   "semester": 5,
+   "credits": 4,
+   "prerequisites": [
+    "CS205",
+    "CS201"
+   ],
+   "major": "SWE",
+   "kind": "course",
+   "path": "03_majors/software_engineering/year_3/SWE301_software_architecture_and_design_patterns",
+   "corequisites": []
+  },
+  {
+   "code": "SWE302",
+   "title": "Low-Level Design and Clean Code at Scale",
+   "year": 3,
+   "semester": 5,
+   "credits": 4,
+   "prerequisites": [
+    "CS205",
+    "CS201"
+   ],
+   "major": "SWE",
+   "kind": "course",
+   "path": "03_majors/software_engineering/year_3/SWE302_low_level_design_and_clean_code_at_scale",
+   "corequisites": []
+  },
+  {
+   "code": "SWE303",
+   "title": "Programming Languages in Practice: Go, Rust and the JVM",
+   "year": 3,
+   "semester": 5,
+   "credits": 4,
+   "prerequisites": [
+    "CS205",
+    "CS201"
+   ],
+   "major": "SWE",
+   "kind": "course",
+   "path": "03_majors/software_engineering/year_3/SWE303_programming_languages_in_practice_go_rust",
+   "corequisites": []
+  },
+  {
+   "code": "SWE304",
+   "title": "AI-Assisted Software Engineering: Agents in the SDLC",
+   "year": 3,
+   "semester": 6,
+   "credits": 4,
+   "prerequisites": [
+    "CS205",
+    "CS201"
+   ],
+   "major": "SWE",
+   "kind": "course",
+   "path": "03_majors/software_engineering/year_3/SWE304_ai_assisted_software_engineering_agents",
+   "corequisites": []
+  },
+  {
+   "code": "SWE305",
+   "title": "Concurrency and Performance Engineering",
+   "year": 3,
+   "semester": 6,
+   "credits": 4,
+   "prerequisites": [
+    "CS205",
+    "CS201"
+   ],
+   "major": "SWE",
+   "kind": "course",
+   "path": "03_majors/software_engineering/year_3/SWE305_concurrency_and_performance_engineering",
+   "corequisites": []
+  },
+  {
+   "code": "SWE401",
+   "title": "Large-Scale System Design",
+   "year": 4,
+   "semester": 7,
+   "credits": 4,
+   "prerequisites": [
+    "SWE301"
+   ],
+   "major": "SWE",
+   "kind": "course",
+   "path": "03_majors/software_engineering/year_4/SWE401_large_scale_system_design",
+   "corequisites": []
+  },
+  {
+   "code": "SWE402",
+   "title": "Legacy Modernization and Refactoring with AI",
+   "year": 4,
+   "semester": 7,
+   "credits": 4,
+   "prerequisites": [
+    "SWE302"
+   ],
+   "major": "SWE",
+   "kind": "course",
+   "path": "03_majors/software_engineering/year_4/SWE402_legacy_modernization_and_refactoring_with_ai",
+   "corequisites": []
+  },
+  {
+   "code": "SWE403",
+   "title": "Reliability, Observability and Incident Engineering for Developers",
+   "year": 4,
+   "semester": 8,
+   "credits": 4,
+   "prerequisites": [
+    "SWE303"
+   ],
+   "major": "SWE",
+   "kind": "course",
+   "path": "03_majors/software_engineering/year_4/SWE403_reliability_observability_and_incident",
+   "corequisites": []
+  },
+  {
+   "code": "SWE404",
+   "title": "Engineering Leadership and Technical Strategy",
+   "year": 4,
+   "semester": 8,
+   "credits": 4,
+   "prerequisites": [
+    "SWE304"
+   ],
+   "major": "SWE",
+   "kind": "course",
+   "path": "03_majors/software_engineering/year_4/SWE404_engineering_leadership_and_technical_strategy",
+   "corequisites": []
+  },
+  {
+   "code": "SWE501",
+   "title": "Frontier Seminar: Agentic Software Engineering and Program Synthesis",
+   "year": 5,
+   "semester": 9,
+   "credits": 4,
+   "prerequisites": [
+    "SWE401",
+    "SWE403"
+   ],
+   "major": "SWE",
+   "kind": "course",
+   "path": "03_majors/software_engineering/year_5/SWE501_frontier_seminar_agentic_software_engineering",
+   "corequisites": []
+  },
+  {
+   "code": "BE301",
+   "title": "API Design: REST, gRPC and GraphQL",
+   "year": 3,
+   "semester": 5,
+   "credits": 4,
+   "prerequisites": [
+    "CS211",
+    "CS212"
+   ],
+   "major": "BE",
+   "kind": "course",
+   "path": "03_majors/backend_engineering/year_3/BE301_api_design_rest_grpc_and_graphql",
+   "corequisites": []
+  },
+  {
+   "code": "BE302",
+   "title": "Backend Frameworks and Service Internals",
+   "year": 3,
+   "semester": 5,
+   "credits": 4,
+   "prerequisites": [
+    "CS211",
+    "CS212"
+   ],
+   "major": "BE",
+   "kind": "course",
+   "path": "03_majors/backend_engineering/year_3/BE302_backend_frameworks_and_service_internals",
+   "corequisites": []
+  },
+  {
+   "code": "BE303",
+   "title": "Data Modeling and Storage for Backends: Postgres, Redis and NoSQL",
+   "year": 3,
+   "semester": 5,
+   "credits": 4,
+   "prerequisites": [
+    "CS211",
+    "CS212"
+   ],
+   "major": "BE",
+   "kind": "course",
+   "path": "03_majors/backend_engineering/year_3/BE303_data_modeling_and_storage_for_backends_postgres",
+   "corequisites": []
+  },
+  {
+   "code": "BE304",
+   "title": "Asynchronous Systems: Queues, Streams and Event-Driven Architecture",
+   "year": 3,
+   "semester": 6,
+   "credits": 4,
+   "prerequisites": [
+    "CS211",
+    "CS212"
+   ],
+   "major": "BE",
+   "kind": "course",
+   "path": "03_majors/backend_engineering/year_3/BE304_asynchronous_systems_queues_streams_and_event",
+   "corequisites": []
+  },
+  {
+   "code": "BE305",
+   "title": "Authentication, Authorization and Backend Security",
+   "year": 3,
+   "semester": 6,
+   "credits": 4,
+   "prerequisites": [
+    "CS211",
+    "CS212"
+   ],
+   "major": "BE",
+   "kind": "course",
+   "path": "03_majors/backend_engineering/year_3/BE305_authentication_authorization_and_backend",
+   "corequisites": []
+  },
+  {
+   "code": "BE401",
+   "title": "Payments-Grade Systems: Transactions, Idempotency and Reconciliation",
+   "year": 4,
+   "semester": 7,
+   "credits": 4,
+   "prerequisites": [
+    "BE301"
+   ],
+   "major": "BE",
+   "kind": "course",
+   "path": "03_majors/backend_engineering/year_4/BE401_payments_grade_systems_transactions_idempotency",
+   "corequisites": []
+  },
+  {
+   "code": "BE402",
+   "title": "Scalability and Performance: Caching, Sharding and Load",
+   "year": 4,
+   "semester": 7,
+   "credits": 4,
+   "prerequisites": [
+    "BE302"
+   ],
+   "major": "BE",
+   "kind": "course",
+   "path": "03_majors/backend_engineering/year_4/BE402_scalability_and_performance_caching_sharding",
+   "corequisites": []
+  },
+  {
+   "code": "BE403",
+   "title": "Backends for AI: Serving LLM Features, Vector Search and Cost Control",
+   "year": 4,
+   "semester": 8,
+   "credits": 4,
+   "prerequisites": [
+    "BE303"
+   ],
+   "major": "BE",
+   "kind": "course",
+   "path": "03_majors/backend_engineering/year_4/BE403_backends_for_ai_serving_llm_features_vector",
+   "corequisites": []
+  },
+  {
+   "code": "BE404",
+   "title": "Microservices, Service Mesh and Platform APIs",
+   "year": 4,
+   "semester": 8,
+   "credits": 4,
+   "prerequisites": [
+    "BE304"
+   ],
+   "major": "BE",
+   "kind": "course",
+   "path": "03_majors/backend_engineering/year_4/BE404_microservices_service_mesh_and_platform_apis",
+   "corequisites": []
+  },
+  {
+   "code": "BE501",
+   "title": "Frontier Seminar: Durable Execution, Serverless and Edge Backends",
+   "year": 5,
+   "semester": 9,
+   "credits": 4,
+   "prerequisites": [
+    "BE401",
+    "BE403"
+   ],
+   "major": "BE",
+   "kind": "course",
+   "path": "03_majors/backend_engineering/year_5/BE501_frontier_seminar_durable_execution_serverless",
+   "corequisites": []
+  },
+  {
+   "code": "FE301",
+   "title": "Modern JavaScript and TypeScript in Depth",
+   "year": 3,
+   "semester": 5,
+   "credits": 4,
+   "prerequisites": [
+    "FND114",
+    "CS205"
+   ],
+   "major": "FE",
+   "kind": "course",
+   "path": "03_majors/frontend_engineering/year_3/FE301_modern_javascript_and_typescript_in_depth",
+   "corequisites": []
+  },
+  {
+   "code": "FE302",
+   "title": "React and Component Architecture",
+   "year": 3,
+   "semester": 5,
+   "credits": 4,
+   "prerequisites": [
+    "FND114",
+    "CS205"
+   ],
+   "major": "FE",
+   "kind": "course",
+   "path": "03_majors/frontend_engineering/year_3/FE302_react_and_component_architecture",
+   "corequisites": []
+  },
+  {
+   "code": "FE303",
+   "title": "CSS, Design Systems and Accessibility",
+   "year": 3,
+   "semester": 5,
+   "credits": 4,
+   "prerequisites": [
+    "FND114",
+    "CS205"
+   ],
+   "major": "FE",
+   "kind": "course",
+   "path": "03_majors/frontend_engineering/year_3/FE303_css_design_systems_and_accessibility",
+   "corequisites": []
+  },
+  {
+   "code": "FE304",
+   "title": "Browser Internals and Web Performance",
+   "year": 3,
+   "semester": 6,
+   "credits": 4,
+   "prerequisites": [
+    "FND114",
+    "CS205"
+   ],
+   "major": "FE",
+   "kind": "course",
+   "path": "03_majors/frontend_engineering/year_3/FE304_browser_internals_and_web_performance",
+   "corequisites": []
+  },
+  {
+   "code": "FE305",
+   "title": "Frontend Testing and Tooling",
+   "year": 3,
+   "semester": 6,
+   "credits": 4,
+   "prerequisites": [
+    "FND114",
+    "CS205"
+   ],
+   "major": "FE",
+   "kind": "course",
+   "path": "03_majors/frontend_engineering/year_3/FE305_frontend_testing_and_tooling",
+   "corequisites": []
+  },
+  {
+   "code": "FE401",
+   "title": "Full-Stack Frameworks: Rendering, Data Fetching and State",
+   "year": 4,
+   "semester": 7,
+   "credits": 4,
+   "prerequisites": [
+    "FE301"
+   ],
+   "major": "FE",
+   "kind": "course",
+   "path": "03_majors/frontend_engineering/year_4/FE401_full_stack_frameworks_rendering_data_fetching",
+   "corequisites": []
+  },
+  {
+   "code": "FE402",
+   "title": "Advanced UI: Animation, Graphics, WebGL and WebGPU",
+   "year": 4,
+   "semester": 7,
+   "credits": 4,
+   "prerequisites": [
+    "FE302"
+   ],
+   "major": "FE",
+   "kind": "course",
+   "path": "03_majors/frontend_engineering/year_4/FE402_advanced_ui_animation_graphics_webgl_and_webgpu",
+   "corequisites": []
+  },
+  {
+   "code": "FE403",
+   "title": "AI-Native Interfaces: Streaming, Generative UI and Agent UX",
+   "year": 4,
+   "semester": 8,
+   "credits": 4,
+   "prerequisites": [
+    "FE303"
+   ],
+   "major": "FE",
+   "kind": "course",
+   "path": "03_majors/frontend_engineering/year_4/FE403_ai_native_interfaces_streaming_generative_ui",
+   "corequisites": []
+  },
+  {
+   "code": "FE404",
+   "title": "Frontend System Design at Scale",
+   "year": 4,
+   "semester": 8,
+   "credits": 4,
+   "prerequisites": [
+    "FE304"
+   ],
+   "major": "FE",
+   "kind": "course",
+   "path": "03_majors/frontend_engineering/year_4/FE404_frontend_system_design_at_scale",
+   "corequisites": []
+  },
+  {
+   "code": "FE501",
+   "title": "Frontier Seminar: Multimodal, Spatial and On-Device AI Interfaces",
+   "year": 5,
+   "semester": 9,
+   "credits": 4,
+   "prerequisites": [
+    "FE401",
+    "FE403"
+   ],
+   "major": "FE",
+   "kind": "course",
+   "path": "03_majors/frontend_engineering/year_5/FE501_frontier_seminar_multimodal_spatial_and_on",
+   "corequisites": []
+  },
+  {
+   "code": "MOB301",
+   "title": "Android with Kotlin and Jetpack Compose",
+   "year": 3,
+   "semester": 5,
+   "credits": 4,
+   "prerequisites": [
+    "FND111",
+    "CS205"
+   ],
+   "major": "MOB",
+   "kind": "course",
+   "path": "03_majors/mobile_engineering/year_3/MOB301_android_with_kotlin_and_jetpack_compose",
+   "corequisites": []
+  },
+  {
+   "code": "MOB302",
+   "title": "iOS with Swift and SwiftUI",
+   "year": 3,
+   "semester": 5,
+   "credits": 4,
+   "prerequisites": [
+    "FND111",
+    "CS205"
+   ],
+   "major": "MOB",
+   "kind": "course",
+   "path": "03_majors/mobile_engineering/year_3/MOB302_ios_with_swift_and_swiftui",
+   "corequisites": []
+  },
+  {
+   "code": "MOB303",
+   "title": "Cross-Platform Apps: Flutter and React Native",
+   "year": 3,
+   "semester": 5,
+   "credits": 4,
+   "prerequisites": [
+    "FND111",
+    "CS205"
+   ],
+   "major": "MOB",
+   "kind": "course",
+   "path": "03_majors/mobile_engineering/year_3/MOB303_cross_platform_apps_flutter_and_react_native",
+   "corequisites": []
+  },
+  {
+   "code": "MOB304",
+   "title": "Mobile Architecture, Offline-First and Sync",
+   "year": 3,
+   "semester": 6,
+   "credits": 4,
+   "prerequisites": [
+    "FND111",
+    "CS205"
+   ],
+   "major": "MOB",
+   "kind": "course",
+   "path": "03_majors/mobile_engineering/year_3/MOB304_mobile_architecture_offline_first_and_sync",
+   "corequisites": []
+  },
+  {
+   "code": "MOB305",
+   "title": "Mobile Integrations: Payments, Maps, Notifications and Identity",
+   "year": 3,
+   "semester": 6,
+   "credits": 4,
+   "prerequisites": [
+    "FND111",
+    "CS205"
+   ],
+   "major": "MOB",
+   "kind": "course",
+   "path": "03_majors/mobile_engineering/year_3/MOB305_mobile_integrations_payments_maps_notifications",
+   "corequisites": []
+  },
+  {
+   "code": "MOB401",
+   "title": "Mobile Performance, Security and Release Engineering",
+   "year": 4,
+   "semester": 7,
+   "credits": 4,
+   "prerequisites": [
+    "MOB301"
+   ],
+   "major": "MOB",
+   "kind": "course",
+   "path": "03_majors/mobile_engineering/year_4/MOB401_mobile_performance_security_and_release",
+   "corequisites": []
+  },
+  {
+   "code": "MOB402",
+   "title": "On-Device AI for Mobile",
+   "year": 4,
+   "semester": 7,
+   "credits": 4,
+   "prerequisites": [
+    "MOB302"
+   ],
+   "major": "MOB",
+   "kind": "course",
+   "path": "03_majors/mobile_engineering/year_4/MOB402_on_device_ai_for_mobile",
+   "corequisites": []
+  },
+  {
+   "code": "MOB403",
+   "title": "Mobile System Design",
+   "year": 4,
+   "semester": 8,
+   "credits": 4,
+   "prerequisites": [
+    "MOB303"
+   ],
+   "major": "MOB",
+   "kind": "course",
+   "path": "03_majors/mobile_engineering/year_4/MOB403_mobile_system_design",
+   "corequisites": []
+  },
+  {
+   "code": "MOB404",
+   "title": "Mobile Analytics, Experimentation and Growth Engineering",
+   "year": 4,
+   "semester": 8,
+   "credits": 4,
+   "prerequisites": [
+    "MOB304"
+   ],
+   "major": "MOB",
+   "kind": "course",
+   "path": "03_majors/mobile_engineering/year_4/MOB404_mobile_analytics_experimentation_and_growth",
+   "corequisites": []
+  },
+  {
+   "code": "MOB501",
+   "title": "Frontier Seminar: Wearables, AR and Ambient Computing",
+   "year": 5,
+   "semester": 9,
+   "credits": 4,
+   "prerequisites": [
+    "MOB401",
+    "MOB403"
+   ],
+   "major": "MOB",
+   "kind": "course",
+   "path": "03_majors/mobile_engineering/year_5/MOB501_frontier_seminar_wearables_ar_and_ambient",
+   "corequisites": []
+  },
+  {
+   "code": "CLD301",
+   "title": "Cloud Architecture on AWS, Azure and Google Cloud",
+   "year": 3,
+   "semester": 5,
+   "credits": 4,
+   "prerequisites": [
+    "CS215",
+    "CS212"
+   ],
+   "major": "CLD",
+   "kind": "course",
+   "path": "03_majors/cloud_engineering/year_3/CLD301_cloud_architecture_on_aws_azure_and_google_cloud",
+   "corequisites": []
+  },
+  {
+   "code": "CLD302",
+   "title": "Infrastructure as Code: Terraform, OpenTofu and Pulumi",
+   "year": 3,
+   "semester": 5,
+   "credits": 4,
+   "prerequisites": [
+    "CS215",
+    "CS212"
+   ],
+   "major": "CLD",
+   "kind": "course",
+   "path": "03_majors/cloud_engineering/year_3/CLD302_infrastructure_as_code_terraform_opentofu",
+   "corequisites": []
+  },
+  {
+   "code": "CLD303",
+   "title": "Containers and Kubernetes",
+   "year": 3,
+   "semester": 5,
+   "credits": 4,
+   "prerequisites": [
+    "CS215",
+    "CS212"
+   ],
+   "major": "CLD",
+   "kind": "course",
+   "path": "03_majors/cloud_engineering/year_3/CLD303_containers_and_kubernetes",
+   "corequisites": []
+  },
+  {
+   "code": "CLD304",
+   "title": "Cloud Networking: VPCs, DNS, Load Balancing and CDNs",
+   "year": 3,
+   "semester": 6,
+   "credits": 4,
+   "prerequisites": [
+    "CS215",
+    "CS212"
+   ],
+   "major": "CLD",
+   "kind": "course",
+   "path": "03_majors/cloud_engineering/year_3/CLD304_cloud_networking_vpcs_dns_load_balancing",
+   "corequisites": []
+  },
+  {
+   "code": "CLD305",
+   "title": "Cloud Storage and Managed Databases",
+   "year": 3,
+   "semester": 6,
+   "credits": 4,
+   "prerequisites": [
+    "CS215",
+    "CS212"
+   ],
+   "major": "CLD",
+   "kind": "course",
+   "path": "03_majors/cloud_engineering/year_3/CLD305_cloud_storage_and_managed_databases",
+   "corequisites": []
+  },
+  {
+   "code": "CLD401",
+   "title": "Serverless and Event-Driven Cloud",
+   "year": 4,
+   "semester": 7,
+   "credits": 4,
+   "prerequisites": [
+    "CLD301"
+   ],
+   "major": "CLD",
+   "kind": "course",
+   "path": "03_majors/cloud_engineering/year_4/CLD401_serverless_and_event_driven_cloud",
+   "corequisites": []
+  },
+  {
+   "code": "CLD402",
+   "title": "Multi-Cloud, Hybrid Cloud and Migration",
+   "year": 4,
+   "semester": 7,
+   "credits": 4,
+   "prerequisites": [
+    "CLD302"
+   ],
+   "major": "CLD",
+   "kind": "course",
+   "path": "03_majors/cloud_engineering/year_4/CLD402_multi_cloud_hybrid_cloud_and_migration",
+   "corequisites": []
+  },
+  {
+   "code": "CLD403",
+   "title": "FinOps and Cloud Cost Engineering",
+   "year": 4,
+   "semester": 8,
+   "credits": 4,
+   "prerequisites": [
+    "CLD303"
+   ],
+   "major": "CLD",
+   "kind": "course",
+   "path": "03_majors/cloud_engineering/year_4/CLD403_finops_and_cloud_cost_engineering",
+   "corequisites": []
+  },
+  {
+   "code": "CLD404",
+   "title": "AI Infrastructure in the Cloud: GPUs, Inference and Managed AI",
+   "year": 4,
+   "semester": 8,
+   "credits": 4,
+   "prerequisites": [
+    "CLD304"
+   ],
+   "major": "CLD",
+   "kind": "course",
+   "path": "03_majors/cloud_engineering/year_4/CLD404_ai_infrastructure_in_the_cloud_gpus_inference",
+   "corequisites": []
+  },
+  {
+   "code": "CLD501",
+   "title": "Frontier Seminar: Sovereign Cloud, Confidential Computing and Planet-Scale Infrastructure",
+   "year": 5,
+   "semester": 9,
+   "credits": 4,
+   "prerequisites": [
+    "CLD401",
+    "CLD403"
+   ],
+   "major": "CLD",
+   "kind": "course",
+   "path": "03_majors/cloud_engineering/year_5/CLD501_frontier_seminar_sovereign_cloud_confidential",
+   "corequisites": []
+  },
+  {
+   "code": "OPS301",
+   "title": "CI/CD Engineering",
+   "year": 3,
+   "semester": 5,
+   "credits": 4,
+   "prerequisites": [
+    "CS215",
+    "CS203"
+   ],
+   "major": "OPS",
+   "kind": "course",
+   "path": "03_majors/devops_sre_platform_engineering/year_3/OPS301_ci_cd_engineering",
+   "corequisites": []
+  },
+  {
+   "code": "OPS302",
+   "title": "Linux Systems Administration in Depth",
+   "year": 3,
+   "semester": 5,
+   "credits": 4,
+   "prerequisites": [
+    "CS215",
+    "CS203"
+   ],
+   "major": "OPS",
+   "kind": "course",
+   "path": "03_majors/devops_sre_platform_engineering/year_3/OPS302_linux_systems_administration_in_depth",
+   "corequisites": []
+  },
+  {
+   "code": "OPS303",
+   "title": "Observability: Metrics, Logs, Traces and OpenTelemetry",
+   "year": 3,
+   "semester": 5,
+   "credits": 4,
+   "prerequisites": [
+    "CS215",
+    "CS203"
+   ],
+   "major": "OPS",
+   "kind": "course",
+   "path": "03_majors/devops_sre_platform_engineering/year_3/OPS303_observability_metrics_logs_traces",
+   "corequisites": []
+  },
+  {
+   "code": "OPS304",
+   "title": "Site Reliability Engineering: SLOs, Error Budgets and Incident Response",
+   "year": 3,
+   "semester": 6,
+   "credits": 4,
+   "prerequisites": [
+    "CS215",
+    "CS203"
+   ],
+   "major": "OPS",
+   "kind": "course",
+   "path": "03_majors/devops_sre_platform_engineering/year_3/OPS304_site_reliability_engineering_slos_error_budgets",
+   "corequisites": []
+  },
+  {
+   "code": "OPS305",
+   "title": "Configuration Management and GitOps",
+   "year": 3,
+   "semester": 6,
+   "credits": 4,
+   "prerequisites": [
+    "CS215",
+    "CS203"
+   ],
+   "major": "OPS",
+   "kind": "course",
+   "path": "03_majors/devops_sre_platform_engineering/year_3/OPS305_configuration_management_and_gitops",
+   "corequisites": []
+  },
+  {
+   "code": "OPS401",
+   "title": "Platform Engineering and Internal Developer Platforms",
+   "year": 4,
+   "semester": 7,
+   "credits": 4,
+   "prerequisites": [
+    "OPS301"
+   ],
+   "major": "OPS",
+   "kind": "course",
+   "path": "03_majors/devops_sre_platform_engineering/year_4/OPS401_platform_engineering_and_internal_developer",
+   "corequisites": []
+  },
+  {
+   "code": "OPS402",
+   "title": "Chaos Engineering and Resilience",
+   "year": 4,
+   "semester": 7,
+   "credits": 4,
+   "prerequisites": [
+    "OPS302"
+   ],
+   "major": "OPS",
+   "kind": "course",
+   "path": "03_majors/devops_sre_platform_engineering/year_4/OPS402_chaos_engineering_and_resilience",
+   "corequisites": []
+  },
+  {
+   "code": "OPS403",
+   "title": "AIOps and Agentic Operations",
+   "year": 4,
+   "semester": 8,
+   "credits": 4,
+   "prerequisites": [
+    "OPS303"
+   ],
+   "major": "OPS",
+   "kind": "course",
+   "path": "03_majors/devops_sre_platform_engineering/year_4/OPS403_aiops_and_agentic_operations",
+   "corequisites": []
+  },
+  {
+   "code": "OPS404",
+   "title": "Performance and Capacity Engineering",
+   "year": 4,
+   "semester": 8,
+   "credits": 4,
+   "prerequisites": [
+    "OPS304"
+   ],
+   "major": "OPS",
+   "kind": "course",
+   "path": "03_majors/devops_sre_platform_engineering/year_4/OPS404_performance_and_capacity_engineering",
+   "corequisites": []
+  },
+  {
+   "code": "OPS501",
+   "title": "Frontier Seminar: Autonomous Infrastructure and Self-Healing Systems",
+   "year": 5,
+   "semester": 9,
+   "credits": 4,
+   "prerequisites": [
+    "OPS401",
+    "OPS403"
+   ],
+   "major": "OPS",
+   "kind": "course",
+   "path": "03_majors/devops_sre_platform_engineering/year_5/OPS501_frontier_seminar_autonomous_infrastructure",
+   "corequisites": []
+  },
+  {
+   "code": "SEC301",
+   "title": "Network Security and Defense",
+   "year": 3,
+   "semester": 5,
+   "credits": 4,
+   "prerequisites": [
+    "CS213"
+   ],
+   "major": "SEC",
+   "kind": "course",
+   "path": "03_majors/cybersecurity_defense/year_3/SEC301_network_security_and_defense",
+   "corequisites": []
+  },
+  {
+   "code": "SEC302",
+   "title": "Security Operations: SOC, SIEM and Monitoring",
+   "year": 3,
+   "semester": 5,
+   "credits": 4,
+   "prerequisites": [
+    "CS213"
+   ],
+   "major": "SEC",
+   "kind": "course",
+   "path": "03_majors/cybersecurity_defense/year_3/SEC302_security_operations_soc_siem_and_monitoring",
+   "corequisites": []
+  },
+  {
+   "code": "SEC303",
+   "title": "Identity and Access Management",
+   "year": 3,
+   "semester": 5,
+   "credits": 4,
+   "prerequisites": [
+    "CS213"
+   ],
+   "major": "SEC",
+   "kind": "course",
+   "path": "03_majors/cybersecurity_defense/year_3/SEC303_identity_and_access_management",
+   "corequisites": []
+  },
+  {
+   "code": "SEC304",
+   "title": "Endpoint and Operating System Security",
+   "year": 3,
+   "semester": 6,
+   "credits": 4,
+   "prerequisites": [
+    "CS213"
+   ],
+   "major": "SEC",
+   "kind": "course",
+   "path": "03_majors/cybersecurity_defense/year_3/SEC304_endpoint_and_operating_system_security",
+   "corequisites": []
+  },
+  {
+   "code": "SEC305",
+   "title": "Governance, Risk and Compliance",
+   "year": 3,
+   "semester": 6,
+   "credits": 4,
+   "prerequisites": [
+    "CS213"
+   ],
+   "major": "SEC",
+   "kind": "course",
+   "path": "03_majors/cybersecurity_defense/year_3/SEC305_governance_risk_and_compliance",
+   "corequisites": []
+  },
+  {
+   "code": "SEC401",
+   "title": "Detection Engineering and Threat Hunting",
+   "year": 4,
+   "semester": 7,
+   "credits": 4,
+   "prerequisites": [
+    "SEC301"
+   ],
+   "major": "SEC",
+   "kind": "course",
+   "path": "03_majors/cybersecurity_defense/year_4/SEC401_detection_engineering_and_threat_hunting",
+   "corequisites": []
+  },
+  {
+   "code": "SEC402",
+   "title": "Digital Forensics and Incident Response",
+   "year": 4,
+   "semester": 7,
+   "credits": 4,
+   "prerequisites": [
+    "SEC302"
+   ],
+   "major": "SEC",
+   "kind": "course",
+   "path": "03_majors/cybersecurity_defense/year_4/SEC402_digital_forensics_and_incident_response",
+   "corequisites": []
+  },
+  {
+   "code": "SEC403",
+   "title": "Malware Analysis for Defenders",
+   "year": 4,
+   "semester": 8,
+   "credits": 4,
+   "prerequisites": [
+    "SEC303"
+   ],
+   "major": "SEC",
+   "kind": "course",
+   "path": "03_majors/cybersecurity_defense/year_4/SEC403_malware_analysis_for_defenders",
+   "corequisites": []
+  },
+  {
+   "code": "SEC404",
+   "title": "AI in Security Operations",
+   "year": 4,
+   "semester": 8,
+   "credits": 4,
+   "prerequisites": [
+    "SEC304"
+   ],
+   "major": "SEC",
+   "kind": "course",
+   "path": "03_majors/cybersecurity_defense/year_4/SEC404_ai_in_security_operations",
+   "corequisites": []
+  },
+  {
+   "code": "SEC501",
+   "title": "Frontier Seminar: Threat Intelligence and Security Research",
+   "year": 5,
+   "semester": 9,
+   "credits": 4,
+   "prerequisites": [
+    "SEC401",
+    "SEC403"
+   ],
+   "major": "SEC",
+   "kind": "course",
+   "path": "03_majors/cybersecurity_defense/year_5/SEC501_frontier_seminar_threat_intelligence",
+   "corequisites": []
+  },
+  {
+   "code": "OFF301",
+   "title": "Ethics, Law, Rules of Engagement and Methodology",
+   "year": 3,
+   "semester": 5,
+   "credits": 4,
+   "prerequisites": [
+    "CS213"
+   ],
+   "major": "OFF",
+   "kind": "course",
+   "path": "03_majors/ethical_hacking_offensive_security/year_3/OFF301_ethics_law_rules_of_engagement_and_methodology",
+   "corequisites": []
+  },
+  {
+   "code": "OFF302",
+   "title": "Web Application Security Testing",
+   "year": 3,
+   "semester": 5,
+   "credits": 4,
+   "prerequisites": [
+    "CS213"
+   ],
+   "major": "OFF",
+   "kind": "course",
+   "path": "03_majors/ethical_hacking_offensive_security/year_3/OFF302_web_application_security_testing",
+   "corequisites": []
+  },
+  {
+   "code": "OFF303",
+   "title": "Network and Infrastructure Security Testing",
+   "year": 3,
+   "semester": 5,
+   "credits": 4,
+   "prerequisites": [
+    "CS213"
+   ],
+   "major": "OFF",
+   "kind": "course",
+   "path": "03_majors/ethical_hacking_offensive_security/year_3/OFF303_network_and_infrastructure_security_testing",
+   "corequisites": []
+  },
+  {
+   "code": "OFF304",
+   "title": "Cloud and Container Security Testing",
+   "year": 3,
+   "semester": 6,
+   "credits": 4,
+   "prerequisites": [
+    "CS213"
+   ],
+   "major": "OFF",
+   "kind": "course",
+   "path": "03_majors/ethical_hacking_offensive_security/year_3/OFF304_cloud_and_container_security_testing",
+   "corequisites": []
+  },
+  {
+   "code": "OFF305",
+   "title": "Reporting, Remediation and Bug Bounty Practice",
+   "year": 3,
+   "semester": 6,
+   "credits": 4,
+   "prerequisites": [
+    "CS213"
+   ],
+   "major": "OFF",
+   "kind": "course",
+   "path": "03_majors/ethical_hacking_offensive_security/year_3/OFF305_reporting_remediation_and_bug_bounty_practice",
+   "corequisites": []
+  },
+  {
+   "code": "OFF401",
+   "title": "Red Teaming, Adversary Emulation and Purple Teaming",
+   "year": 4,
+   "semester": 7,
+   "credits": 4,
+   "prerequisites": [
+    "OFF301"
+   ],
+   "major": "OFF",
+   "kind": "course",
+   "path": "03_majors/ethical_hacking_offensive_security/year_4/OFF401_red_teaming_adversary_emulation_and_purple",
+   "corequisites": []
+  },
+  {
+   "code": "OFF402",
+   "title": "Mobile and API Security Testing",
+   "year": 4,
+   "semester": 7,
+   "credits": 4,
+   "prerequisites": [
+    "OFF302"
+   ],
+   "major": "OFF",
+   "kind": "course",
+   "path": "03_majors/ethical_hacking_offensive_security/year_4/OFF402_mobile_and_api_security_testing",
+   "corequisites": []
+  },
+  {
+   "code": "OFF403",
+   "title": "AI and LLM Red Teaming",
+   "year": 4,
+   "semester": 8,
+   "credits": 4,
+   "prerequisites": [
+    "OFF303"
+   ],
+   "major": "OFF",
+   "kind": "course",
+   "path": "03_majors/ethical_hacking_offensive_security/year_4/OFF403_ai_and_llm_red_teaming",
+   "corequisites": []
+  },
+  {
+   "code": "OFF404",
+   "title": "Vulnerability Research, Secure Code Review and Responsible Disclosure",
+   "year": 4,
+   "semester": 8,
+   "credits": 4,
+   "prerequisites": [
+    "OFF304"
+   ],
+   "major": "OFF",
+   "kind": "course",
+   "path": "03_majors/ethical_hacking_offensive_security/year_4/OFF404_vulnerability_research_secure_code_review",
+   "corequisites": []
+  },
+  {
+   "code": "OFF501",
+   "title": "Frontier Seminar: AI-Driven Vulnerability Discovery and Defense",
+   "year": 5,
+   "semester": 9,
+   "credits": 4,
+   "prerequisites": [
+    "OFF401",
+    "OFF403"
+   ],
+   "major": "OFF",
+   "kind": "course",
+   "path": "03_majors/ethical_hacking_offensive_security/year_5/OFF501_frontier_seminar_ai_driven_vulnerability",
+   "corequisites": []
+  },
+  {
+   "code": "SAR301",
+   "title": "Security Architecture Principles and Frameworks",
+   "year": 3,
+   "semester": 5,
+   "credits": 4,
+   "prerequisites": [
+    "CS213",
+    "CS212"
+   ],
+   "major": "SAR",
+   "kind": "course",
+   "path": "03_majors/security_architecture/year_3/SAR301_security_architecture_principles_and_frameworks",
+   "corequisites": []
+  },
+  {
+   "code": "SAR302",
+   "title": "Threat Modeling",
+   "year": 3,
+   "semester": 5,
+   "credits": 4,
+   "prerequisites": [
+    "CS213",
+    "CS212"
+   ],
+   "major": "SAR",
+   "kind": "course",
+   "path": "03_majors/security_architecture/year_3/SAR302_threat_modeling",
+   "corequisites": []
+  },
+  {
+   "code": "SAR303",
+   "title": "Zero Trust Architecture",
+   "year": 3,
+   "semester": 5,
+   "credits": 4,
+   "prerequisites": [
+    "CS213",
+    "CS212"
+   ],
+   "major": "SAR",
+   "kind": "course",
+   "path": "03_majors/security_architecture/year_3/SAR303_zero_trust_architecture",
+   "corequisites": []
+  },
+  {
+   "code": "SAR304",
+   "title": "Applied Cryptography and PKI for Architects",
+   "year": 3,
+   "semester": 6,
+   "credits": 4,
+   "prerequisites": [
+    "CS213",
+    "CS212"
+   ],
+   "major": "SAR",
+   "kind": "course",
+   "path": "03_majors/security_architecture/year_3/SAR304_applied_cryptography_and_pki_for_architects",
+   "corequisites": []
+  },
+  {
+   "code": "SAR305",
+   "title": "Secure SDLC and DevSecOps Architecture",
+   "year": 3,
+   "semester": 6,
+   "credits": 4,
+   "prerequisites": [
+    "CS213",
+    "CS212"
+   ],
+   "major": "SAR",
+   "kind": "course",
+   "path": "03_majors/security_architecture/year_3/SAR305_secure_sdlc_and_devsecops_architecture",
+   "corequisites": []
+  },
+  {
+   "code": "SAR401",
+   "title": "Cloud Security Architecture",
+   "year": 4,
+   "semester": 7,
+   "credits": 4,
+   "prerequisites": [
+    "SAR301"
+   ],
+   "major": "SAR",
+   "kind": "course",
+   "path": "03_majors/security_architecture/year_4/SAR401_cloud_security_architecture",
+   "corequisites": []
+  },
+  {
+   "code": "SAR402",
+   "title": "Identity Architecture at Scale",
+   "year": 4,
+   "semester": 7,
+   "credits": 4,
+   "prerequisites": [
+    "SAR302"
+   ],
+   "major": "SAR",
+   "kind": "course",
+   "path": "03_majors/security_architecture/year_4/SAR402_identity_architecture_at_scale",
+   "corequisites": []
+  },
+  {
+   "code": "SAR403",
+   "title": "Security Architecture for AI Systems and Agents",
+   "year": 4,
+   "semester": 8,
+   "credits": 4,
+   "prerequisites": [
+    "SAR303"
+   ],
+   "major": "SAR",
+   "kind": "course",
+   "path": "03_majors/security_architecture/year_4/SAR403_security_architecture_for_ai_systems_and_agents",
+   "corequisites": []
+  },
+  {
+   "code": "SAR404",
+   "title": "Resilience, Business Continuity and Security Strategy",
+   "year": 4,
+   "semester": 8,
+   "credits": 4,
+   "prerequisites": [
+    "SAR304"
+   ],
+   "major": "SAR",
+   "kind": "course",
+   "path": "03_majors/security_architecture/year_4/SAR404_resilience_business_continuity_and_security",
+   "corequisites": []
+  },
+  {
+   "code": "SAR501",
+   "title": "Frontier Seminar: Post-Quantum Migration and Securing Autonomous Systems",
+   "year": 5,
+   "semester": 9,
+   "credits": 4,
+   "prerequisites": [
+    "SAR401",
+    "SAR403"
+   ],
+   "major": "SAR",
+   "kind": "course",
+   "path": "03_majors/security_architecture/year_5/SAR501_frontier_seminar_post_quantum_migration",
+   "corequisites": []
+  },
+  {
+   "code": "DAN301",
+   "title": "Spreadsheets to SQL: Analytical Querying in Depth",
+   "year": 3,
+   "semester": 5,
+   "credits": 4,
+   "prerequisites": [
+    "FND115",
+    "FND116"
+   ],
+   "major": "DAN",
+   "kind": "course",
+   "path": "03_majors/data_analysis/year_3/DAN301_spreadsheets_to_sql_analytical_querying_in_depth",
+   "corequisites": []
+  },
+  {
+   "code": "DAN302",
+   "title": "Business Statistics and Experimentation",
+   "year": 3,
+   "semester": 5,
+   "credits": 4,
+   "prerequisites": [
+    "FND115",
+    "FND116"
+   ],
+   "major": "DAN",
+   "kind": "course",
+   "path": "03_majors/data_analysis/year_3/DAN302_business_statistics_and_experimentation",
+   "corequisites": []
+  },
+  {
+   "code": "DAN303",
+   "title": "Data Visualization and Storytelling",
+   "year": 3,
+   "semester": 5,
+   "credits": 4,
+   "prerequisites": [
+    "FND115",
+    "FND116"
+   ],
+   "major": "DAN",
+   "kind": "course",
+   "path": "03_majors/data_analysis/year_3/DAN303_data_visualization_and_storytelling",
+   "corequisites": []
+  },
+  {
+   "code": "DAN304",
+   "title": "Analytics Engineering: dbt, Modeling and Semantic Layers",
+   "year": 3,
+   "semester": 6,
+   "credits": 4,
+   "prerequisites": [
+    "FND115",
+    "FND116"
+   ],
+   "major": "DAN",
+   "kind": "course",
+   "path": "03_majors/data_analysis/year_3/DAN304_analytics_engineering_dbt_modeling_and_semantic",
+   "corequisites": []
+  },
+  {
+   "code": "DAN305",
+   "title": "Product and Business Analytics: Metrics, Funnels and Cohorts",
+   "year": 3,
+   "semester": 6,
+   "credits": 4,
+   "prerequisites": [
+    "FND115",
+    "FND116"
+   ],
+   "major": "DAN",
+   "kind": "course",
+   "path": "03_majors/data_analysis/year_3/DAN305_product_and_business_analytics_metrics_funnels",
+   "corequisites": []
+  },
+  {
+   "code": "DAN401",
+   "title": "AI-Augmented Analytics: Text-to-SQL, Copilots and Their Failure Modes",
+   "year": 4,
+   "semester": 7,
+   "credits": 4,
+   "prerequisites": [
+    "DAN301"
+   ],
+   "major": "DAN",
+   "kind": "course",
+   "path": "03_majors/data_analysis/year_4/DAN401_ai_augmented_analytics_text_to_sql_copilots",
+   "corequisites": []
+  },
+  {
+   "code": "DAN402",
+   "title": "Forecasting for Business Decisions",
+   "year": 4,
+   "semester": 7,
+   "credits": 4,
+   "prerequisites": [
+    "DAN302"
+   ],
+   "major": "DAN",
+   "kind": "course",
+   "path": "03_majors/data_analysis/year_4/DAN402_forecasting_for_business_decisions",
+   "corequisites": []
+  },
+  {
+   "code": "DAN403",
+   "title": "Domain Analytics: Finance, Marketing, Operations and Healthcare",
+   "year": 4,
+   "semester": 8,
+   "credits": 4,
+   "prerequisites": [
+    "DAN303"
+   ],
+   "major": "DAN",
+   "kind": "course",
+   "path": "03_majors/data_analysis/year_4/DAN403_domain_analytics_finance_marketing_operations",
+   "corequisites": []
+  },
+  {
+   "code": "DAN404",
+   "title": "Data Governance, Quality and Privacy for Analysts",
+   "year": 4,
+   "semester": 8,
+   "credits": 4,
+   "prerequisites": [
+    "DAN304"
+   ],
+   "major": "DAN",
+   "kind": "course",
+   "path": "03_majors/data_analysis/year_4/DAN404_data_governance_quality_and_privacy_for_analysts",
+   "corequisites": []
+  },
+  {
+   "code": "DAN501",
+   "title": "Frontier Seminar: Decision Intelligence and Causal Analytics",
+   "year": 5,
+   "semester": 9,
+   "credits": 4,
+   "prerequisites": [
+    "DAN401",
+    "DAN403"
+   ],
+   "major": "DAN",
+   "kind": "course",
+   "path": "03_majors/data_analysis/year_5/DAN501_frontier_seminar_decision_intelligence",
+   "corequisites": []
+  },
+  {
+   "code": "DSC301",
+   "title": "Statistical Inference and Modeling",
+   "year": 3,
+   "semester": 5,
+   "credits": 4,
+   "prerequisites": [
+    "CS214",
+    "FND116"
+   ],
+   "major": "DSC",
+   "kind": "course",
+   "path": "03_majors/data_science/year_3/DSC301_statistical_inference_and_modeling",
+   "corequisites": []
+  },
+  {
+   "code": "DSC302",
+   "title": "Applied Machine Learning for Data Scientists",
+   "year": 3,
+   "semester": 5,
+   "credits": 4,
+   "prerequisites": [
+    "CS214",
+    "FND116"
+   ],
+   "major": "DSC",
+   "kind": "course",
+   "path": "03_majors/data_science/year_3/DSC302_applied_machine_learning_for_data_scientists",
+   "corequisites": []
+  },
+  {
+   "code": "DSC303",
+   "title": "Data Wrangling at Scale: pandas, Polars and Spark",
+   "year": 3,
+   "semester": 5,
+   "credits": 4,
+   "prerequisites": [
+    "CS214",
+    "FND116"
+   ],
+   "major": "DSC",
+   "kind": "course",
+   "path": "03_majors/data_science/year_3/DSC303_data_wrangling_at_scale_pandas_polars_and_spark",
+   "corequisites": []
+  },
+  {
+   "code": "DSC304",
+   "title": "Experimental Design and Causal Inference",
+   "year": 3,
+   "semester": 6,
+   "credits": 4,
+   "prerequisites": [
+    "CS214",
+    "FND116"
+   ],
+   "major": "DSC",
+   "kind": "course",
+   "path": "03_majors/data_science/year_3/DSC304_experimental_design_and_causal_inference",
+   "corequisites": []
+  },
+  {
+   "code": "DSC305",
+   "title": "Feature Engineering and Model Evaluation",
+   "year": 3,
+   "semester": 6,
+   "credits": 4,
+   "prerequisites": [
+    "CS214",
+    "FND116"
+   ],
+   "major": "DSC",
+   "kind": "course",
+   "path": "03_majors/data_science/year_3/DSC305_feature_engineering_and_model_evaluation",
+   "corequisites": []
+  },
+  {
+   "code": "DSC401",
+   "title": "Time Series Analysis and Forecasting",
+   "year": 4,
+   "semester": 7,
+   "credits": 4,
+   "prerequisites": [
+    "DSC301"
+   ],
+   "major": "DSC",
+   "kind": "course",
+   "path": "03_majors/data_science/year_4/DSC401_time_series_analysis_and_forecasting",
+   "corequisites": []
+  },
+  {
+   "code": "DSC402",
+   "title": "NLP and Text Analytics with LLMs",
+   "year": 4,
+   "semester": 7,
+   "credits": 4,
+   "prerequisites": [
+    "DSC302"
+   ],
+   "major": "DSC",
+   "kind": "course",
+   "path": "03_majors/data_science/year_4/DSC402_nlp_and_text_analytics_with_llms",
+   "corequisites": []
+  },
+  {
+   "code": "DSC403",
+   "title": "Recommender Systems and Personalization",
+   "year": 4,
+   "semester": 8,
+   "credits": 4,
+   "prerequisites": [
+    "DSC303"
+   ],
+   "major": "DSC",
+   "kind": "course",
+   "path": "03_majors/data_science/year_4/DSC403_recommender_systems_and_personalization",
+   "corequisites": []
+  },
+  {
+   "code": "DSC404",
+   "title": "Data Science in Production: Deployment, Monitoring and Communication",
+   "year": 4,
+   "semester": 8,
+   "credits": 4,
+   "prerequisites": [
+    "DSC304"
+   ],
+   "major": "DSC",
+   "kind": "course",
+   "path": "03_majors/data_science/year_4/DSC404_data_science_in_production_deployment_monitoring",
+   "corequisites": []
+  },
+  {
+   "code": "DSC501",
+   "title": "Frontier Seminar: Bayesian Methods, Causal ML and AI-Assisted Science",
+   "year": 5,
+   "semester": 9,
+   "credits": 4,
+   "prerequisites": [
+    "DSC401",
+    "DSC403"
+   ],
+   "major": "DSC",
+   "kind": "course",
+   "path": "03_majors/data_science/year_5/DSC501_frontier_seminar_bayesian_methods_causal_ml",
+   "corequisites": []
+  },
+  {
+   "code": "DEN301",
+   "title": "Data Modeling and Warehousing",
+   "year": 3,
+   "semester": 5,
+   "credits": 4,
+   "prerequisites": [
+    "CS211",
+    "CS212"
+   ],
+   "major": "DEN",
+   "kind": "course",
+   "path": "03_majors/data_engineering/year_3/DEN301_data_modeling_and_warehousing",
+   "corequisites": []
+  },
+  {
+   "code": "DEN302",
+   "title": "Batch Processing with Spark",
+   "year": 3,
+   "semester": 5,
+   "credits": 4,
+   "prerequisites": [
+    "CS211",
+    "CS212"
+   ],
+   "major": "DEN",
+   "kind": "course",
+   "path": "03_majors/data_engineering/year_3/DEN302_batch_processing_with_spark",
+   "corequisites": []
+  },
+  {
+   "code": "DEN303",
+   "title": "Streaming Systems: Kafka and Flink",
+   "year": 3,
+   "semester": 5,
+   "credits": 4,
+   "prerequisites": [
+    "CS211",
+    "CS212"
+   ],
+   "major": "DEN",
+   "kind": "course",
+   "path": "03_majors/data_engineering/year_3/DEN303_streaming_systems_kafka_and_flink",
+   "corequisites": []
+  },
+  {
+   "code": "DEN304",
+   "title": "Orchestration and Pipelines: Airflow and Dagster",
+   "year": 3,
+   "semester": 6,
+   "credits": 4,
+   "prerequisites": [
+    "CS211",
+    "CS212"
+   ],
+   "major": "DEN",
+   "kind": "course",
+   "path": "03_majors/data_engineering/year_3/DEN304_orchestration_and_pipelines_airflow_and_dagster",
+   "corequisites": []
+  },
+  {
+   "code": "DEN305",
+   "title": "Lakehouse Architecture: Parquet, Iceberg and Delta",
+   "year": 3,
+   "semester": 6,
+   "credits": 4,
+   "prerequisites": [
+    "CS211",
+    "CS212"
+   ],
+   "major": "DEN",
+   "kind": "course",
+   "path": "03_majors/data_engineering/year_3/DEN305_lakehouse_architecture_parquet_iceberg_and_delta",
+   "corequisites": []
+  },
+  {
+   "code": "DEN401",
+   "title": "Data Quality, Observability and Data Contracts",
+   "year": 4,
+   "semester": 7,
+   "credits": 4,
+   "prerequisites": [
+    "DEN301"
+   ],
+   "major": "DEN",
+   "kind": "course",
+   "path": "03_majors/data_engineering/year_4/DEN401_data_quality_observability_and_data_contracts",
+   "corequisites": []
+  },
+  {
+   "code": "DEN402",
+   "title": "Cloud Data Platforms: Snowflake, BigQuery and Databricks",
+   "year": 4,
+   "semester": 7,
+   "credits": 4,
+   "prerequisites": [
+    "DEN302"
+   ],
+   "major": "DEN",
+   "kind": "course",
+   "path": "03_majors/data_engineering/year_4/DEN402_cloud_data_platforms_snowflake_bigquery",
+   "corequisites": []
+  },
+  {
+   "code": "DEN403",
+   "title": "Data Engineering for AI: Unstructured Data, Embeddings and RAG Pipelines",
+   "year": 4,
+   "semester": 8,
+   "credits": 4,
+   "prerequisites": [
+    "DEN303"
+   ],
+   "major": "DEN",
+   "kind": "course",
+   "path": "03_majors/data_engineering/year_4/DEN403_data_engineering_for_ai_unstructured_data",
+   "corequisites": []
+  },
+  {
+   "code": "DEN404",
+   "title": "Data Governance, Lineage and Privacy Engineering",
+   "year": 4,
+   "semester": 8,
+   "credits": 4,
+   "prerequisites": [
+    "DEN304"
+   ],
+   "major": "DEN",
+   "kind": "course",
+   "path": "03_majors/data_engineering/year_4/DEN404_data_governance_lineage_and_privacy_engineering",
+   "corequisites": []
+  },
+  {
+   "code": "DEN501",
+   "title": "Frontier Seminar: Real-Time AI Data Systems and Query Engine Internals",
+   "year": 5,
+   "semester": 9,
+   "credits": 4,
+   "prerequisites": [
+    "DEN401",
+    "DEN403"
+   ],
+   "major": "DEN",
+   "kind": "course",
+   "path": "03_majors/data_engineering/year_5/DEN501_frontier_seminar_real_time_ai_data_systems",
+   "corequisites": []
+  },
+  {
+   "code": "MLE301",
+   "title": "Machine Learning Algorithms from Scratch",
+   "year": 3,
+   "semester": 5,
+   "credits": 4,
+   "prerequisites": [
+    "CS214",
+    "CS205"
+   ],
+   "major": "MLE",
+   "kind": "course",
+   "path": "03_majors/machine_learning_engineering/year_3/MLE301_machine_learning_algorithms_from_scratch",
+   "corequisites": []
+  },
+  {
+   "code": "MLE302",
+   "title": "Machine Learning System Design",
+   "year": 3,
+   "semester": 5,
+   "credits": 4,
+   "prerequisites": [
+    "CS214",
+    "CS205"
+   ],
+   "major": "MLE",
+   "kind": "course",
+   "path": "03_majors/machine_learning_engineering/year_3/MLE302_machine_learning_system_design",
+   "corequisites": []
+  },
+  {
+   "code": "MLE303",
+   "title": "Training Pipelines, Feature Stores and Experiment Tracking",
+   "year": 3,
+   "semester": 5,
+   "credits": 4,
+   "prerequisites": [
+    "CS214",
+    "CS205"
+   ],
+   "major": "MLE",
+   "kind": "course",
+   "path": "03_majors/machine_learning_engineering/year_3/MLE303_training_pipelines_feature_stores_and_experiment",
+   "corequisites": []
+  },
+  {
+   "code": "MLE304",
+   "title": "Model Evaluation, Fairness and Robustness",
+   "year": 3,
+   "semester": 6,
+   "credits": 4,
+   "prerequisites": [
+    "CS214",
+    "CS205"
+   ],
+   "major": "MLE",
+   "kind": "course",
+   "path": "03_majors/machine_learning_engineering/year_3/MLE304_model_evaluation_fairness_and_robustness",
+   "corequisites": []
+  },
+  {
+   "code": "MLE305",
+   "title": "Applied ML: Tabular, Vision and Text",
+   "year": 3,
+   "semester": 6,
+   "credits": 4,
+   "prerequisites": [
+    "CS214",
+    "CS205"
+   ],
+   "major": "MLE",
+   "kind": "course",
+   "path": "03_majors/machine_learning_engineering/year_3/MLE305_applied_ml_tabular_vision_and_text",
+   "corequisites": []
+  },
+  {
+   "code": "MLE401",
+   "title": "MLOps: Deployment, Monitoring and Retraining",
+   "year": 4,
+   "semester": 7,
+   "credits": 4,
+   "prerequisites": [
+    "MLE301"
+   ],
+   "major": "MLE",
+   "kind": "course",
+   "path": "03_majors/machine_learning_engineering/year_4/MLE401_mlops_deployment_monitoring_and_retraining",
+   "corequisites": []
+  },
+  {
+   "code": "MLE402",
+   "title": "Distributed Training and Large-Scale ML",
+   "year": 4,
+   "semester": 7,
+   "credits": 4,
+   "prerequisites": [
+    "MLE302"
+   ],
+   "major": "MLE",
+   "kind": "course",
+   "path": "03_majors/machine_learning_engineering/year_4/MLE402_distributed_training_and_large_scale_ml",
+   "corequisites": []
+  },
+  {
+   "code": "MLE403",
+   "title": "Ranking and Recommendation Systems at Scale",
+   "year": 4,
+   "semester": 8,
+   "credits": 4,
+   "prerequisites": [
+    "MLE303"
+   ],
+   "major": "MLE",
+   "kind": "course",
+   "path": "03_majors/machine_learning_engineering/year_4/MLE403_ranking_and_recommendation_systems_at_scale",
+   "corequisites": []
+  },
+  {
+   "code": "MLE404",
+   "title": "Efficient Inference: Quantization, Distillation and Compilers",
+   "year": 4,
+   "semester": 8,
+   "credits": 4,
+   "prerequisites": [
+    "MLE304"
+   ],
+   "major": "MLE",
+   "kind": "course",
+   "path": "03_majors/machine_learning_engineering/year_4/MLE404_efficient_inference_quantization_distillation",
+   "corequisites": []
+  },
+  {
+   "code": "MLE501",
+   "title": "Frontier Seminar: ML Research Engineering and Reproducing Papers",
+   "year": 5,
+   "semester": 9,
+   "credits": 4,
+   "prerequisites": [
+    "MLE401",
+    "MLE403"
+   ],
+   "major": "MLE",
+   "kind": "course",
+   "path": "03_majors/machine_learning_engineering/year_5/MLE501_frontier_seminar_ml_research_engineering",
+   "corequisites": []
+  },
+  {
+   "code": "DLR301",
+   "title": "Neural Networks from Scratch: Autograd and Backpropagation",
+   "year": 3,
+   "semester": 5,
+   "credits": 4,
+   "prerequisites": [
+    "CS214",
+    "CS206"
+   ],
+   "major": "DLR",
+   "kind": "course",
+   "path": "03_majors/deep_learning/year_3/DLR301_neural_networks_from_scratch_autograd",
+   "corequisites": []
+  },
+  {
+   "code": "DLR302",
+   "title": "Computer Vision: From CNNs to Vision Transformers",
+   "year": 3,
+   "semester": 5,
+   "credits": 4,
+   "prerequisites": [
+    "CS214",
+    "CS206"
+   ],
+   "major": "DLR",
+   "kind": "course",
+   "path": "03_majors/deep_learning/year_3/DLR302_computer_vision_from_cnns_to_vision_transformers",
+   "corequisites": []
+  },
+  {
+   "code": "DLR303",
+   "title": "Sequence Models and Transformers",
+   "year": 3,
+   "semester": 5,
+   "credits": 4,
+   "prerequisites": [
+    "CS214",
+    "CS206"
+   ],
+   "major": "DLR",
+   "kind": "course",
+   "path": "03_majors/deep_learning/year_3/DLR303_sequence_models_and_transformers",
+   "corequisites": []
+  },
+  {
+   "code": "DLR304",
+   "title": "Training Deep Networks: Optimization, Normalization and Scaling",
+   "year": 3,
+   "semester": 6,
+   "credits": 4,
+   "prerequisites": [
+    "CS214",
+    "CS206"
+   ],
+   "major": "DLR",
+   "kind": "course",
+   "path": "03_majors/deep_learning/year_3/DLR304_training_deep_networks_optimization",
+   "corequisites": []
+  },
+  {
+   "code": "DLR305",
+   "title": "Generative Models: VAEs, GANs and Diffusion",
+   "year": 3,
+   "semester": 6,
+   "credits": 4,
+   "prerequisites": [
+    "CS214",
+    "CS206"
+   ],
+   "major": "DLR",
+   "kind": "course",
+   "path": "03_majors/deep_learning/year_3/DLR305_generative_models_vaes_gans_and_diffusion",
+   "corequisites": []
+  },
+  {
+   "code": "DLR401",
+   "title": "Large Language Models: Pretraining, Fine-Tuning and Alignment",
+   "year": 4,
+   "semester": 7,
+   "credits": 4,
+   "prerequisites": [
+    "DLR301"
+   ],
+   "major": "DLR",
+   "kind": "course",
+   "path": "03_majors/deep_learning/year_4/DLR401_large_language_models_pretraining_fine_tuning",
+   "corequisites": []
+  },
+  {
+   "code": "DLR402",
+   "title": "Multimodal Models",
+   "year": 4,
+   "semester": 7,
+   "credits": 4,
+   "prerequisites": [
+    "DLR302"
+   ],
+   "major": "DLR",
+   "kind": "course",
+   "path": "03_majors/deep_learning/year_4/DLR402_multimodal_models",
+   "corequisites": []
+  },
+  {
+   "code": "DLR403",
+   "title": "Reinforcement Learning, Including RL for Language Models",
+   "year": 4,
+   "semester": 8,
+   "credits": 4,
+   "prerequisites": [
+    "DLR303"
+   ],
+   "major": "DLR",
+   "kind": "course",
+   "path": "03_majors/deep_learning/year_4/DLR403_reinforcement_learning_including_rl_for_language",
+   "corequisites": []
+  },
+  {
+   "code": "DLR404",
+   "title": "Efficient Deep Learning and GPU Programming",
+   "year": 4,
+   "semester": 8,
+   "credits": 4,
+   "prerequisites": [
+    "DLR304"
+   ],
+   "major": "DLR",
+   "kind": "course",
+   "path": "03_majors/deep_learning/year_4/DLR404_efficient_deep_learning_and_gpu_programming",
+   "corequisites": []
+  },
+  {
+   "code": "DLR501",
+   "title": "Frontier Seminar: Interpretability, Reasoning Models and Scaling",
+   "year": 5,
+   "semester": 9,
+   "credits": 4,
+   "prerequisites": [
+    "DLR401",
+    "DLR403"
+   ],
+   "major": "DLR",
+   "kind": "course",
+   "path": "03_majors/deep_learning/year_5/DLR501_frontier_seminar_interpretability_reasoning",
+   "corequisites": []
+  },
+  {
+   "code": "AIE301",
+   "title": "LLM Fundamentals for Engineers",
+   "year": 3,
+   "semester": 5,
+   "credits": 4,
+   "prerequisites": [
+    "CS214",
+    "CS205"
+   ],
+   "major": "AIE",
+   "kind": "course",
+   "path": "03_majors/ai_engineering/year_3/AIE301_llm_fundamentals_for_engineers",
+   "corequisites": []
+  },
+  {
+   "code": "AIE302",
+   "title": "Prompt and Context Engineering",
+   "year": 3,
+   "semester": 5,
+   "credits": 4,
+   "prerequisites": [
+    "CS214",
+    "CS205"
+   ],
+   "major": "AIE",
+   "kind": "course",
+   "path": "03_majors/ai_engineering/year_3/AIE302_prompt_and_context_engineering",
+   "corequisites": []
+  },
+  {
+   "code": "AIE303",
+   "title": "Retrieval-Augmented Generation and Search",
+   "year": 3,
+   "semester": 5,
+   "credits": 4,
+   "prerequisites": [
+    "CS214",
+    "CS205"
+   ],
+   "major": "AIE",
+   "kind": "course",
+   "path": "03_majors/ai_engineering/year_3/AIE303_retrieval_augmented_generation_and_search",
+   "corequisites": []
+  },
+  {
+   "code": "AIE304",
+   "title": "Tool Use and AI Agents: Loops, Harnesses, Memory and Persistence",
+   "year": 3,
+   "semester": 6,
+   "credits": 4,
+   "prerequisites": [
+    "CS214",
+    "CS205"
+   ],
+   "major": "AIE",
+   "kind": "course",
+   "path": "03_majors/ai_engineering/year_3/AIE304_tool_use_and_ai_agents_loops_harnesses_memory",
+   "corequisites": []
+  },
+  {
+   "code": "AIE305",
+   "title": "Evaluating LLM Systems",
+   "year": 3,
+   "semester": 6,
+   "credits": 4,
+   "prerequisites": [
+    "CS214",
+    "CS205"
+   ],
+   "major": "AIE",
+   "kind": "course",
+   "path": "03_majors/ai_engineering/year_3/AIE305_evaluating_llm_systems",
+   "corequisites": []
+  },
+  {
+   "code": "AIE401",
+   "title": "Multi-Agent Systems, MCP and Orchestration",
+   "year": 4,
+   "semester": 7,
+   "credits": 4,
+   "prerequisites": [
+    "AIE301"
+   ],
+   "major": "AIE",
+   "kind": "course",
+   "path": "03_majors/ai_engineering/year_4/AIE401_multi_agent_systems_mcp_and_orchestration",
+   "corequisites": []
+  },
+  {
+   "code": "AIE402",
+   "title": "Fine-Tuning and Small Models for Products",
+   "year": 4,
+   "semester": 7,
+   "credits": 4,
+   "prerequisites": [
+    "AIE302"
+   ],
+   "major": "AIE",
+   "kind": "course",
+   "path": "03_majors/ai_engineering/year_4/AIE402_fine_tuning_and_small_models_for_products",
+   "corequisites": []
+  },
+  {
+   "code": "AIE403",
+   "title": "LLMOps: Observability, Guardrails, Cost and Latency",
+   "year": 4,
+   "semester": 8,
+   "credits": 4,
+   "prerequisites": [
+    "AIE303"
+   ],
+   "major": "AIE",
+   "kind": "course",
+   "path": "03_majors/ai_engineering/year_4/AIE403_llmops_observability_guardrails_cost_and_latency",
+   "corequisites": []
+  },
+  {
+   "code": "AIE404",
+   "title": "AI Product Engineering and UX",
+   "year": 4,
+   "semester": 8,
+   "credits": 4,
+   "prerequisites": [
+    "AIE304"
+   ],
+   "major": "AIE",
+   "kind": "course",
+   "path": "03_majors/ai_engineering/year_4/AIE404_ai_product_engineering_and_ux",
+   "corequisites": []
+  },
+  {
+   "code": "AIE501",
+   "title": "Frontier Seminar: Long-Horizon Autonomous Agents and Agent Safety",
+   "year": 5,
+   "semester": 9,
+   "credits": 4,
+   "prerequisites": [
+    "AIE401",
+    "AIE403"
+   ],
+   "major": "AIE",
+   "kind": "course",
+   "path": "03_majors/ai_engineering/year_5/AIE501_frontier_seminar_long_horizon_autonomous_agents",
+   "corequisites": []
+  },
+  {
+   "code": "FDE301",
+   "title": "The Forward Deployed Engineer: Role, Mindset and Operating Model",
+   "year": 3,
+   "semester": 5,
+   "credits": 4,
+   "prerequisites": [
+    "CS205",
+    "CS215"
+   ],
+   "major": "FDE",
+   "kind": "course",
+   "path": "03_majors/forward_deployed_engineering/year_3/FDE301_the_forward_deployed_engineer_role_mindset",
+   "corequisites": []
+  },
+  {
+   "code": "FDE302",
+   "title": "Customer Discovery and Requirements Engineering",
+   "year": 3,
+   "semester": 5,
+   "credits": 4,
+   "prerequisites": [
+    "CS205",
+    "CS215"
+   ],
+   "major": "FDE",
+   "kind": "course",
+   "path": "03_majors/forward_deployed_engineering/year_3/FDE302_customer_discovery_and_requirements_engineering",
+   "corequisites": []
+  },
+  {
+   "code": "FDE303",
+   "title": "Rapid Integration Engineering: APIs, Legacy Systems, SSO and Data Connectors",
+   "year": 3,
+   "semester": 5,
+   "credits": 4,
+   "prerequisites": [
+    "CS205",
+    "CS215"
+   ],
+   "major": "FDE",
+   "kind": "course",
+   "path": "03_majors/forward_deployed_engineering/year_3/FDE303_rapid_integration_engineering_apis_legacy",
+   "corequisites": []
+  },
+  {
+   "code": "FDE304",
+   "title": "Deploying AI in the Enterprise",
+   "year": 3,
+   "semester": 6,
+   "credits": 4,
+   "prerequisites": [
+    "CS205",
+    "CS215"
+   ],
+   "major": "FDE",
+   "kind": "course",
+   "path": "03_majors/forward_deployed_engineering/year_3/FDE304_deploying_ai_in_the_enterprise",
+   "corequisites": []
+  },
+  {
+   "code": "FDE305",
+   "title": "Technical Communication in the Field: Demos, Design Docs and Workshops",
+   "year": 3,
+   "semester": 6,
+   "credits": 4,
+   "prerequisites": [
+    "CS205",
+    "CS215"
+   ],
+   "major": "FDE",
+   "kind": "course",
+   "path": "03_majors/forward_deployed_engineering/year_3/FDE305_technical_communication_in_the_field_demos",
+   "corequisites": []
+  },
+  {
+   "code": "FDE401",
+   "title": "Data Integration and Ontology Modeling",
+   "year": 4,
+   "semester": 7,
+   "credits": 4,
+   "prerequisites": [
+    "FDE301"
+   ],
+   "major": "FDE",
+   "kind": "course",
+   "path": "03_majors/forward_deployed_engineering/year_4/FDE401_data_integration_and_ontology_modeling",
+   "corequisites": []
+  },
+  {
+   "code": "FDE402",
+   "title": "Debugging and Operating in Customer Environments",
+   "year": 4,
+   "semester": 7,
+   "credits": 4,
+   "prerequisites": [
+    "FDE302"
+   ],
+   "major": "FDE",
+   "kind": "course",
+   "path": "03_majors/forward_deployed_engineering/year_4/FDE402_debugging_and_operating_in_customer_environments",
+   "corequisites": []
+  },
+  {
+   "code": "FDE403",
+   "title": "Solution Architecture, Pricing and ROI",
+   "year": 4,
+   "semester": 8,
+   "credits": 4,
+   "prerequisites": [
+    "FDE303"
+   ],
+   "major": "FDE",
+   "kind": "course",
+   "path": "03_majors/forward_deployed_engineering/year_4/FDE403_solution_architecture_pricing_and_roi",
+   "corequisites": []
+  },
+  {
+   "code": "FDE404",
+   "title": "Field Studio: Three Simulated Customer Deployments",
+   "year": 4,
+   "semester": 8,
+   "credits": 4,
+   "prerequisites": [
+    "FDE304"
+   ],
+   "major": "FDE",
+   "kind": "course",
+   "path": "03_majors/forward_deployed_engineering/year_4/FDE404_field_studio_three_simulated_customer",
+   "corequisites": []
+  },
+  {
+   "code": "FDE501",
+   "title": "Frontier Seminar: Productizing Field Patterns and the FDE-to-Founder Path",
+   "year": 5,
+   "semester": 9,
+   "credits": 4,
+   "prerequisites": [
+    "FDE401",
+    "FDE403"
+   ],
+   "major": "FDE",
+   "kind": "course",
+   "path": "03_majors/forward_deployed_engineering/year_5/FDE501_frontier_seminar_productizing_field_patterns",
+   "corequisites": []
+  },
+  {
+   "code": "EMB301",
+   "title": "Microcontrollers and Embedded C",
+   "year": 3,
+   "semester": 5,
+   "credits": 4,
+   "prerequisites": [
+    "CS202"
+   ],
+   "major": "EMB",
+   "kind": "course",
+   "path": "03_majors/embedded_systems_iot/year_3/EMB301_microcontrollers_and_embedded_c",
+   "corequisites": []
+  },
+  {
+   "code": "EMB302",
+   "title": "Real-Time Operating Systems",
+   "year": 3,
+   "semester": 5,
+   "credits": 4,
+   "prerequisites": [
+    "CS202"
+   ],
+   "major": "EMB",
+   "kind": "course",
+   "path": "03_majors/embedded_systems_iot/year_3/EMB302_real_time_operating_systems",
+   "corequisites": []
+  },
+  {
+   "code": "EMB303",
+   "title": "Electronics and Interfacing for Programmers",
+   "year": 3,
+   "semester": 5,
+   "credits": 4,
+   "prerequisites": [
+    "CS202"
+   ],
+   "major": "EMB",
+   "kind": "course",
+   "path": "03_majors/embedded_systems_iot/year_3/EMB303_electronics_and_interfacing_for_programmers",
+   "corequisites": []
+  },
+  {
+   "code": "EMB304",
+   "title": "IoT Protocols and Cloud Connectivity",
+   "year": 3,
+   "semester": 6,
+   "credits": 4,
+   "prerequisites": [
+    "CS202"
+   ],
+   "major": "EMB",
+   "kind": "course",
+   "path": "03_majors/embedded_systems_iot/year_3/EMB304_iot_protocols_and_cloud_connectivity",
+   "corequisites": []
+  },
+  {
+   "code": "EMB305",
+   "title": "Embedded Linux",
+   "year": 3,
+   "semester": 6,
+   "credits": 4,
+   "prerequisites": [
+    "CS202"
+   ],
+   "major": "EMB",
+   "kind": "course",
+   "path": "03_majors/embedded_systems_iot/year_3/EMB305_embedded_linux",
+   "corequisites": []
+  },
+  {
+   "code": "EMB401",
+   "title": "Edge AI and TinyML",
+   "year": 4,
+   "semester": 7,
+   "credits": 4,
+   "prerequisites": [
+    "EMB301"
+   ],
+   "major": "EMB",
+   "kind": "course",
+   "path": "03_majors/embedded_systems_iot/year_4/EMB401_edge_ai_and_tinyml",
+   "corequisites": []
+  },
+  {
+   "code": "EMB402",
+   "title": "Embedded and IoT Security",
+   "year": 4,
+   "semester": 7,
+   "credits": 4,
+   "prerequisites": [
+    "EMB302"
+   ],
+   "major": "EMB",
+   "kind": "course",
+   "path": "03_majors/embedded_systems_iot/year_4/EMB402_embedded_and_iot_security",
+   "corequisites": []
+  },
+  {
+   "code": "EMB403",
+   "title": "Robotics Software with ROS 2",
+   "year": 4,
+   "semester": 8,
+   "credits": 4,
+   "prerequisites": [
+    "EMB303"
+   ],
+   "major": "EMB",
+   "kind": "course",
+   "path": "03_majors/embedded_systems_iot/year_4/EMB403_robotics_software_with_ros_2",
+   "corequisites": []
+  },
+  {
+   "code": "EMB404",
+   "title": "Hardware-Software Co-Design and FPGA Basics",
+   "year": 4,
+   "semester": 8,
+   "credits": 4,
+   "prerequisites": [
+    "EMB304"
+   ],
+   "major": "EMB",
+   "kind": "course",
+   "path": "03_majors/embedded_systems_iot/year_4/EMB404_hardware_software_co_design_and_fpga_basics",
+   "corequisites": []
+  },
+  {
+   "code": "EMB501",
+   "title": "Frontier Seminar: Autonomous Systems and Physical AI",
+   "year": 5,
+   "semester": 9,
+   "credits": 4,
+   "prerequisites": [
+    "EMB401",
+    "EMB403"
+   ],
+   "major": "EMB",
+   "kind": "course",
+   "path": "03_majors/embedded_systems_iot/year_5/EMB501_frontier_seminar_autonomous_systems_and_physical",
+   "corequisites": []
+  },
+  {
+   "code": "QAE301",
+   "title": "Testing Foundations and Test Design Techniques",
+   "year": 3,
+   "semester": 5,
+   "credits": 4,
+   "prerequisites": [
+    "CS205"
+   ],
+   "major": "QAE",
+   "kind": "course",
+   "path": "03_majors/software_quality_test_engineering/year_3/QAE301_testing_foundations_and_test_design_techniques",
+   "corequisites": []
+  },
+  {
+   "code": "QAE302",
+   "title": "Test Automation Engineering: UI and API",
+   "year": 3,
+   "semester": 5,
+   "credits": 4,
+   "prerequisites": [
+    "CS205"
+   ],
+   "major": "QAE",
+   "kind": "course",
+   "path": "03_majors/software_quality_test_engineering/year_3/QAE302_test_automation_engineering_ui_and_api",
+   "corequisites": []
+  },
+  {
+   "code": "QAE303",
+   "title": "Performance and Load Testing",
+   "year": 3,
+   "semester": 5,
+   "credits": 4,
+   "prerequisites": [
+    "CS205"
+   ],
+   "major": "QAE",
+   "kind": "course",
+   "path": "03_majors/software_quality_test_engineering/year_3/QAE303_performance_and_load_testing",
+   "corequisites": []
+  },
+  {
+   "code": "QAE304",
+   "title": "Testing in CI/CD and Test Infrastructure",
+   "year": 3,
+   "semester": 6,
+   "credits": 4,
+   "prerequisites": [
+    "CS205"
+   ],
+   "major": "QAE",
+   "kind": "course",
+   "path": "03_majors/software_quality_test_engineering/year_3/QAE304_testing_in_ci_cd_and_test_infrastructure",
+   "corequisites": []
+  },
+  {
+   "code": "QAE305",
+   "title": "Mobile and Cross-Browser Testing",
+   "year": 3,
+   "semester": 6,
+   "credits": 4,
+   "prerequisites": [
+    "CS205"
+   ],
+   "major": "QAE",
+   "kind": "course",
+   "path": "03_majors/software_quality_test_engineering/year_3/QAE305_mobile_and_cross_browser_testing",
+   "corequisites": []
+  },
+  {
+   "code": "QAE401",
+   "title": "AI in Testing: Generated Tests, Self-Healing and Test Agents",
+   "year": 4,
+   "semester": 7,
+   "credits": 4,
+   "prerequisites": [
+    "QAE301"
+   ],
+   "major": "QAE",
+   "kind": "course",
+   "path": "03_majors/software_quality_test_engineering/year_4/QAE401_ai_in_testing_generated_tests_self_healing",
+   "corequisites": []
+  },
+  {
+   "code": "QAE402",
+   "title": "Testing AI Systems: Evals and Non-Determinism",
+   "year": 4,
+   "semester": 7,
+   "credits": 4,
+   "prerequisites": [
+    "QAE302"
+   ],
+   "major": "QAE",
+   "kind": "course",
+   "path": "03_majors/software_quality_test_engineering/year_4/QAE402_testing_ai_systems_evals_and_non_determinism",
+   "corequisites": []
+  },
+  {
+   "code": "QAE403",
+   "title": "Security and Accessibility Testing",
+   "year": 4,
+   "semester": 8,
+   "credits": 4,
+   "prerequisites": [
+    "QAE303"
+   ],
+   "major": "QAE",
+   "kind": "course",
+   "path": "03_majors/software_quality_test_engineering/year_4/QAE403_security_and_accessibility_testing",
+   "corequisites": []
+  },
+  {
+   "code": "QAE404",
+   "title": "Quality Engineering Leadership and Metrics",
+   "year": 4,
+   "semester": 8,
+   "credits": 4,
+   "prerequisites": [
+    "QAE304"
+   ],
+   "major": "QAE",
+   "kind": "course",
+   "path": "03_majors/software_quality_test_engineering/year_4/QAE404_quality_engineering_leadership_and_metrics",
+   "corequisites": []
+  },
+  {
+   "code": "QAE501",
+   "title": "Frontier Seminar: Property-Based Testing, Fuzzing and Verification at Scale",
+   "year": 5,
+   "semester": 9,
+   "credits": 4,
+   "prerequisites": [
+    "QAE401",
+    "QAE403"
+   ],
+   "major": "QAE",
+   "kind": "course",
+   "path": "03_majors/software_quality_test_engineering/year_5/QAE501_frontier_seminar_property_based_testing_fuzzing",
+   "corequisites": []
+  },
+  {
+   "code": "NET301",
+   "title": "Routing and Switching",
+   "year": 3,
+   "semester": 5,
+   "credits": 4,
+   "prerequisites": [
+    "CS204",
+    "CS203"
+   ],
+   "major": "NET",
+   "kind": "course",
+   "path": "03_majors/it_infrastructure_networking/year_3/NET301_routing_and_switching",
+   "corequisites": []
+  },
+  {
+   "code": "NET302",
+   "title": "Windows Server, Active Directory and Enterprise IT",
+   "year": 3,
+   "semester": 5,
+   "credits": 4,
+   "prerequisites": [
+    "CS204",
+    "CS203"
+   ],
+   "major": "NET",
+   "kind": "course",
+   "path": "03_majors/it_infrastructure_networking/year_3/NET302_windows_server_active_directory_and_enterprise",
+   "corequisites": []
+  },
+  {
+   "code": "NET303",
+   "title": "Network Automation and NetDevOps",
+   "year": 3,
+   "semester": 5,
+   "credits": 4,
+   "prerequisites": [
+    "CS204",
+    "CS203"
+   ],
+   "major": "NET",
+   "kind": "course",
+   "path": "03_majors/it_infrastructure_networking/year_3/NET303_network_automation_and_netdevops",
+   "corequisites": []
+  },
+  {
+   "code": "NET304",
+   "title": "Wireless, SD-WAN and Enterprise Networks",
+   "year": 3,
+   "semester": 6,
+   "credits": 4,
+   "prerequisites": [
+    "CS204",
+    "CS203"
+   ],
+   "major": "NET",
+   "kind": "course",
+   "path": "03_majors/it_infrastructure_networking/year_3/NET304_wireless_sd_wan_and_enterprise_networks",
+   "corequisites": []
+  },
+  {
+   "code": "NET305",
+   "title": "IT Service Management and Operations",
+   "year": 3,
+   "semester": 6,
+   "credits": 4,
+   "prerequisites": [
+    "CS204",
+    "CS203"
+   ],
+   "major": "NET",
+   "kind": "course",
+   "path": "03_majors/it_infrastructure_networking/year_3/NET305_it_service_management_and_operations",
+   "corequisites": []
+  },
+  {
+   "code": "NET401",
+   "title": "Data Center and Hybrid Infrastructure",
+   "year": 4,
+   "semester": 7,
+   "credits": 4,
+   "prerequisites": [
+    "NET301"
+   ],
+   "major": "NET",
+   "kind": "course",
+   "path": "03_majors/it_infrastructure_networking/year_4/NET401_data_center_and_hybrid_infrastructure",
+   "corequisites": []
+  },
+  {
+   "code": "NET402",
+   "title": "Network Security Engineering",
+   "year": 4,
+   "semester": 7,
+   "credits": 4,
+   "prerequisites": [
+    "NET302"
+   ],
+   "major": "NET",
+   "kind": "course",
+   "path": "03_majors/it_infrastructure_networking/year_4/NET402_network_security_engineering",
+   "corequisites": []
+  },
+  {
+   "code": "NET403",
+   "title": "AIOps and Intent-Based Networking",
+   "year": 4,
+   "semester": 8,
+   "credits": 4,
+   "prerequisites": [
+    "NET303"
+   ],
+   "major": "NET",
+   "kind": "course",
+   "path": "03_majors/it_infrastructure_networking/year_4/NET403_aiops_and_intent_based_networking",
+   "corequisites": []
+  },
+  {
+   "code": "NET404",
+   "title": "Enterprise Architecture and Cloud Migration",
+   "year": 4,
+   "semester": 8,
+   "credits": 4,
+   "prerequisites": [
+    "NET304"
+   ],
+   "major": "NET",
+   "kind": "course",
+   "path": "03_majors/it_infrastructure_networking/year_4/NET404_enterprise_architecture_and_cloud_migration",
+   "corequisites": []
+  },
+  {
+   "code": "NET501",
+   "title": "Frontier Seminar: 5G, Satellite Internet and Programmable Networks",
+   "year": 5,
+   "semester": 9,
+   "credits": 4,
+   "prerequisites": [
+    "NET401",
+    "NET403"
+   ],
+   "major": "NET",
+   "kind": "course",
+   "path": "03_majors/it_infrastructure_networking/year_5/NET501_frontier_seminar_5g_satellite_internet",
+   "corequisites": []
+  },
+  {
+   "code": "OV01A",
+   "title": "Cloud Security Posture, Detection and Response",
+   "year": 4,
+   "semester": 7,
+   "credits": 4,
+   "prerequisites": [
+    "CLD301",
+    "SAR401",
+    "SEC303"
+   ],
+   "major": "OV01",
+   "kind": "course",
+   "path": "04_overlaps/OV01_cloud_security/OV01A_cloud_security_posture_detection_and_response",
+   "corequisites": []
+  },
+  {
+   "code": "OV01B",
+   "title": "Kubernetes and Container Security",
+   "year": 4,
+   "semester": 8,
+   "credits": 4,
+   "prerequisites": [
+    "CLD301",
+    "SAR401",
+    "SEC303"
+   ],
+   "major": "OV01",
+   "kind": "course",
+   "path": "04_overlaps/OV01_cloud_security/OV01B_kubernetes_and_container_security",
+   "corequisites": []
+  },
+  {
+   "code": "OV02A",
+   "title": "Building Cloud-Native Services",
+   "year": 4,
+   "semester": 7,
+   "credits": 4,
+   "prerequisites": [
+    "BE301",
+    "BE304",
+    "CLD303"
+   ],
+   "major": "OV02",
+   "kind": "course",
+   "path": "04_overlaps/OV02_cloud_native_backend/OV02A_building_cloud_native_services",
+   "corequisites": []
+  },
+  {
+   "code": "OV02B",
+   "title": "Event-Driven Serverless Backends",
+   "year": 4,
+   "semester": 8,
+   "credits": 4,
+   "prerequisites": [
+    "BE301",
+    "BE304",
+    "CLD303"
+   ],
+   "major": "OV02",
+   "kind": "course",
+   "path": "04_overlaps/OV02_cloud_native_backend/OV02B_event_driven_serverless_backends",
+   "corequisites": []
+  },
+  {
+   "code": "OV03A",
+   "title": "Software Supply Chain Security",
+   "year": 4,
+   "semester": 7,
+   "credits": 4,
+   "prerequisites": [
+    "OPS301",
+    "SAR305",
+    "SEC302"
+   ],
+   "major": "OV03",
+   "kind": "course",
+   "path": "04_overlaps/OV03_devsecops/OV03A_software_supply_chain_security",
+   "corequisites": []
+  },
+  {
+   "code": "OV03B",
+   "title": "Policy as Code and Secure CI/CD",
+   "year": 4,
+   "semester": 8,
+   "credits": 4,
+   "prerequisites": [
+    "OPS301",
+    "SAR305",
+    "SEC302"
+   ],
+   "major": "OV03",
+   "kind": "course",
+   "path": "04_overlaps/OV03_devsecops/OV03B_policy_as_code_and_secure_ci_cd",
+   "corequisites": []
+  },
+  {
+   "code": "OV04A",
+   "title": "ML Platform Engineering",
+   "year": 4,
+   "semester": 7,
+   "credits": 4,
+   "prerequisites": [
+    "MLE401",
+    "OPS401",
+    "CLD404"
+   ],
+   "major": "OV04",
+   "kind": "course",
+   "path": "04_overlaps/OV04_mlops_ml_platform/OV04A_ml_platform_engineering",
+   "corequisites": []
+  },
+  {
+   "code": "OV04B",
+   "title": "LLMOps at Scale",
+   "year": 4,
+   "semester": 8,
+   "credits": 4,
+   "prerequisites": [
+    "MLE401",
+    "OPS401",
+    "CLD404"
+   ],
+   "major": "OV04",
+   "kind": "course",
+   "path": "04_overlaps/OV04_mlops_ml_platform/OV04B_llmops_at_scale",
+   "corequisites": []
+  },
+  {
+   "code": "OV05A",
+   "title": "Securing LLM Applications and Agents",
+   "year": 4,
+   "semester": 7,
+   "credits": 4,
+   "prerequisites": [
+    "AIE305",
+    "OFF403",
+    "SAR403"
+   ],
+   "major": "OV05",
+   "kind": "course",
+   "path": "04_overlaps/OV05_ai_security_safety/OV05A_securing_llm_applications_and_agents",
+   "corequisites": []
+  },
+  {
+   "code": "OV05B",
+   "title": "AI Safety, Alignment and Governance for Engineers",
+   "year": 4,
+   "semester": 8,
+   "credits": 4,
+   "prerequisites": [
+    "AIE305",
+    "OFF403",
+    "SAR403"
+   ],
+   "major": "OV05",
+   "kind": "course",
+   "path": "04_overlaps/OV05_ai_security_safety/OV05B_ai_safety_alignment_and_governance_for_engineers",
+   "corequisites": []
+  },
+  {
+   "code": "OV06A",
+   "title": "Building a Modern Data Platform",
+   "year": 4,
+   "semester": 7,
+   "credits": 4,
+   "prerequisites": [
+    "DEN305",
+    "DAN304",
+    "CLD305"
+   ],
+   "major": "OV06",
+   "kind": "course",
+   "path": "04_overlaps/OV06_data_platform_analytics_engineering/OV06A_building_a_modern_data_platform",
+   "corequisites": []
+  },
+  {
+   "code": "OV06B",
+   "title": "Semantic Layers and Self-Serve Analytics with AI",
+   "year": 4,
+   "semester": 8,
+   "credits": 4,
+   "prerequisites": [
+    "DEN305",
+    "DAN304",
+    "CLD305"
+   ],
+   "major": "OV06",
+   "kind": "course",
+   "path": "04_overlaps/OV06_data_platform_analytics_engineering/OV06B_semantic_layers_and_self_serve_analytics_with_ai",
+   "corequisites": []
+  },
+  {
+   "code": "OV07A",
+   "title": "Privacy by Design and Privacy-Enhancing Technologies",
+   "year": 4,
+   "semester": 7,
+   "credits": 4,
+   "prerequisites": [
+    "DEN404",
+    "SEC305",
+    "PRO301"
+   ],
+   "major": "OV07",
+   "kind": "course",
+   "path": "04_overlaps/OV07_privacy_engineering/OV07A_privacy_by_design_and_privacy_enhancing",
+   "corequisites": []
+  },
+  {
+   "code": "OV07B",
+   "title": "Data Protection Law for Engineers in Practice",
+   "year": 4,
+   "semester": 8,
+   "credits": 4,
+   "prerequisites": [
+    "DEN404",
+    "SEC305",
+    "PRO301"
+   ],
+   "major": "OV07",
+   "kind": "course",
+   "path": "04_overlaps/OV07_privacy_engineering/OV07B_data_protection_law_for_engineers_in_practice",
+   "corequisites": []
+  },
+  {
+   "code": "OV08A",
+   "title": "Shipping AI Features End to End",
+   "year": 4,
+   "semester": 7,
+   "credits": 4,
+   "prerequisites": [
+    "FE403",
+    "BE403",
+    "AIE404"
+   ],
+   "major": "OV08",
+   "kind": "course",
+   "path": "04_overlaps/OV08_full_stack_ai_product_engineering/OV08A_shipping_ai_features_end_to_end",
+   "corequisites": []
+  },
+  {
+   "code": "OV08B",
+   "title": "Product Analytics and Growth for AI Apps",
+   "year": 4,
+   "semester": 8,
+   "credits": 4,
+   "prerequisites": [
+    "FE403",
+    "BE403",
+    "AIE404"
+   ],
+   "major": "OV08",
+   "kind": "course",
+   "path": "04_overlaps/OV08_full_stack_ai_product_engineering/OV08B_product_analytics_and_growth_for_ai_apps",
+   "corequisites": []
+  },
+  {
+   "code": "OV09A",
+   "title": "Deploying Models on Edge Devices",
+   "year": 4,
+   "semester": 7,
+   "credits": 4,
+   "prerequisites": [
+    "EMB401",
+    "EMB402",
+    "MLE404"
+   ],
+   "major": "OV09",
+   "kind": "course",
+   "path": "04_overlaps/OV09_edge_ai_secure_iot/OV09A_deploying_models_on_edge_devices",
+   "corequisites": []
+  },
+  {
+   "code": "OV09B",
+   "title": "IoT Fleet Security and Over-the-Air Updates",
+   "year": 4,
+   "semester": 8,
+   "credits": 4,
+   "prerequisites": [
+    "EMB401",
+    "EMB402",
+    "MLE404"
+   ],
+   "major": "OV09",
+   "kind": "course",
+   "path": "04_overlaps/OV09_edge_ai_secure_iot/OV09B_iot_fleet_security_and_over_the_air_updates",
+   "corequisites": []
+  },
+  {
+   "code": "OV10A",
+   "title": "Payment Systems Engineering: UPI, Cards and Ledgers",
+   "year": 4,
+   "semester": 7,
+   "credits": 4,
+   "prerequisites": [
+    "BE401",
+    "SEC305",
+    "DEN303"
+   ],
+   "major": "OV10",
+   "kind": "course",
+   "path": "04_overlaps/OV10_fintech_systems_engineering/OV10A_payment_systems_engineering_upi_cards",
+   "corequisites": []
+  },
+  {
+   "code": "OV10B",
+   "title": "Fraud Detection and Risk Systems",
+   "year": 4,
+   "semester": 8,
+   "credits": 4,
+   "prerequisites": [
+    "BE401",
+    "SEC305",
+    "DEN303"
+   ],
+   "major": "OV10",
+   "kind": "course",
+   "path": "04_overlaps/OV10_fintech_systems_engineering/OV10B_fraud_detection_and_risk_systems",
+   "corequisites": []
+  },
+  {
+   "code": "OV11A",
+   "title": "Scientific Machine Learning and AI for Discovery",
+   "year": 4,
+   "semester": 7,
+   "credits": 4,
+   "prerequisites": [
+    "DLR304",
+    "DSC301",
+    "MLE501"
+   ],
+   "major": "OV11",
+   "kind": "course",
+   "path": "04_overlaps/OV11_ai_for_science_research_engineering/OV11A_scientific_machine_learning_and_ai_for_discovery",
+   "corequisites": []
+  },
+  {
+   "code": "OV11B",
+   "title": "Research Software Engineering",
+   "year": 4,
+   "semester": 8,
+   "credits": 4,
+   "prerequisites": [
+    "DLR304",
+    "DSC301",
+    "MLE501"
+   ],
+   "major": "OV11",
+   "kind": "course",
+   "path": "04_overlaps/OV11_ai_for_science_research_engineering/OV11B_research_software_engineering",
+   "corequisites": []
+  },
+  {
+   "code": "OV12A",
+   "title": "Running Agents in Production: Sandboxes, Durable Execution and Observability",
+   "year": 4,
+   "semester": 7,
+   "credits": 4,
+   "prerequisites": [
+    "AIE401",
+    "OPS403",
+    "BE501"
+   ],
+   "major": "OV12",
+   "kind": "course",
+   "path": "04_overlaps/OV12_agent_infrastructure_platform/OV12A_running_agents_in_production_sandboxes_durable",
+   "corequisites": []
+  },
+  {
+   "code": "OV12B",
+   "title": "Agent Evaluation and Reliability Engineering",
+   "year": 4,
+   "semester": 8,
+   "credits": 4,
+   "prerequisites": [
+    "AIE401",
+    "OPS403",
+    "BE501"
+   ],
+   "major": "OV12",
+   "kind": "course",
+   "path": "04_overlaps/OV12_agent_infrastructure_platform/OV12B_agent_evaluation_and_reliability_engineering",
+   "corequisites": []
+  }
+ ]
+}
