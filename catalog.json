@@ -3688,13 +3688,14 @@
    "credits": 4,
    "prerequisites": [
     "CLD301",
-    "SAR401",
     "SEC303"
    ],
    "major": "OV01",
    "kind": "course",
    "path": "04_overlaps/OV01_cloud_security/OV01A_cloud_security_posture_detection_and_response",
-   "corequisites": []
+   "corequisites": [
+    "SAR401"
+   ]
   },
   {
    "code": "OV01B",
@@ -3704,13 +3705,14 @@
    "credits": 4,
    "prerequisites": [
     "CLD301",
-    "SAR401",
     "SEC303"
    ],
    "major": "OV01",
    "kind": "course",
    "path": "04_overlaps/OV01_cloud_security/OV01B_kubernetes_and_container_security",
-   "corequisites": []
+   "corequisites": [
+    "SAR401"
+   ]
   },
   {
    "code": "OV02A",
@@ -3783,14 +3785,18 @@
    "semester": 7,
    "credits": 4,
    "prerequisites": [
-    "MLE401",
-    "OPS401",
-    "CLD404"
+    "MLE303",
+    "OPS303",
+    "CLD303"
    ],
    "major": "OV04",
    "kind": "course",
    "path": "04_overlaps/OV04_mlops_ml_platform/OV04A_ml_platform_engineering",
-   "corequisites": []
+   "corequisites": [
+    "MLE401",
+    "OPS401",
+    "CLD404"
+   ]
   },
   {
    "code": "OV04B",
@@ -3799,14 +3805,18 @@
    "semester": 8,
    "credits": 4,
    "prerequisites": [
-    "MLE401",
-    "OPS401",
-    "CLD404"
+    "MLE303",
+    "OPS303",
+    "CLD303"
    ],
    "major": "OV04",
    "kind": "course",
    "path": "04_overlaps/OV04_mlops_ml_platform/OV04B_llmops_at_scale",
-   "corequisites": []
+   "corequisites": [
+    "MLE401",
+    "OPS401",
+    "CLD404"
+   ]
   },
   {
    "code": "OV05A",
@@ -3816,13 +3826,14 @@
    "credits": 4,
    "prerequisites": [
     "AIE305",
-    "OFF403",
-    "SAR403"
+    "SAR302"
    ],
    "major": "OV05",
    "kind": "course",
    "path": "04_overlaps/OV05_ai_security_safety/OV05A_securing_llm_applications_and_agents",
-   "corequisites": []
+   "corequisites": [
+    "SAR403"
+   ]
   },
   {
    "code": "OV05B",
@@ -3832,13 +3843,14 @@
    "credits": 4,
    "prerequisites": [
     "AIE305",
-    "OFF403",
-    "SAR403"
+    "SAR302"
    ],
    "major": "OV05",
    "kind": "course",
    "path": "04_overlaps/OV05_ai_security_safety/OV05B_ai_safety_alignment_and_governance_for_engineers",
-   "corequisites": []
+   "corequisites": [
+    "SAR403"
+   ]
   },
   {
    "code": "OV06A",
@@ -3879,14 +3891,16 @@
    "semester": 7,
    "credits": 4,
    "prerequisites": [
-    "DEN404",
     "SEC305",
-    "PRO301"
+    "PRO301",
+    "DEN301"
    ],
    "major": "OV07",
    "kind": "course",
    "path": "04_overlaps/OV07_privacy_engineering/OV07A_privacy_by_design_and_privacy_enhancing",
-   "corequisites": []
+   "corequisites": [
+    "DEN404"
+   ]
   },
   {
    "code": "OV07B",
@@ -3895,14 +3909,16 @@
    "semester": 8,
    "credits": 4,
    "prerequisites": [
-    "DEN404",
     "SEC305",
-    "PRO301"
+    "PRO301",
+    "DEN301"
    ],
    "major": "OV07",
    "kind": "course",
    "path": "04_overlaps/OV07_privacy_engineering/OV07B_data_protection_law_for_engineers_in_practice",
-   "corequisites": []
+   "corequisites": [
+    "DEN404"
+   ]
   },
   {
    "code": "OV08A",
@@ -3911,14 +3927,18 @@
    "semester": 7,
    "credits": 4,
    "prerequisites": [
-    "FE403",
-    "BE403",
-    "AIE404"
+    "FE302",
+    "BE301",
+    "AIE302"
    ],
    "major": "OV08",
    "kind": "course",
    "path": "04_overlaps/OV08_full_stack_ai_product_engineering/OV08A_shipping_ai_features_end_to_end",
-   "corequisites": []
+   "corequisites": [
+    "FE403",
+    "BE403",
+    "AIE404"
+   ]
   },
   {
    "code": "OV08B",
@@ -3927,14 +3947,18 @@
    "semester": 8,
    "credits": 4,
    "prerequisites": [
-    "FE403",
-    "BE403",
-    "AIE404"
+    "FE302",
+    "BE301",
+    "AIE302"
    ],
    "major": "OV08",
    "kind": "course",
    "path": "04_overlaps/OV08_full_stack_ai_product_engineering/OV08B_product_analytics_and_growth_for_ai_apps",
-   "corequisites": []
+   "corequisites": [
+    "FE403",
+    "BE403",
+    "AIE404"
+   ]
   },
   {
    "code": "OV09A",
@@ -3943,14 +3967,16 @@
    "semester": 7,
    "credits": 4,
    "prerequisites": [
-    "EMB401",
-    "EMB402",
-    "MLE404"
+    "EMB301",
+    "MLE305"
    ],
    "major": "OV09",
    "kind": "course",
    "path": "04_overlaps/OV09_edge_ai_secure_iot/OV09A_deploying_models_on_edge_devices",
-   "corequisites": []
+   "corequisites": [
+    "EMB401",
+    "MLE404"
+   ]
   },
   {
    "code": "OV09B",
@@ -3959,14 +3985,16 @@
    "semester": 8,
    "credits": 4,
    "prerequisites": [
-    "EMB401",
-    "EMB402",
-    "MLE404"
+    "EMB301",
+    "MLE305"
    ],
    "major": "OV09",
    "kind": "course",
    "path": "04_overlaps/OV09_edge_ai_secure_iot/OV09B_iot_fleet_security_and_over_the_air_updates",
-   "corequisites": []
+   "corequisites": [
+    "EMB401",
+    "MLE404"
+   ]
   },
   {
    "code": "OV10A",
@@ -3975,14 +4003,16 @@
    "semester": 7,
    "credits": 4,
    "prerequisites": [
-    "BE401",
+    "BE304",
     "SEC305",
     "DEN303"
    ],
    "major": "OV10",
    "kind": "course",
    "path": "04_overlaps/OV10_fintech_systems_engineering/OV10A_payment_systems_engineering_upi_cards",
-   "corequisites": []
+   "corequisites": [
+    "BE401"
+   ]
   },
   {
    "code": "OV10B",
@@ -3991,14 +4021,16 @@
    "semester": 8,
    "credits": 4,
    "prerequisites": [
-    "BE401",
+    "BE304",
     "SEC305",
     "DEN303"
    ],
    "major": "OV10",
    "kind": "course",
    "path": "04_overlaps/OV10_fintech_systems_engineering/OV10B_fraud_detection_and_risk_systems",
-   "corequisites": []
+   "corequisites": [
+    "BE401"
+   ]
   },
   {
    "code": "OV11A",
@@ -4008,8 +4040,7 @@
    "credits": 4,
    "prerequisites": [
     "DLR304",
-    "DSC301",
-    "MLE501"
+    "DSC301"
    ],
    "major": "OV11",
    "kind": "course",
@@ -4024,8 +4055,7 @@
    "credits": 4,
    "prerequisites": [
     "DLR304",
-    "DSC301",
-    "MLE501"
+    "DSC301"
    ],
    "major": "OV11",
    "kind": "course",
@@ -4039,14 +4069,17 @@
    "semester": 7,
    "credits": 4,
    "prerequisites": [
-    "AIE401",
-    "OPS403",
-    "BE501"
+    "AIE304",
+    "OPS303",
+    "BE304"
    ],
    "major": "OV12",
    "kind": "course",
    "path": "04_overlaps/OV12_agent_infrastructure_platform/OV12A_running_agents_in_production_sandboxes_durable",
-   "corequisites": []
+   "corequisites": [
+    "AIE401",
+    "OPS403"
+   ]
   },
   {
    "code": "OV12B",
@@ -4055,14 +4088,17 @@
    "semester": 8,
    "credits": 4,
    "prerequisites": [
-    "AIE401",
-    "OPS403",
-    "BE501"
+    "AIE304",
+    "OPS303",
+    "BE304"
    ],
    "major": "OV12",
    "kind": "course",
    "path": "04_overlaps/OV12_agent_infrastructure_platform/OV12B_agent_evaluation_and_reliability_engineering",
-   "corequisites": []
+   "corequisites": [
+    "AIE401",
+    "OPS403"
+   ]
   }
  ]
 }

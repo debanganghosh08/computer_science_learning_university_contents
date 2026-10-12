@@ -69,24 +69,24 @@ Entry requirements: CS201, CS212, CS216
 | CSG404 | Programming Language Theory and Type Systems | 4 · 8 | 4 | CSG304 |
 | CSG501 | Frontier Seminar: AI for Mathematics, Science and Theory | 5 · 9 | 4 | CSG401, CSG403 |
 
-### Software Engineering (SWE)
+### [Software Engineering](03_majors/software_engineering/README.md) (SWE)
 
 Entry requirements: CS205, CS201
 
 | Code | Course | Year · Semester | Credits | Prerequisites |
 |---|---|---|---|---|
-| SWE301 | Software Architecture and Design Patterns | 3 · 5 | 4 | CS205, CS201 |
-| SWE302 | Low-Level Design and Clean Code at Scale | 3 · 5 | 4 | CS205, CS201 |
-| SWE303 | Programming Languages in Practice: Go, Rust and the JVM | 3 · 5 | 4 | CS205, CS201 |
-| SWE304 | AI-Assisted Software Engineering: Agents in the SDLC | 3 · 6 | 4 | CS205, CS201 |
-| SWE305 | Concurrency and Performance Engineering | 3 · 6 | 4 | CS205, CS201 |
-| SWE401 | Large-Scale System Design | 4 · 7 | 4 | SWE301 |
-| SWE402 | Legacy Modernization and Refactoring with AI | 4 · 7 | 4 | SWE302 |
-| SWE403 | Reliability, Observability and Incident Engineering for Developers | 4 · 8 | 4 | SWE303 |
-| SWE404 | Engineering Leadership and Technical Strategy | 4 · 8 | 4 | SWE304 |
+| [SWE301](03_majors/software_engineering/year_3/SWE301_software_architecture_and_design_patterns/README.md) | Software Architecture and Design Patterns | 3 · 5 | 4 | CS205, CS201 |
+| [SWE302](03_majors/software_engineering/year_3/SWE302_low_level_design_and_clean_code_at_scale/README.md) | Low-Level Design and Clean Code at Scale | 3 · 5 | 4 | CS205, CS201 |
+| [SWE303](03_majors/software_engineering/year_3/SWE303_programming_languages_in_practice_go_rust/README.md) | Programming Languages in Practice: Go, Rust and the JVM | 3 · 5 | 4 | CS205, CS201 |
+| [SWE304](03_majors/software_engineering/year_3/SWE304_ai_assisted_software_engineering_agents/README.md) | AI-Assisted Software Engineering: Agents in the SDLC | 3 · 6 | 4 | CS205, CS201 |
+| [SWE305](03_majors/software_engineering/year_3/SWE305_concurrency_and_performance_engineering/README.md) | Concurrency and Performance Engineering | 3 · 6 | 4 | CS205, CS201 |
+| [SWE401](03_majors/software_engineering/year_4/SWE401_large_scale_system_design/README.md) | Large-Scale System Design | 4 · 7 | 4 | SWE301 |
+| [SWE402](03_majors/software_engineering/year_4/SWE402_legacy_modernization_and_refactoring_with_ai/README.md) | Legacy Modernization and Refactoring with AI | 4 · 7 | 4 | SWE302 |
+| [SWE403](03_majors/software_engineering/year_4/SWE403_reliability_observability_and_incident/README.md) | Reliability, Observability and Incident Engineering for Developers | 4 · 8 | 4 | SWE303 |
+| [SWE404](03_majors/software_engineering/year_4/SWE404_engineering_leadership_and_technical_strategy/README.md) | Engineering Leadership and Technical Strategy | 4 · 8 | 4 | SWE304 |
 | SWE501 | Frontier Seminar: Agentic Software Engineering and Program Synthesis | 5 · 9 | 4 | SWE401, SWE403 |
 
-### Backend Engineering (BE)
+### [Backend Engineering](03_majors/backend_engineering/README.md) (BE)
 
 Entry requirements: CS211, CS212
 
@@ -95,13 +95,13 @@ Entry requirements: CS211, CS212
 | [BE301](03_majors/backend_engineering/year_3/BE301_api_design_rest_grpc_and_graphql/README.md) | API Design: REST, gRPC and GraphQL | 3 · 5 | 4 | CS211, CS212 |
 | [BE302](03_majors/backend_engineering/year_3/BE302_backend_frameworks_and_service_internals/README.md) | Backend Frameworks and Service Internals | 3 · 5 | 4 | CS211, CS212 |
 | [BE303](03_majors/backend_engineering/year_3/BE303_data_modeling_and_storage_for_backends_postgres/README.md) | Data Modeling and Storage for Backends: Postgres, Redis and NoSQL | 3 · 5 | 4 | CS211, CS212 |
-| BE304 | Asynchronous Systems: Queues, Streams and Event-Driven Architecture | 3 · 6 | 4 | CS211, CS212 |
-| BE305 | Authentication, Authorization and Backend Security | 3 · 6 | 4 | CS211, CS212 |
-| BE401 | Payments-Grade Systems: Transactions, Idempotency and Reconciliation | 4 · 7 | 4 | BE301 |
-| BE402 | Scalability and Performance: Caching, Sharding and Load | 4 · 7 | 4 | BE302 |
-| BE403 | Backends for AI: Serving LLM Features, Vector Search and Cost Control | 4 · 8 | 4 | BE303 |
-| BE404 | Microservices, Service Mesh and Platform APIs | 4 · 8 | 4 | BE304 |
-| BE501 | Frontier Seminar: Durable Execution, Serverless and Edge Backends | 5 · 9 | 4 | BE401, BE403 |
+| [BE304](03_majors/backend_engineering/year_3/BE304_asynchronous_systems_queues_streams_and_event/README.md) | Asynchronous Systems: Queues, Streams and Event-Driven Architecture | 3 · 6 | 4 | CS211, CS212 |
+| [BE305](03_majors/backend_engineering/year_3/BE305_authentication_authorization_and_backend/README.md) | Authentication, Authorization and Backend Security | 3 · 6 | 4 | CS211, CS212 |
+| [BE401](03_majors/backend_engineering/year_4/BE401_payments_grade_systems_transactions_idempotency/README.md) | Payments-Grade Systems: Transactions, Idempotency and Reconciliation | 4 · 7 | 4 | BE301 |
+| [BE402](03_majors/backend_engineering/year_4/BE402_scalability_and_performance_caching_sharding/README.md) | Scalability and Performance: Caching, Sharding and Load | 4 · 7 | 4 | BE302 |
+| [BE403](03_majors/backend_engineering/year_4/BE403_backends_for_ai_serving_llm_features_vector/README.md) | Backends for AI: Serving LLM Features, Vector Search and Cost Control | 4 · 8 | 4 | BE303 |
+| [BE404](03_majors/backend_engineering/year_4/BE404_microservices_service_mesh_and_platform_apis/README.md) | Microservices, Service Mesh and Platform APIs | 4 · 8 | 4 | BE304 |
+| [BE501](03_majors/backend_engineering/year_5/BE501_frontier_seminar_durable_execution_serverless/README.md) | Frontier Seminar: Durable Execution, Serverless and Edge Backends | 5 · 9 | 4 | BE401, BE403 |
 
 ### Frontend Engineering (FE)
 
@@ -109,8 +109,8 @@ Entry requirements: FND114, CS205
 
 | Code | Course | Year · Semester | Credits | Prerequisites |
 |---|---|---|---|---|
-| FE301 | Modern JavaScript and TypeScript in Depth | 3 · 5 | 4 | FND114, CS205 |
-| FE302 | React and Component Architecture | 3 · 5 | 4 | FND114, CS205 |
+| [FE301](03_majors/frontend_engineering/year_3/FE301_modern_javascript_and_typescript_in_depth/README.md) | Modern JavaScript and TypeScript in Depth | 3 · 5 | 4 | FND114, CS205 |
+| [FE302](03_majors/frontend_engineering/year_3/FE302_react_and_component_architecture/README.md) | React and Component Architecture | 3 · 5 | 4 | FND114, CS205 |
 | FE303 | CSS, Design Systems and Accessibility | 3 · 5 | 4 | FND114, CS205 |
 | FE304 | Browser Internals and Web Performance | 3 · 6 | 4 | FND114, CS205 |
 | FE305 | Frontend Testing and Tooling | 3 · 6 | 4 | FND114, CS205 |
@@ -137,7 +137,7 @@ Entry requirements: FND111, CS205
 | MOB404 | Mobile Analytics, Experimentation and Growth Engineering | 4 · 8 | 4 | MOB304 |
 | MOB501 | Frontier Seminar: Wearables, AR and Ambient Computing | 5 · 9 | 4 | MOB401, MOB403 |
 
-### Cloud Engineering (CLD)
+### [Cloud Engineering](03_majors/cloud_engineering/README.md) (CLD)
 
 Entry requirements: CS215, CS212
 
@@ -145,14 +145,14 @@ Entry requirements: CS215, CS212
 |---|---|---|---|---|
 | [CLD301](03_majors/cloud_engineering/year_3/CLD301_cloud_architecture_on_aws_azure_and_google_cloud/README.md) | Cloud Architecture on AWS, Azure and Google Cloud | 3 · 5 | 4 | CS215, CS212 |
 | [CLD302](03_majors/cloud_engineering/year_3/CLD302_infrastructure_as_code_terraform_opentofu/README.md) | Infrastructure as Code: Terraform, OpenTofu and Pulumi | 3 · 5 | 4 | CS215, CS212 |
-| CLD303 | Containers and Kubernetes | 3 · 5 | 4 | CS215, CS212 |
-| CLD304 | Cloud Networking: VPCs, DNS, Load Balancing and CDNs | 3 · 6 | 4 | CS215, CS212 |
-| CLD305 | Cloud Storage and Managed Databases | 3 · 6 | 4 | CS215, CS212 |
-| CLD401 | Serverless and Event-Driven Cloud | 4 · 7 | 4 | CLD301 |
-| CLD402 | Multi-Cloud, Hybrid Cloud and Migration | 4 · 7 | 4 | CLD302 |
-| CLD403 | FinOps and Cloud Cost Engineering | 4 · 8 | 4 | CLD303 |
-| CLD404 | AI Infrastructure in the Cloud: GPUs, Inference and Managed AI | 4 · 8 | 4 | CLD304 |
-| CLD501 | Frontier Seminar: Sovereign Cloud, Confidential Computing and Planet-Scale Infrastructure | 5 · 9 | 4 | CLD401, CLD403 |
+| [CLD303](03_majors/cloud_engineering/year_3/CLD303_containers_and_kubernetes/README.md) | Containers and Kubernetes | 3 · 5 | 4 | CS215, CS212 |
+| [CLD304](03_majors/cloud_engineering/year_3/CLD304_cloud_networking_vpcs_dns_load_balancing/README.md) | Cloud Networking: VPCs, DNS, Load Balancing and CDNs | 3 · 6 | 4 | CS215, CS212 |
+| [CLD305](03_majors/cloud_engineering/year_3/CLD305_cloud_storage_and_managed_databases/README.md) | Cloud Storage and Managed Databases | 3 · 6 | 4 | CS215, CS212 |
+| [CLD401](03_majors/cloud_engineering/year_4/CLD401_serverless_and_event_driven_cloud/README.md) | Serverless and Event-Driven Cloud | 4 · 7 | 4 | CLD301 |
+| [CLD402](03_majors/cloud_engineering/year_4/CLD402_multi_cloud_hybrid_cloud_and_migration/README.md) | Multi-Cloud, Hybrid Cloud and Migration | 4 · 7 | 4 | CLD302 |
+| [CLD403](03_majors/cloud_engineering/year_4/CLD403_finops_and_cloud_cost_engineering/README.md) | FinOps and Cloud Cost Engineering | 4 · 8 | 4 | CLD303 |
+| [CLD404](03_majors/cloud_engineering/year_4/CLD404_ai_infrastructure_in_the_cloud_gpus_inference/README.md) | AI Infrastructure in the Cloud: GPUs, Inference and Managed AI | 4 · 8 | 4 | CLD304 |
+| [CLD501](03_majors/cloud_engineering/year_5/CLD501_frontier_seminar_sovereign_cloud_confidential/README.md) | Frontier Seminar: Sovereign Cloud, Confidential Computing and Planet-Scale Infrastructure | 5 · 9 | 4 | CLD401, CLD403 |
 
 ### DevOps, SRE and Platform Engineering (OPS)
 
@@ -160,8 +160,8 @@ Entry requirements: CS215, CS203
 
 | Code | Course | Year · Semester | Credits | Prerequisites |
 |---|---|---|---|---|
-| OPS301 | CI/CD Engineering | 3 · 5 | 4 | CS215, CS203 |
-| OPS302 | Linux Systems Administration in Depth | 3 · 5 | 4 | CS215, CS203 |
+| [OPS301](03_majors/devops_sre_platform_engineering/year_3/OPS301_ci_cd_engineering/README.md) | CI/CD Engineering | 3 · 5 | 4 | CS215, CS203 |
+| [OPS302](03_majors/devops_sre_platform_engineering/year_3/OPS302_linux_systems_administration_in_depth/README.md) | Linux Systems Administration in Depth | 3 · 5 | 4 | CS215, CS203 |
 | OPS303 | Observability: Metrics, Logs, Traces and OpenTelemetry | 3 · 5 | 4 | CS215, CS203 |
 | OPS304 | Site Reliability Engineering: SLOs, Error Budgets and Incident Response | 3 · 6 | 4 | CS215, CS203 |
 | OPS305 | Configuration Management and GitOps | 3 · 6 | 4 | CS215, CS203 |
@@ -177,13 +177,13 @@ Entry requirements: CS213
 
 | Code | Course | Year · Semester | Credits | Prerequisites |
 |---|---|---|---|---|
-| SEC301 | Network Security and Defense | 3 · 5 | 4 | CS213 |
-| SEC302 | Security Operations: SOC, SIEM and Monitoring | 3 · 5 | 4 | CS213 |
-| SEC303 | Identity and Access Management | 3 · 5 | 4 | CS213 |
-| SEC304 | Endpoint and Operating System Security | 3 · 6 | 4 | CS213 |
-| SEC305 | Governance, Risk and Compliance | 3 · 6 | 4 | CS213 |
-| SEC401 | Detection Engineering and Threat Hunting | 4 · 7 | 4 | SEC301 |
-| SEC402 | Digital Forensics and Incident Response | 4 · 7 | 4 | SEC302 |
+| [SEC301](03_majors/cybersecurity_defense/year_3/SEC301_network_security_and_defense/README.md) | Network Security and Defense | 3 · 5 | 4 | CS213 |
+| [SEC302](03_majors/cybersecurity_defense/year_3/SEC302_security_operations_soc_siem_and_monitoring/README.md) | Security Operations: SOC, SIEM and Monitoring | 3 · 5 | 4 | CS213 |
+| [SEC303](03_majors/cybersecurity_defense/year_3/SEC303_identity_and_access_management/README.md) | Identity and Access Management | 3 · 5 | 4 | CS213 |
+| [SEC304](03_majors/cybersecurity_defense/year_3/SEC304_endpoint_and_operating_system_security/README.md) | Endpoint and Operating System Security | 3 · 6 | 4 | CS213 |
+| [SEC305](03_majors/cybersecurity_defense/year_3/SEC305_governance_risk_and_compliance/README.md) | Governance, Risk and Compliance | 3 · 6 | 4 | CS213 |
+| [SEC401](03_majors/cybersecurity_defense/year_4/SEC401_detection_engineering_and_threat_hunting/README.md) | Detection Engineering and Threat Hunting | 4 · 7 | 4 | SEC301 |
+| [SEC402](03_majors/cybersecurity_defense/year_4/SEC402_digital_forensics_and_incident_response/README.md) | Digital Forensics and Incident Response | 4 · 7 | 4 | SEC302 |
 | SEC403 | Malware Analysis for Defenders | 4 · 8 | 4 | SEC303 |
 | SEC404 | AI in Security Operations | 4 · 8 | 4 | SEC304 |
 | SEC501 | Frontier Seminar: Threat Intelligence and Security Research | 5 · 9 | 4 | SEC401, SEC403 |
@@ -228,30 +228,30 @@ Entry requirements: FND115, FND116
 
 | Code | Course | Year · Semester | Credits | Prerequisites |
 |---|---|---|---|---|
-| DAN301 | Spreadsheets to SQL: Analytical Querying in Depth | 3 · 5 | 4 | FND115, FND116 |
-| DAN302 | Business Statistics and Experimentation | 3 · 5 | 4 | FND115, FND116 |
-| DAN303 | Data Visualization and Storytelling | 3 · 5 | 4 | FND115, FND116 |
-| DAN304 | Analytics Engineering: dbt, Modeling and Semantic Layers | 3 · 6 | 4 | FND115, FND116 |
-| DAN305 | Product and Business Analytics: Metrics, Funnels and Cohorts | 3 · 6 | 4 | FND115, FND116 |
-| DAN401 | AI-Augmented Analytics: Text-to-SQL, Copilots and Their Failure Modes | 4 · 7 | 4 | DAN301 |
+| [DAN301](03_majors/data_analysis/year_3/DAN301_spreadsheets_to_sql_analytical_querying_in_depth/README.md) | Spreadsheets to SQL: Analytical Querying in Depth | 3 · 5 | 4 | FND115, FND116 |
+| [DAN302](03_majors/data_analysis/year_3/DAN302_business_statistics_and_experimentation/README.md) | Business Statistics and Experimentation | 3 · 5 | 4 | FND115, FND116 |
+| [DAN303](03_majors/data_analysis/year_3/DAN303_data_visualization_and_storytelling/README.md) | Data Visualization and Storytelling | 3 · 5 | 4 | FND115, FND116 |
+| [DAN304](03_majors/data_analysis/year_3/DAN304_analytics_engineering_dbt_modeling_and_semantic/README.md) | Analytics Engineering: dbt, Modeling and Semantic Layers | 3 · 6 | 4 | FND115, FND116 |
+| [DAN305](03_majors/data_analysis/year_3/DAN305_product_and_business_analytics_metrics_funnels/README.md) | Product and Business Analytics: Metrics, Funnels and Cohorts | 3 · 6 | 4 | FND115, FND116 |
+| [DAN401](03_majors/data_analysis/year_4/DAN401_ai_augmented_analytics_text_to_sql_copilots/README.md) | AI-Augmented Analytics: Text-to-SQL, Copilots and Their Failure Modes | 4 · 7 | 4 | DAN301 |
 | DAN402 | Forecasting for Business Decisions | 4 · 7 | 4 | DAN302 |
 | DAN403 | Domain Analytics: Finance, Marketing, Operations and Healthcare | 4 · 8 | 4 | DAN303 |
 | DAN404 | Data Governance, Quality and Privacy for Analysts | 4 · 8 | 4 | DAN304 |
 | DAN501 | Frontier Seminar: Decision Intelligence and Causal Analytics | 5 · 9 | 4 | DAN401, DAN403 |
 
-### Data Science (DSC)
+### [Data Science](03_majors/data_science/README.md) (DSC)
 
 Entry requirements: CS214, FND116
 
 | Code | Course | Year · Semester | Credits | Prerequisites |
 |---|---|---|---|---|
-| DSC301 | Statistical Inference and Modeling | 3 · 5 | 4 | CS214, FND116 |
-| DSC302 | Applied Machine Learning for Data Scientists | 3 · 5 | 4 | CS214, FND116 |
-| DSC303 | Data Wrangling at Scale: pandas, Polars and Spark | 3 · 5 | 4 | CS214, FND116 |
-| DSC304 | Experimental Design and Causal Inference | 3 · 6 | 4 | CS214, FND116 |
-| DSC305 | Feature Engineering and Model Evaluation | 3 · 6 | 4 | CS214, FND116 |
-| DSC401 | Time Series Analysis and Forecasting | 4 · 7 | 4 | DSC301 |
-| DSC402 | NLP and Text Analytics with LLMs | 4 · 7 | 4 | DSC302 |
+| [DSC301](03_majors/data_science/year_3/DSC301_statistical_inference_and_modeling/README.md) | Statistical Inference and Modeling | 3 · 5 | 4 | CS214, FND116 |
+| [DSC302](03_majors/data_science/year_3/DSC302_applied_machine_learning_for_data_scientists/README.md) | Applied Machine Learning for Data Scientists | 3 · 5 | 4 | CS214, FND116 |
+| [DSC303](03_majors/data_science/year_3/DSC303_data_wrangling_at_scale_pandas_polars_and_spark/README.md) | Data Wrangling at Scale: pandas, Polars and Spark | 3 · 5 | 4 | CS214, FND116 |
+| [DSC304](03_majors/data_science/year_3/DSC304_experimental_design_and_causal_inference/README.md) | Experimental Design and Causal Inference | 3 · 6 | 4 | CS214, FND116 |
+| [DSC305](03_majors/data_science/year_3/DSC305_feature_engineering_and_model_evaluation/README.md) | Feature Engineering and Model Evaluation | 3 · 6 | 4 | CS214, FND116 |
+| [DSC401](03_majors/data_science/year_4/DSC401_time_series_analysis_and_forecasting/README.md) | Time Series Analysis and Forecasting | 4 · 7 | 4 | DSC301 |
+| [DSC402](03_majors/data_science/year_4/DSC402_nlp_and_text_analytics_with_llms/README.md) | NLP and Text Analytics with LLMs | 4 · 7 | 4 | DSC302 |
 | DSC403 | Recommender Systems and Personalization | 4 · 8 | 4 | DSC303 |
 | DSC404 | Data Science in Production: Deployment, Monitoring and Communication | 4 · 8 | 4 | DSC304 |
 | DSC501 | Frontier Seminar: Bayesian Methods, Causal ML and AI-Assisted Science | 5 · 9 | 4 | DSC401, DSC403 |
@@ -262,10 +262,10 @@ Entry requirements: CS211, CS212
 
 | Code | Course | Year · Semester | Credits | Prerequisites |
 |---|---|---|---|---|
-| DEN301 | Data Modeling and Warehousing | 3 · 5 | 4 | CS211, CS212 |
-| DEN302 | Batch Processing with Spark | 3 · 5 | 4 | CS211, CS212 |
-| DEN303 | Streaming Systems: Kafka and Flink | 3 · 5 | 4 | CS211, CS212 |
-| DEN304 | Orchestration and Pipelines: Airflow and Dagster | 3 · 6 | 4 | CS211, CS212 |
+| [DEN301](03_majors/data_engineering/year_3/DEN301_data_modeling_and_warehousing/README.md) | Data Modeling and Warehousing | 3 · 5 | 4 | CS211, CS212 |
+| [DEN302](03_majors/data_engineering/year_3/DEN302_batch_processing_with_spark/README.md) | Batch Processing with Spark | 3 · 5 | 4 | CS211, CS212 |
+| [DEN303](03_majors/data_engineering/year_3/DEN303_streaming_systems_kafka_and_flink/README.md) | Streaming Systems: Kafka and Flink | 3 · 5 | 4 | CS211, CS212 |
+| [DEN304](03_majors/data_engineering/year_3/DEN304_orchestration_and_pipelines_airflow_and_dagster/README.md) | Orchestration and Pipelines: Airflow and Dagster | 3 · 6 | 4 | CS211, CS212 |
 | DEN305 | Lakehouse Architecture: Parquet, Iceberg and Delta | 3 · 6 | 4 | CS211, CS212 |
 | DEN401 | Data Quality, Observability and Data Contracts | 4 · 7 | 4 | DEN301 |
 | DEN402 | Cloud Data Platforms: Snowflake, BigQuery and Databricks | 4 · 7 | 4 | DEN302 |
@@ -273,7 +273,7 @@ Entry requirements: CS211, CS212
 | DEN404 | Data Governance, Lineage and Privacy Engineering | 4 · 8 | 4 | DEN304 |
 | DEN501 | Frontier Seminar: Real-Time AI Data Systems and Query Engine Internals | 5 · 9 | 4 | DEN401, DEN403 |
 
-### Machine Learning Engineering (MLE)
+### [Machine Learning Engineering](03_majors/machine_learning_engineering/README.md) (MLE)
 
 Entry requirements: CS214, CS205
 
@@ -281,14 +281,14 @@ Entry requirements: CS214, CS205
 |---|---|---|---|---|
 | [MLE301](03_majors/machine_learning_engineering/year_3/MLE301_machine_learning_algorithms_from_scratch/README.md) | Machine Learning Algorithms from Scratch | 3 · 5 | 4 | CS214, CS205 |
 | [MLE302](03_majors/machine_learning_engineering/year_3/MLE302_machine_learning_system_design/README.md) | Machine Learning System Design | 3 · 5 | 4 | CS214, CS205 |
-| MLE303 | Training Pipelines, Feature Stores and Experiment Tracking | 3 · 5 | 4 | CS214, CS205 |
+| [MLE303](03_majors/machine_learning_engineering/year_3/MLE303_training_pipelines_feature_stores_and_experiment/README.md) | Training Pipelines, Feature Stores and Experiment Tracking | 3 · 5 | 4 | CS214, CS205 |
 | [MLE304](03_majors/machine_learning_engineering/year_3/MLE304_model_evaluation_fairness_and_robustness/README.md) | Model Evaluation, Fairness and Robustness | 3 · 6 | 4 | CS214, CS205 |
 | [MLE305](03_majors/machine_learning_engineering/year_3/MLE305_applied_ml_tabular_vision_and_text/README.md) | Applied ML: Tabular, Vision and Text | 3 · 6 | 4 | CS214, CS205 |
-| MLE401 | MLOps: Deployment, Monitoring and Retraining | 4 · 7 | 4 | MLE301 |
-| MLE402 | Distributed Training and Large-Scale ML | 4 · 7 | 4 | MLE302 |
-| MLE403 | Ranking and Recommendation Systems at Scale | 4 · 8 | 4 | MLE303 |
-| MLE404 | Efficient Inference: Quantization, Distillation and Compilers | 4 · 8 | 4 | MLE304 |
-| MLE501 | Frontier Seminar: ML Research Engineering and Reproducing Papers | 5 · 9 | 4 | MLE401, MLE403 |
+| [MLE401](03_majors/machine_learning_engineering/year_4/MLE401_mlops_deployment_monitoring_and_retraining/README.md) | MLOps: Deployment, Monitoring and Retraining | 4 · 7 | 4 | MLE301 |
+| [MLE402](03_majors/machine_learning_engineering/year_4/MLE402_distributed_training_and_large_scale_ml/README.md) | Distributed Training and Large-Scale ML | 4 · 7 | 4 | MLE302 |
+| [MLE403](03_majors/machine_learning_engineering/year_4/MLE403_ranking_and_recommendation_systems_at_scale/README.md) | Ranking and Recommendation Systems at Scale | 4 · 8 | 4 | MLE303 |
+| [MLE404](03_majors/machine_learning_engineering/year_4/MLE404_efficient_inference_quantization_distillation/README.md) | Efficient Inference: Quantization, Distillation and Compilers | 4 · 8 | 4 | MLE304 |
+| [MLE501](03_majors/machine_learning_engineering/year_5/MLE501_frontier_seminar_ml_research_engineering/README.md) | Frontier Seminar: ML Research Engineering and Reproducing Papers | 5 · 9 | 4 | MLE401, MLE403 |
 
 ### Deep Learning (DLR)
 
@@ -296,18 +296,18 @@ Entry requirements: CS214, CS206
 
 | Code | Course | Year · Semester | Credits | Prerequisites |
 |---|---|---|---|---|
-| DLR301 | Neural Networks from Scratch: Autograd and Backpropagation | 3 · 5 | 4 | CS214, CS206 |
-| DLR302 | Computer Vision: From CNNs to Vision Transformers | 3 · 5 | 4 | CS214, CS206 |
-| DLR303 | Sequence Models and Transformers | 3 · 5 | 4 | CS214, CS206 |
-| DLR304 | Training Deep Networks: Optimization, Normalization and Scaling | 3 · 6 | 4 | CS214, CS206 |
-| DLR305 | Generative Models: VAEs, GANs and Diffusion | 3 · 6 | 4 | CS214, CS206 |
-| DLR401 | Large Language Models: Pretraining, Fine-Tuning and Alignment | 4 · 7 | 4 | DLR301 |
-| DLR402 | Multimodal Models | 4 · 7 | 4 | DLR302 |
-| DLR403 | Reinforcement Learning, Including RL for Language Models | 4 · 8 | 4 | DLR303 |
+| [DLR301](03_majors/deep_learning/year_3/DLR301_neural_networks_from_scratch_autograd/README.md) | Neural Networks from Scratch: Autograd and Backpropagation | 3 · 5 | 4 | CS214, CS206 |
+| [DLR302](03_majors/deep_learning/year_3/DLR302_computer_vision_from_cnns_to_vision_transformers/README.md) | Computer Vision: From CNNs to Vision Transformers | 3 · 5 | 4 | CS214, CS206 |
+| [DLR303](03_majors/deep_learning/year_3/DLR303_sequence_models_and_transformers/README.md) | Sequence Models and Transformers | 3 · 5 | 4 | CS214, CS206 |
+| [DLR304](03_majors/deep_learning/year_3/DLR304_training_deep_networks_optimization/README.md) | Training Deep Networks: Optimization, Normalization and Scaling | 3 · 6 | 4 | CS214, CS206 |
+| [DLR305](03_majors/deep_learning/year_3/DLR305_generative_models_vaes_gans_and_diffusion/README.md) | Generative Models: VAEs, GANs and Diffusion | 3 · 6 | 4 | CS214, CS206 |
+| [DLR401](03_majors/deep_learning/year_4/DLR401_large_language_models_pretraining_fine_tuning/README.md) | Large Language Models: Pretraining, Fine-Tuning and Alignment | 4 · 7 | 4 | DLR301 |
+| [DLR402](03_majors/deep_learning/year_4/DLR402_multimodal_models/README.md) | Multimodal Models | 4 · 7 | 4 | DLR302 |
+| [DLR403](03_majors/deep_learning/year_4/DLR403_reinforcement_learning_including_rl_for_language/README.md) | Reinforcement Learning, Including RL for Language Models | 4 · 8 | 4 | DLR303 |
 | DLR404 | Efficient Deep Learning and GPU Programming | 4 · 8 | 4 | DLR304 |
 | DLR501 | Frontier Seminar: Interpretability, Reasoning Models and Scaling | 5 · 9 | 4 | DLR401, DLR403 |
 
-### AI Engineering: LLM Applications and Agents (AIE)
+### [AI Engineering: LLM Applications and Agents](03_majors/ai_engineering/README.md) (AIE)
 
 Entry requirements: CS214, CS205
 
@@ -320,9 +320,9 @@ Entry requirements: CS214, CS205
 | [AIE305](03_majors/ai_engineering/year_3/AIE305_evaluating_llm_systems/README.md) | Evaluating LLM Systems | 3 · 6 | 4 | CS214, CS205 |
 | [AIE401](03_majors/ai_engineering/year_4/AIE401_multi_agent_systems_mcp_and_orchestration/README.md) | Multi-Agent Systems, MCP and Orchestration | 4 · 7 | 4 | AIE301 |
 | [AIE402](03_majors/ai_engineering/year_4/AIE402_fine_tuning_and_small_models_for_products/README.md) | Fine-Tuning and Small Models for Products | 4 · 7 | 4 | AIE302 |
-| AIE403 | LLMOps: Observability, Guardrails, Cost and Latency | 4 · 8 | 4 | AIE303 |
-| AIE404 | AI Product Engineering and UX | 4 · 8 | 4 | AIE304 |
-| AIE501 | Frontier Seminar: Long-Horizon Autonomous Agents and Agent Safety | 5 · 9 | 4 | AIE401, AIE403 |
+| [AIE403](03_majors/ai_engineering/year_4/AIE403_llmops_observability_guardrails_cost_and_latency/README.md) | LLMOps: Observability, Guardrails, Cost and Latency | 4 · 8 | 4 | AIE303 |
+| [AIE404](03_majors/ai_engineering/year_4/AIE404_ai_product_engineering_and_ux/README.md) | AI Product Engineering and UX | 4 · 8 | 4 | AIE304 |
+| [AIE501](03_majors/ai_engineering/year_5/AIE501_frontier_seminar_long_horizon_autonomous_agents/README.md) | Frontier Seminar: Long-Horizon Autonomous Agents and Agent Safety | 5 · 9 | 4 | AIE401, AIE403 |
 
 ### Forward Deployed Engineering (FDE)
 
@@ -400,8 +400,8 @@ Built on: CLD301, SAR401, SEC303
 
 | Code | Course | Year · Semester | Credits | Prerequisites |
 |---|---|---|---|---|
-| OV01A | Cloud Security Posture, Detection and Response | 4 · 7 | 4 | CLD301, SAR401, SEC303 |
-| OV01B | Kubernetes and Container Security | 4 · 8 | 4 | CLD301, SAR401, SEC303 |
+| OV01A | Cloud Security Posture, Detection and Response | 4 · 7 | 4 | CLD301, SEC303 (with SAR401 alongside) |
+| OV01B | Kubernetes and Container Security | 4 · 8 | 4 | CLD301, SEC303 (with SAR401 alongside) |
 
 ### Cloud-Native Backend (OV02)
 
@@ -427,8 +427,8 @@ Built on: MLE401, OPS401, CLD404
 
 | Code | Course | Year · Semester | Credits | Prerequisites |
 |---|---|---|---|---|
-| OV04A | ML Platform Engineering | 4 · 7 | 4 | MLE401, OPS401, CLD404 |
-| OV04B | LLMOps at Scale | 4 · 8 | 4 | MLE401, OPS401, CLD404 |
+| OV04A | ML Platform Engineering | 4 · 7 | 4 | MLE303, OPS303, CLD303 (with MLE401, OPS401, CLD404 alongside) |
+| OV04B | LLMOps at Scale | 4 · 8 | 4 | MLE303, OPS303, CLD303 (with MLE401, OPS401, CLD404 alongside) |
 
 ### AI Security and Safety Engineering (OV05)
 
@@ -436,8 +436,8 @@ Built on: AIE305, OFF403, SAR403
 
 | Code | Course | Year · Semester | Credits | Prerequisites |
 |---|---|---|---|---|
-| OV05A | Securing LLM Applications and Agents | 4 · 7 | 4 | AIE305, OFF403, SAR403 |
-| OV05B | AI Safety, Alignment and Governance for Engineers | 4 · 8 | 4 | AIE305, OFF403, SAR403 |
+| OV05A | Securing LLM Applications and Agents | 4 · 7 | 4 | AIE305, SAR302 (with SAR403 alongside) |
+| OV05B | AI Safety, Alignment and Governance for Engineers | 4 · 8 | 4 | AIE305, SAR302 (with SAR403 alongside) |
 
 ### Data Platform and Analytics Engineering (OV06)
 
@@ -454,8 +454,8 @@ Built on: DEN404, SEC305, PRO301
 
 | Code | Course | Year · Semester | Credits | Prerequisites |
 |---|---|---|---|---|
-| OV07A | Privacy by Design and Privacy-Enhancing Technologies | 4 · 7 | 4 | DEN404, SEC305, PRO301 |
-| OV07B | Data Protection Law for Engineers in Practice | 4 · 8 | 4 | DEN404, SEC305, PRO301 |
+| OV07A | Privacy by Design and Privacy-Enhancing Technologies | 4 · 7 | 4 | SEC305, PRO301, DEN301 (with DEN404 alongside) |
+| OV07B | Data Protection Law for Engineers in Practice | 4 · 8 | 4 | SEC305, PRO301, DEN301 (with DEN404 alongside) |
 
 ### Full-Stack AI Product Engineering (OV08)
 
@@ -463,8 +463,8 @@ Built on: FE403, BE403, AIE404
 
 | Code | Course | Year · Semester | Credits | Prerequisites |
 |---|---|---|---|---|
-| OV08A | Shipping AI Features End to End | 4 · 7 | 4 | FE403, BE403, AIE404 |
-| OV08B | Product Analytics and Growth for AI Apps | 4 · 8 | 4 | FE403, BE403, AIE404 |
+| OV08A | Shipping AI Features End to End | 4 · 7 | 4 | FE302, BE301, AIE302 (with FE403, BE403, AIE404 alongside) |
+| OV08B | Product Analytics and Growth for AI Apps | 4 · 8 | 4 | FE302, BE301, AIE302 (with FE403, BE403, AIE404 alongside) |
 
 ### Edge AI and Secure IoT (OV09)
 
@@ -472,8 +472,8 @@ Built on: EMB401, EMB402, MLE404
 
 | Code | Course | Year · Semester | Credits | Prerequisites |
 |---|---|---|---|---|
-| OV09A | Deploying Models on Edge Devices | 4 · 7 | 4 | EMB401, EMB402, MLE404 |
-| OV09B | IoT Fleet Security and Over-the-Air Updates | 4 · 8 | 4 | EMB401, EMB402, MLE404 |
+| OV09A | Deploying Models on Edge Devices | 4 · 7 | 4 | EMB301, MLE305 (with EMB401, MLE404 alongside) |
+| OV09B | IoT Fleet Security and Over-the-Air Updates | 4 · 8 | 4 | EMB301, MLE305 (with EMB401, MLE404 alongside) |
 
 ### FinTech Systems Engineering (OV10)
 
@@ -481,8 +481,8 @@ Built on: BE401, SEC305, DEN303
 
 | Code | Course | Year · Semester | Credits | Prerequisites |
 |---|---|---|---|---|
-| OV10A | Payment Systems Engineering: UPI, Cards and Ledgers | 4 · 7 | 4 | BE401, SEC305, DEN303 |
-| OV10B | Fraud Detection and Risk Systems | 4 · 8 | 4 | BE401, SEC305, DEN303 |
+| OV10A | Payment Systems Engineering: UPI, Cards and Ledgers | 4 · 7 | 4 | BE304, SEC305, DEN303 (with BE401 alongside) |
+| OV10B | Fraud Detection and Risk Systems | 4 · 8 | 4 | BE304, SEC305, DEN303 (with BE401 alongside) |
 
 ### AI for Science and Research Engineering (OV11)
 
@@ -490,8 +490,8 @@ Built on: DLR304, DSC301, MLE501
 
 | Code | Course | Year · Semester | Credits | Prerequisites |
 |---|---|---|---|---|
-| OV11A | Scientific Machine Learning and AI for Discovery | 4 · 7 | 4 | DLR304, DSC301, MLE501 |
-| OV11B | Research Software Engineering | 4 · 8 | 4 | DLR304, DSC301, MLE501 |
+| OV11A | Scientific Machine Learning and AI for Discovery | 4 · 7 | 4 | DLR304, DSC301 |
+| OV11B | Research Software Engineering | 4 · 8 | 4 | DLR304, DSC301 |
 
 ### Agent Infrastructure and Platform Engineering (OV12)
 
@@ -499,5 +499,5 @@ Built on: AIE401, OPS403, BE501
 
 | Code | Course | Year · Semester | Credits | Prerequisites |
 |---|---|---|---|---|
-| OV12A | Running Agents in Production: Sandboxes, Durable Execution and Observability | 4 · 7 | 4 | AIE401, OPS403, BE501 |
-| OV12B | Agent Evaluation and Reliability Engineering | 4 · 8 | 4 | AIE401, OPS403, BE501 |
+| OV12A | Running Agents in Production: Sandboxes, Durable Execution and Observability | 4 · 7 | 4 | AIE304, OPS303, BE304 (with AIE401, OPS403 alongside) |
+| OV12B | Agent Evaluation and Reliability Engineering | 4 · 8 | 4 | AIE304, OPS303, BE304 (with AIE401, OPS403 alongside) |
