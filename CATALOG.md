@@ -40,8 +40,8 @@
 
 | Code | Course | Year · Semester | Credits | Prerequisites |
 |---|---|---|---|---|
-| PRO301 | Professional Practice: Ethics, Law and Responsible AI | 3 · 5 | 4 | CS213 |
-| CAR301 | Career Lab I: DSA Mastery, Portfolio and Open Source | 3 · 6 | 4 | CS201 |
+| [PRO301](05_shared_years_3_to_5/PRO301_professional_practice_ethics_law_and_responsible/README.md) | Professional Practice: Ethics, Law and Responsible AI | 3 · 5 | 4 | CS213 |
+| [CAR301](05_shared_years_3_to_5/CAR301_career_lab_i_dsa_mastery_portfolio_and_open/README.md) | Career Lab I: DSA Mastery, Portfolio and Open Source | 3 · 6 | 4 | CS201 |
 | IND401 | Industry Co-op Studio | 4 · 7 | 4 | CS205 |
 | CAR401 | Career Lab II: Interviews, System Design and AI-Driven Assessments | 4 · 8 | 4 | CAR301 |
 | RES501 | Research Methods and Scientific Writing | 5 · 9 | 4 | none |
@@ -59,13 +59,13 @@ Entry requirements: CS201, CS212, CS216
 | Code | Course | Year · Semester | Credits | Prerequisites |
 |---|---|---|---|---|
 | [CSG301](03_majors/computer_science_general/year_3/CSG301_advanced_algorithms/README.md) | Advanced Algorithms | 3 · 5 | 4 | CS201, CS212, CS216 |
-| CSG302 | Compiler Construction | 3 · 5 | 4 | CS201, CS212, CS216 |
-| CSG303 | Distributed Systems II: Consensus, Replication and Scale | 3 · 5 | 4 | CS201, CS212, CS216 |
-| CSG304 | Computer Graphics | 3 · 6 | 4 | CS201, CS212, CS216 |
-| CSG305 | Human-Computer Interaction | 3 · 6 | 4 | CS201, CS212, CS216 |
-| CSG401 | Formal Methods and Program Verification | 4 · 7 | 4 | CSG301 |
-| CSG402 | Complexity Theory and Theoretical Cryptography | 4 · 7 | 4 | CSG302 |
-| CSG403 | Quantum Computing for Computer Scientists | 4 · 8 | 4 | CSG303 |
+| [CSG302](03_majors/computer_science_general/year_3/CSG302_compiler_construction/README.md) | Compiler Construction | 3 · 5 | 4 | CS201, CS212, CS216 |
+| [CSG303](03_majors/computer_science_general/year_3/CSG303_distributed_systems_ii_consensus_replication/README.md) | Distributed Systems II: Consensus, Replication and Scale | 3 · 5 | 4 | CS201, CS212, CS216 |
+| [CSG304](03_majors/computer_science_general/year_3/CSG304_computer_graphics/README.md) | Computer Graphics | 3 · 6 | 4 | CS201, CS212, CS216 |
+| [CSG305](03_majors/computer_science_general/year_3/CSG305_human_computer_interaction/README.md) | Human-Computer Interaction | 3 · 6 | 4 | CS201, CS212, CS216 |
+| [CSG401](03_majors/computer_science_general/year_4/CSG401_formal_methods_and_program_verification/README.md) | Formal Methods and Program Verification | 4 · 7 | 4 | CSG301 |
+| [CSG402](03_majors/computer_science_general/year_4/CSG402_complexity_theory_and_theoretical_cryptography/README.md) | Complexity Theory and Theoretical Cryptography | 4 · 7 | 4 | CSG302 |
+| [CSG403](03_majors/computer_science_general/year_4/CSG403_quantum_computing_for_computer_scientists/README.md) | Quantum Computing for Computer Scientists | 4 · 8 | 4 | CSG303 |
 | CSG404 | Programming Language Theory and Type Systems | 4 · 8 | 4 | CSG304 |
 | CSG501 | Frontier Seminar: AI for Mathematics, Science and Theory | 5 · 9 | 4 | CSG401, CSG403 |
 
@@ -103,7 +103,7 @@ Entry requirements: CS211, CS212
 | [BE404](03_majors/backend_engineering/year_4/BE404_microservices_service_mesh_and_platform_apis/README.md) | Microservices, Service Mesh and Platform APIs | 4 · 8 | 4 | BE304 |
 | [BE501](03_majors/backend_engineering/year_5/BE501_frontier_seminar_durable_execution_serverless/README.md) | Frontier Seminar: Durable Execution, Serverless and Edge Backends | 5 · 9 | 4 | BE401, BE403 |
 
-### Frontend Engineering (FE)
+### [Frontend Engineering](03_majors/frontend_engineering/README.md) (FE)
 
 Entry requirements: FND114, CS205
 
@@ -120,22 +120,22 @@ Entry requirements: FND114, CS205
 | [FE404](03_majors/frontend_engineering/year_4/FE404_frontend_system_design_at_scale/README.md) | Frontend System Design at Scale | 4 · 8 | 4 | FE304 |
 | [FE501](03_majors/frontend_engineering/year_5/FE501_frontier_seminar_multimodal_spatial_and_on/README.md) | Frontier Seminar: Multimodal, Spatial and On-Device AI Interfaces | 5 · 9 | 4 | FE401, FE403 |
 
-### Mobile Engineering (MOB)
+### [Mobile Engineering](03_majors/mobile_engineering/README.md) (MOB)
 
 Entry requirements: FND111, CS205
 
 | Code | Course | Year · Semester | Credits | Prerequisites |
 |---|---|---|---|---|
-| MOB301 | Android with Kotlin and Jetpack Compose | 3 · 5 | 4 | FND111, CS205 |
-| MOB302 | iOS with Swift and SwiftUI | 3 · 5 | 4 | FND111, CS205 |
-| MOB303 | Cross-Platform Apps: Flutter and React Native | 3 · 5 | 4 | FND111, CS205 |
-| MOB304 | Mobile Architecture, Offline-First and Sync | 3 · 6 | 4 | FND111, CS205 |
-| MOB305 | Mobile Integrations: Payments, Maps, Notifications and Identity | 3 · 6 | 4 | FND111, CS205 |
-| MOB401 | Mobile Performance, Security and Release Engineering | 4 · 7 | 4 | MOB301 |
-| MOB402 | On-Device AI for Mobile | 4 · 7 | 4 | MOB302 |
-| MOB403 | Mobile System Design | 4 · 8 | 4 | MOB303 |
-| MOB404 | Mobile Analytics, Experimentation and Growth Engineering | 4 · 8 | 4 | MOB304 |
-| MOB501 | Frontier Seminar: Wearables, AR and Ambient Computing | 5 · 9 | 4 | MOB401, MOB403 |
+| [MOB301](03_majors/mobile_engineering/year_3/MOB301_android_with_kotlin_and_jetpack_compose/README.md) | Android with Kotlin and Jetpack Compose | 3 · 5 | 4 | FND111, CS205 |
+| [MOB302](03_majors/mobile_engineering/year_3/MOB302_ios_with_swift_and_swiftui/README.md) | iOS with Swift and SwiftUI | 3 · 5 | 4 | FND111, CS205 |
+| [MOB303](03_majors/mobile_engineering/year_3/MOB303_cross_platform_apps_flutter_and_react_native/README.md) | Cross-Platform Apps: Flutter and React Native | 3 · 5 | 4 | FND111, CS205 |
+| [MOB304](03_majors/mobile_engineering/year_3/MOB304_mobile_architecture_offline_first_and_sync/README.md) | Mobile Architecture, Offline-First and Sync | 3 · 6 | 4 | FND111, CS205 |
+| [MOB305](03_majors/mobile_engineering/year_3/MOB305_mobile_integrations_payments_maps_notifications/README.md) | Mobile Integrations: Payments, Maps, Notifications and Identity | 3 · 6 | 4 | FND111, CS205 |
+| [MOB401](03_majors/mobile_engineering/year_4/MOB401_mobile_performance_security_and_release/README.md) | Mobile Performance, Security and Release Engineering | 4 · 7 | 4 | MOB301 |
+| [MOB402](03_majors/mobile_engineering/year_4/MOB402_on_device_ai_for_mobile/README.md) | On-Device AI for Mobile | 4 · 7 | 4 | MOB302 |
+| [MOB403](03_majors/mobile_engineering/year_4/MOB403_mobile_system_design/README.md) | Mobile System Design | 4 · 8 | 4 | MOB303 |
+| [MOB404](03_majors/mobile_engineering/year_4/MOB404_mobile_analytics_experimentation_and_growth/README.md) | Mobile Analytics, Experimentation and Growth Engineering | 4 · 8 | 4 | MOB304 |
+| [MOB501](03_majors/mobile_engineering/year_5/MOB501_frontier_seminar_wearables_ar_and_ambient/README.md) | Frontier Seminar: Wearables, AR and Ambient Computing | 5 · 9 | 4 | MOB401, MOB403 |
 
 ### [Cloud Engineering](03_majors/cloud_engineering/README.md) (CLD)
 
@@ -205,7 +205,7 @@ Entry requirements: CS213
 | OFF404 | Vulnerability Research, Secure Code Review and Responsible Disclosure | 4 · 8 | 4 | OFF304 |
 | OFF501 | Frontier Seminar: AI-Driven Vulnerability Discovery and Defense | 5 · 9 | 4 | OFF401, OFF403 |
 
-### Security Architecture (SAR)
+### [Security Architecture](03_majors/security_architecture/README.md) (SAR)
 
 Entry requirements: CS213, CS212
 
@@ -215,12 +215,12 @@ Entry requirements: CS213, CS212
 | [SAR302](03_majors/security_architecture/year_3/SAR302_threat_modeling/README.md) | Threat Modeling | 3 · 5 | 4 | CS213, CS212 |
 | [SAR303](03_majors/security_architecture/year_3/SAR303_zero_trust_architecture/README.md) | Zero Trust Architecture | 3 · 5 | 4 | CS213, CS212 |
 | [SAR304](03_majors/security_architecture/year_3/SAR304_applied_cryptography_and_pki_for_architects/README.md) | Applied Cryptography and PKI for Architects | 3 · 6 | 4 | CS213, CS212 |
-| SAR305 | Secure SDLC and DevSecOps Architecture | 3 · 6 | 4 | CS213, CS212 |
-| SAR401 | Cloud Security Architecture | 4 · 7 | 4 | SAR301 |
-| SAR402 | Identity Architecture at Scale | 4 · 7 | 4 | SAR302 |
-| SAR403 | Security Architecture for AI Systems and Agents | 4 · 8 | 4 | SAR303 |
-| SAR404 | Resilience, Business Continuity and Security Strategy | 4 · 8 | 4 | SAR304 |
-| SAR501 | Frontier Seminar: Post-Quantum Migration and Securing Autonomous Systems | 5 · 9 | 4 | SAR401, SAR403 |
+| [SAR305](03_majors/security_architecture/year_3/SAR305_secure_sdlc_and_devsecops_architecture/README.md) | Secure SDLC and DevSecOps Architecture | 3 · 6 | 4 | CS213, CS212 |
+| [SAR401](03_majors/security_architecture/year_4/SAR401_cloud_security_architecture/README.md) | Cloud Security Architecture | 4 · 7 | 4 | SAR301 |
+| [SAR402](03_majors/security_architecture/year_4/SAR402_identity_architecture_at_scale/README.md) | Identity Architecture at Scale | 4 · 7 | 4 | SAR302 |
+| [SAR403](03_majors/security_architecture/year_4/SAR403_security_architecture_for_ai_systems_and_agents/README.md) | Security Architecture for AI Systems and Agents | 4 · 8 | 4 | SAR303 |
+| [SAR404](03_majors/security_architecture/year_4/SAR404_resilience_business_continuity_and_security/README.md) | Resilience, Business Continuity and Security Strategy | 4 · 8 | 4 | SAR304 |
+| [SAR501](03_majors/security_architecture/year_5/SAR501_frontier_seminar_post_quantum_migration/README.md) | Frontier Seminar: Post-Quantum Migration and Securing Autonomous Systems | 5 · 9 | 4 | SAR401, SAR403 |
 
 ### [Data Analysis and Analytics](03_majors/data_analysis/README.md) (DAN)
 
@@ -256,7 +256,7 @@ Entry requirements: CS214, FND116
 | [DSC404](03_majors/data_science/year_4/DSC404_data_science_in_production_deployment_monitoring/README.md) | Data Science in Production: Deployment, Monitoring and Communication | 4 · 8 | 4 | DSC304 |
 | [DSC501](03_majors/data_science/year_5/DSC501_frontier_seminar_bayesian_methods_causal_ml/README.md) | Frontier Seminar: Bayesian Methods, Causal ML and AI-Assisted Science | 5 · 9 | 4 | DSC401, DSC403 |
 
-### Data Engineering (DEN)
+### [Data Engineering](03_majors/data_engineering/README.md) (DEN)
 
 Entry requirements: CS211, CS212
 
@@ -271,7 +271,7 @@ Entry requirements: CS211, CS212
 | [DEN402](03_majors/data_engineering/year_4/DEN402_cloud_data_platforms_snowflake_bigquery/README.md) | Cloud Data Platforms: Snowflake, BigQuery and Databricks | 4 · 7 | 4 | DEN302 |
 | [DEN403](03_majors/data_engineering/year_4/DEN403_data_engineering_for_ai_unstructured_data/README.md) | Data Engineering for AI: Unstructured Data, Embeddings and RAG Pipelines | 4 · 8 | 4 | DEN303 |
 | [DEN404](03_majors/data_engineering/year_4/DEN404_data_governance_lineage_and_privacy_engineering/README.md) | Data Governance, Lineage and Privacy Engineering | 4 · 8 | 4 | DEN304 |
-| DEN501 | Frontier Seminar: Real-Time AI Data Systems and Query Engine Internals | 5 · 9 | 4 | DEN401, DEN403 |
+| [DEN501](03_majors/data_engineering/year_5/DEN501_frontier_seminar_real_time_ai_data_systems/README.md) | Frontier Seminar: Real-Time AI Data Systems and Query Engine Internals | 5 · 9 | 4 | DEN401, DEN403 |
 
 ### [Machine Learning Engineering](03_majors/machine_learning_engineering/README.md) (MLE)
 
@@ -330,44 +330,44 @@ Entry requirements: CS205, CS215
 
 | Code | Course | Year · Semester | Credits | Prerequisites |
 |---|---|---|---|---|
-| FDE301 | The Forward Deployed Engineer: Role, Mindset and Operating Model | 3 · 5 | 4 | CS205, CS215 |
-| FDE302 | Customer Discovery and Requirements Engineering | 3 · 5 | 4 | CS205, CS215 |
-| FDE303 | Rapid Integration Engineering: APIs, Legacy Systems, SSO and Data Connectors | 3 · 5 | 4 | CS205, CS215 |
-| FDE304 | Deploying AI in the Enterprise | 3 · 6 | 4 | CS205, CS215 |
-| FDE305 | Technical Communication in the Field: Demos, Design Docs and Workshops | 3 · 6 | 4 | CS205, CS215 |
-| FDE401 | Data Integration and Ontology Modeling | 4 · 7 | 4 | FDE301 |
-| FDE402 | Debugging and Operating in Customer Environments | 4 · 7 | 4 | FDE302 |
-| FDE403 | Solution Architecture, Pricing and ROI | 4 · 8 | 4 | FDE303 |
-| FDE404 | Field Studio: Three Simulated Customer Deployments | 4 · 8 | 4 | FDE304 |
-| FDE501 | Frontier Seminar: Productizing Field Patterns and the FDE-to-Founder Path | 5 · 9 | 4 | FDE401, FDE403 |
+| [FDE301](03_majors/forward_deployed_engineering/year_3/FDE301_the_forward_deployed_engineer_role_mindset/README.md) | The Forward Deployed Engineer: Role, Mindset and Operating Model | 3 · 5 | 4 | CS205, CS215 |
+| [FDE302](03_majors/forward_deployed_engineering/year_3/FDE302_customer_discovery_and_requirements_engineering/README.md) | Customer Discovery and Requirements Engineering | 3 · 5 | 4 | CS205, CS215 |
+| [FDE303](03_majors/forward_deployed_engineering/year_3/FDE303_rapid_integration_engineering_apis_legacy/README.md) | Rapid Integration Engineering: APIs, Legacy Systems, SSO and Data Connectors | 3 · 5 | 4 | CS205, CS215 |
+| [FDE304](03_majors/forward_deployed_engineering/year_3/FDE304_deploying_ai_in_the_enterprise/README.md) | Deploying AI in the Enterprise | 3 · 6 | 4 | CS205, CS215 |
+| [FDE305](03_majors/forward_deployed_engineering/year_3/FDE305_technical_communication_in_the_field_demos/README.md) | Technical Communication in the Field: Demos, Design Docs and Workshops | 3 · 6 | 4 | CS205, CS215 |
+| [FDE401](03_majors/forward_deployed_engineering/year_4/FDE401_data_integration_and_ontology_modeling/README.md) | Data Integration and Ontology Modeling | 4 · 7 | 4 | FDE301 |
+| [FDE402](03_majors/forward_deployed_engineering/year_4/FDE402_debugging_and_operating_in_customer_environments/README.md) | Debugging and Operating in Customer Environments | 4 · 7 | 4 | FDE302 |
+| [FDE403](03_majors/forward_deployed_engineering/year_4/FDE403_solution_architecture_pricing_and_roi/README.md) | Solution Architecture, Pricing and ROI | 4 · 8 | 4 | FDE303 |
+| [FDE404](03_majors/forward_deployed_engineering/year_4/FDE404_field_studio_three_simulated_customer/README.md) | Field Studio: Three Simulated Customer Deployments | 4 · 8 | 4 | FDE304 |
+| [FDE501](03_majors/forward_deployed_engineering/year_5/FDE501_frontier_seminar_productizing_field_patterns/README.md) | Frontier Seminar: Productizing Field Patterns and the FDE-to-Founder Path | 5 · 9 | 4 | FDE401, FDE403 |
 
-### Embedded Systems and IoT (EMB)
+### [Embedded Systems and IoT](03_majors/embedded_systems_iot/README.md) (EMB)
 
 Entry requirements: CS202
 
 | Code | Course | Year · Semester | Credits | Prerequisites |
 |---|---|---|---|---|
-| EMB301 | Microcontrollers and Embedded C | 3 · 5 | 4 | CS202 |
-| EMB302 | Real-Time Operating Systems | 3 · 5 | 4 | CS202 |
-| EMB303 | Electronics and Interfacing for Programmers | 3 · 5 | 4 | CS202 |
-| EMB304 | IoT Protocols and Cloud Connectivity | 3 · 6 | 4 | CS202 |
-| EMB305 | Embedded Linux | 3 · 6 | 4 | CS202 |
-| EMB401 | Edge AI and TinyML | 4 · 7 | 4 | EMB301 |
-| EMB402 | Embedded and IoT Security | 4 · 7 | 4 | EMB302 |
-| EMB403 | Robotics Software with ROS 2 | 4 · 8 | 4 | EMB303 |
-| EMB404 | Hardware-Software Co-Design and FPGA Basics | 4 · 8 | 4 | EMB304 |
-| EMB501 | Frontier Seminar: Autonomous Systems and Physical AI | 5 · 9 | 4 | EMB401, EMB403 |
+| [EMB301](03_majors/embedded_systems_iot/year_3/EMB301_microcontrollers_and_embedded_c/README.md) | Microcontrollers and Embedded C | 3 · 5 | 4 | CS202 |
+| [EMB302](03_majors/embedded_systems_iot/year_3/EMB302_real_time_operating_systems/README.md) | Real-Time Operating Systems | 3 · 5 | 4 | CS202 |
+| [EMB303](03_majors/embedded_systems_iot/year_3/EMB303_electronics_and_interfacing_for_programmers/README.md) | Electronics and Interfacing for Programmers | 3 · 5 | 4 | CS202 |
+| [EMB304](03_majors/embedded_systems_iot/year_3/EMB304_iot_protocols_and_cloud_connectivity/README.md) | IoT Protocols and Cloud Connectivity | 3 · 6 | 4 | CS202 |
+| [EMB305](03_majors/embedded_systems_iot/year_3/EMB305_embedded_linux/README.md) | Embedded Linux | 3 · 6 | 4 | CS202 |
+| [EMB401](03_majors/embedded_systems_iot/year_4/EMB401_edge_ai_and_tinyml/README.md) | Edge AI and TinyML | 4 · 7 | 4 | EMB301 |
+| [EMB402](03_majors/embedded_systems_iot/year_4/EMB402_embedded_and_iot_security/README.md) | Embedded and IoT Security | 4 · 7 | 4 | EMB302 |
+| [EMB403](03_majors/embedded_systems_iot/year_4/EMB403_robotics_software_with_ros_2/README.md) | Robotics Software with ROS 2 | 4 · 8 | 4 | EMB303 |
+| [EMB404](03_majors/embedded_systems_iot/year_4/EMB404_hardware_software_co_design_and_fpga_basics/README.md) | Hardware-Software Co-Design and FPGA Basics | 4 · 8 | 4 | EMB304 |
+| [EMB501](03_majors/embedded_systems_iot/year_5/EMB501_frontier_seminar_autonomous_systems_and_physical/README.md) | Frontier Seminar: Autonomous Systems and Physical AI | 5 · 9 | 4 | EMB401, EMB403 |
 
-### Software Quality and Test Engineering (QAE)
+### [Software Quality and Test Engineering](03_majors/software_quality_test_engineering/README.md) (QAE)
 
 Entry requirements: CS205
 
 | Code | Course | Year · Semester | Credits | Prerequisites |
 |---|---|---|---|---|
-| QAE301 | Testing Foundations and Test Design Techniques | 3 · 5 | 4 | CS205 |
-| QAE302 | Test Automation Engineering: UI and API | 3 · 5 | 4 | CS205 |
-| QAE303 | Performance and Load Testing | 3 · 5 | 4 | CS205 |
-| QAE304 | Testing in CI/CD and Test Infrastructure | 3 · 6 | 4 | CS205 |
+| [QAE301](03_majors/software_quality_test_engineering/year_3/QAE301_testing_foundations_and_test_design_techniques/README.md) | Testing Foundations and Test Design Techniques | 3 · 5 | 4 | CS205 |
+| [QAE302](03_majors/software_quality_test_engineering/year_3/QAE302_test_automation_engineering_ui_and_api/README.md) | Test Automation Engineering: UI and API | 3 · 5 | 4 | CS205 |
+| [QAE303](03_majors/software_quality_test_engineering/year_3/QAE303_performance_and_load_testing/README.md) | Performance and Load Testing | 3 · 5 | 4 | CS205 |
+| [QAE304](03_majors/software_quality_test_engineering/year_3/QAE304_testing_in_ci_cd_and_test_infrastructure/README.md) | Testing in CI/CD and Test Infrastructure | 3 · 6 | 4 | CS205 |
 | QAE305 | Mobile and Cross-Browser Testing | 3 · 6 | 4 | CS205 |
 | QAE401 | AI in Testing: Generated Tests, Self-Healing and Test Agents | 4 · 7 | 4 | QAE301 |
 | QAE402 | Testing AI Systems: Evals and Non-Determinism | 4 · 7 | 4 | QAE302 |
@@ -375,53 +375,53 @@ Entry requirements: CS205
 | QAE404 | Quality Engineering Leadership and Metrics | 4 · 8 | 4 | QAE304 |
 | QAE501 | Frontier Seminar: Property-Based Testing, Fuzzing and Verification at Scale | 5 · 9 | 4 | QAE401, QAE403 |
 
-### IT Infrastructure and Network Engineering (NET)
+### [IT Infrastructure and Network Engineering](03_majors/it_infrastructure_networking/README.md) (NET)
 
 Entry requirements: CS204, CS203
 
 | Code | Course | Year · Semester | Credits | Prerequisites |
 |---|---|---|---|---|
-| NET301 | Routing and Switching | 3 · 5 | 4 | CS204, CS203 |
-| NET302 | Windows Server, Active Directory and Enterprise IT | 3 · 5 | 4 | CS204, CS203 |
-| NET303 | Network Automation and NetDevOps | 3 · 5 | 4 | CS204, CS203 |
-| NET304 | Wireless, SD-WAN and Enterprise Networks | 3 · 6 | 4 | CS204, CS203 |
-| NET305 | IT Service Management and Operations | 3 · 6 | 4 | CS204, CS203 |
-| NET401 | Data Center and Hybrid Infrastructure | 4 · 7 | 4 | NET301 |
-| NET402 | Network Security Engineering | 4 · 7 | 4 | NET302 |
-| NET403 | AIOps and Intent-Based Networking | 4 · 8 | 4 | NET303 |
-| NET404 | Enterprise Architecture and Cloud Migration | 4 · 8 | 4 | NET304 |
-| NET501 | Frontier Seminar: 5G, Satellite Internet and Programmable Networks | 5 · 9 | 4 | NET401, NET403 |
+| [NET301](03_majors/it_infrastructure_networking/year_3/NET301_routing_and_switching/README.md) | Routing and Switching | 3 · 5 | 4 | CS204, CS203 |
+| [NET302](03_majors/it_infrastructure_networking/year_3/NET302_windows_server_active_directory_and_enterprise/README.md) | Windows Server, Active Directory and Enterprise IT | 3 · 5 | 4 | CS204, CS203 |
+| [NET303](03_majors/it_infrastructure_networking/year_3/NET303_network_automation_and_netdevops/README.md) | Network Automation and NetDevOps | 3 · 5 | 4 | CS204, CS203 |
+| [NET304](03_majors/it_infrastructure_networking/year_3/NET304_wireless_sd_wan_and_enterprise_networks/README.md) | Wireless, SD-WAN and Enterprise Networks | 3 · 6 | 4 | CS204, CS203 |
+| [NET305](03_majors/it_infrastructure_networking/year_3/NET305_it_service_management_and_operations/README.md) | IT Service Management and Operations | 3 · 6 | 4 | CS204, CS203 |
+| [NET401](03_majors/it_infrastructure_networking/year_4/NET401_data_center_and_hybrid_infrastructure/README.md) | Data Center and Hybrid Infrastructure | 4 · 7 | 4 | NET301 |
+| [NET402](03_majors/it_infrastructure_networking/year_4/NET402_network_security_engineering/README.md) | Network Security Engineering | 4 · 7 | 4 | NET302 |
+| [NET403](03_majors/it_infrastructure_networking/year_4/NET403_aiops_and_intent_based_networking/README.md) | AIOps and Intent-Based Networking | 4 · 8 | 4 | NET303 |
+| [NET404](03_majors/it_infrastructure_networking/year_4/NET404_enterprise_architecture_and_cloud_migration/README.md) | Enterprise Architecture and Cloud Migration | 4 · 8 | 4 | NET304 |
+| [NET501](03_majors/it_infrastructure_networking/year_5/NET501_frontier_seminar_5g_satellite_internet/README.md) | Frontier Seminar: 5G, Satellite Internet and Programmable Networks | 5 · 9 | 4 | NET401, NET403 |
 
 ## Overlap specializations
 
-### Cloud Security (OV01)
+### [Cloud Security](04_overlaps/OV01_cloud_security/README.md) (OV01)
 
 Built on: CLD301, SAR401, SEC303
 
 | Code | Course | Year · Semester | Credits | Prerequisites |
 |---|---|---|---|---|
-| OV01A | Cloud Security Posture, Detection and Response | 4 · 7 | 4 | CLD301, SEC303 (with SAR401 alongside) |
-| OV01B | Kubernetes and Container Security | 4 · 8 | 4 | CLD301, SEC303 (with SAR401 alongside) |
+| [OV01A](04_overlaps/OV01_cloud_security/OV01A_cloud_security_posture_detection_and_response/README.md) | Cloud Security Posture, Detection and Response | 4 · 7 | 4 | CLD301, SEC303 (with SAR401 alongside) |
+| [OV01B](04_overlaps/OV01_cloud_security/OV01B_kubernetes_and_container_security/README.md) | Kubernetes and Container Security | 4 · 8 | 4 | CLD301, SEC303 (with SAR401 alongside) |
 
-### Cloud-Native Backend (OV02)
+### [Cloud-Native Backend](04_overlaps/OV02_cloud_native_backend/README.md) (OV02)
 
 Built on: BE301, BE304, CLD303
 
 | Code | Course | Year · Semester | Credits | Prerequisites |
 |---|---|---|---|---|
-| OV02A | Building Cloud-Native Services | 4 · 7 | 4 | BE301, BE304, CLD303 |
-| OV02B | Event-Driven Serverless Backends | 4 · 8 | 4 | BE301, BE304, CLD303 |
+| [OV02A](04_overlaps/OV02_cloud_native_backend/OV02A_building_cloud_native_services/README.md) | Building Cloud-Native Services | 4 · 7 | 4 | BE301, BE304, CLD303 |
+| [OV02B](04_overlaps/OV02_cloud_native_backend/OV02B_event_driven_serverless_backends/README.md) | Event-Driven Serverless Backends | 4 · 8 | 4 | BE301, BE304, CLD303 |
 
-### DevSecOps (OV03)
+### [DevSecOps](04_overlaps/OV03_devsecops/README.md) (OV03)
 
 Built on: OPS301, SAR305, SEC302
 
 | Code | Course | Year · Semester | Credits | Prerequisites |
 |---|---|---|---|---|
-| OV03A | Software Supply Chain Security | 4 · 7 | 4 | OPS301, SAR305, SEC302 |
-| OV03B | Policy as Code and Secure CI/CD | 4 · 8 | 4 | OPS301, SAR305, SEC302 |
+| [OV03A](04_overlaps/OV03_devsecops/OV03A_software_supply_chain_security/README.md) | Software Supply Chain Security | 4 · 7 | 4 | OPS301, SAR305, SEC302 |
+| [OV03B](04_overlaps/OV03_devsecops/OV03B_policy_as_code_and_secure_ci_cd/README.md) | Policy as Code and Secure CI/CD | 4 · 8 | 4 | OPS301, SAR305, SEC302 |
 
-### MLOps and ML Platform Engineering (OV04)
+### [MLOps and ML Platform Engineering](04_overlaps/OV04_mlops_ml_platform/README.md) (OV04)
 
 Built on: MLE401, OPS401, CLD404
 
@@ -448,25 +448,25 @@ Built on: DEN305, DAN304, CLD305
 | OV06A | Building a Modern Data Platform | 4 · 7 | 4 | DEN305, DAN304, CLD305 |
 | OV06B | Semantic Layers and Self-Serve Analytics with AI | 4 · 8 | 4 | DEN305, DAN304, CLD305 |
 
-### Privacy Engineering (OV07)
+### [Privacy Engineering](04_overlaps/OV07_privacy_engineering/README.md) (OV07)
 
 Built on: DEN404, SEC305, PRO301
 
 | Code | Course | Year · Semester | Credits | Prerequisites |
 |---|---|---|---|---|
-| OV07A | Privacy by Design and Privacy-Enhancing Technologies | 4 · 7 | 4 | SEC305, PRO301, DEN301 (with DEN404 alongside) |
-| OV07B | Data Protection Law for Engineers in Practice | 4 · 8 | 4 | SEC305, PRO301, DEN301 (with DEN404 alongside) |
+| [OV07A](04_overlaps/OV07_privacy_engineering/OV07A_privacy_by_design_and_privacy_enhancing/README.md) | Privacy by Design and Privacy-Enhancing Technologies | 4 · 7 | 4 | SEC305, PRO301, DEN301 (with DEN404 alongside) |
+| [OV07B](04_overlaps/OV07_privacy_engineering/OV07B_data_protection_law_for_engineers_in_practice/README.md) | Data Protection Law for Engineers in Practice | 4 · 8 | 4 | SEC305, PRO301, DEN301 (with DEN404 alongside) |
 
-### Full-Stack AI Product Engineering (OV08)
+### [Full-Stack AI Product Engineering](04_overlaps/OV08_full_stack_ai_product_engineering/README.md) (OV08)
 
 Built on: FE403, BE403, AIE404
 
 | Code | Course | Year · Semester | Credits | Prerequisites |
 |---|---|---|---|---|
-| OV08A | Shipping AI Features End to End | 4 · 7 | 4 | FE302, BE301, AIE302 (with FE403, BE403, AIE404 alongside) |
-| OV08B | Product Analytics and Growth for AI Apps | 4 · 8 | 4 | FE302, BE301, AIE302 (with FE403, BE403, AIE404 alongside) |
+| [OV08A](04_overlaps/OV08_full_stack_ai_product_engineering/OV08A_shipping_ai_features_end_to_end/README.md) | Shipping AI Features End to End | 4 · 7 | 4 | FE302, BE301, AIE302 (with FE403, BE403, AIE404 alongside) |
+| [OV08B](04_overlaps/OV08_full_stack_ai_product_engineering/OV08B_product_analytics_and_growth_for_ai_apps/README.md) | Product Analytics and Growth for AI Apps | 4 · 8 | 4 | FE302, BE301, AIE302 (with FE403, BE403, AIE404 alongside) |
 
-### Edge AI and Secure IoT (OV09)
+### [Edge AI and Secure IoT](04_overlaps/OV09_edge_ai_secure_iot/README.md) (OV09)
 
 Built on: EMB401, EMB402, MLE404
 
